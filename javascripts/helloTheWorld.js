@@ -1,4 +1,4 @@
 window.onload = function (){
   alert('long')
 }
-alert('long')
+function alertMe(){alert('long')}
