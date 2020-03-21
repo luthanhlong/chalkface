@@ -1,0 +1,676 @@
+[
+    {
+        "name": "Australia",
+        "vi": "Úc",
+        "alpha-2": "AU",
+        "alpha-3": "AUS",
+        "numeric": "036",
+        "flagPath": "",
+        "states": [
+            "New South Wales",
+            "Queensland",
+            "South Australia",
+            "Tasmania",
+            "Victoria",
+            "Western Australia",
+            "Australian Capital Territory",
+            "Jervis Bay Territory",
+            "Northern Territory",
+            "Ashmore and Cartier Islands",
+            "Australian Antarctic Territory",
+            "Christmas Island",
+            "Cocos (Keeling) Islands",
+            "Coral Sea Islands",
+            "Heard Island and McDonald Islands",
+            "Norfolk Island"
+        ]
+    },
+    {
+        "name": "Austria",
+        "vi": "Áo",
+        "alpha-2": "AT",
+        "alpha-3": "AUT",
+        "numeric": "040",
+        "flagPath": "",
+        "states": [
+            "Burgenland",
+            "Carinthia",
+            "Lower Austria",
+            "Salzburg",
+            "Styria",
+            "Tyrol",
+            "Upper Austria",
+            "Vienna",
+            "Vorarlberg"
+        ]
+    },
+    {
+        "name": "Belarus",
+        "vi": "Belarus",
+        "alpha-2": "BY",
+        "alpha-3": "BLR",
+        "numeric": "112",
+        "flagPath": "",
+        "states": [
+            "All Belarus",
+            "City of Minsk",
+            "Brest Region",
+            "Gomel Region",
+            "Grodno Region",
+            "Mogilev Region",
+            "Minsk Region",
+            "Vitebsk Region"
+        ]
+    },
+    {
+        "name": "Bulgaria",
+        "vi": "Bulgaria",
+        "alpha-2": "BG",
+        "alpha-3": "BGR",
+        "numeric": "100",
+        "flagPath": "",
+        "states": [
+            "Plovdiv",
+            "Varna",
+            "Burgas",
+            "Ruse",
+            "Stara Zagora",
+            "Pleven",
+            "Sliven",
+            "Dobrich",
+            "Shumen",
+            "Pernik",
+            "Haskovo",
+            "Yambol",
+            "Pazardzhik",
+            "Blagoevgrad",
+            "Veliko Tarnovo",
+            "Vratsa",
+            "Gabrovo",
+            "Plovdiv",
+            "Vidin",
+            "Stara Zagora",
+            "Kyustendil",
+            "Kardzhali",
+            "Montana",
+            "Haskovo",
+            "Targovishte",
+            "Lovech",
+            "Silistra",
+            "Kyustendil",
+            "Veliko Tarnovo",
+            "Razgrad",
+            "Veliko Tarnovo",
+            "Smolyan",
+            "Blagoevgrad",
+            "Blagoevgrad",
+            "Sofia",
+            "Gabrovo",
+            "Montana",
+            "Plovdiv",
+            "Pazardzhik",
+            "Sliven",
+            "Lovech",
+            "Burgas",
+            "Sofia",
+            "Blagoevgrad",
+            "Pazardzhik",
+            "Haskovo",
+            "Burgas",
+            "Haskovo",
+            "Pazardzhik",
+            "Stara Zagora",
+            "Targovishte",
+            "Plovdiv",
+            "Pernik",
+            "Sofia City Vratsa",
+            "Plovdiv",
+            "Montana",
+            "Pleven",
+            "Burgas",
+            "Sofia",
+            "Stara Zagora",
+            "Varna",
+            "Shumen",
+            "Blagoevgrad",
+            "Vratsa",
+            "Burgas",
+            "Dobrich",
+            "Sofia",
+            "Plovdiv",
+            "Dobrich",
+            "Pleven",
+            "Veliko Tarnovo",
+            "Vratsa",
+            "Sofia",
+            "Pleven",
+            "Lovech",
+            "Yambol",
+            "Sofia City Gabrovo",
+            "Lovech",
+            "Silistra",
+            "Burgas",
+            "Plovdiv",
+            "Rousse",
+            "Shumen",
+            "Razgrad",
+            "Pleven",
+            "Targovishte",
+            "Blagoevgrad",
+            "Plovdiv",
+            "Stara Zagora",
+            "Varna",
+            "Pazardzhik",
+            "Pazardzhik",
+            "Veliko Tarnovo",
+            "Sofia",
+            "Varna",
+            "Razgrad",
+            "Gabrovo",
+            "Varna",
+            "Sofia",
+            "Haskovo",
+            "Kardzhali",
+            "Sofia",
+            "Plovdiv",
+            "Smolyan",
+            "Sofia",
+            "Smolyan",
+            "Dobrich",
+            "Haskovo",
+            "Blagoevgrad",
+            "Sofia",
+            "Varna",
+            "Dobrich",
+            "Silistra",
+            "Montana",
+            "Sliven",
+            "Smolyan",
+            "Yambol",
+            "Plovdiv",
+            "Kyustendil",
+            "Burgas",
+            "Plovdiv",
+            "Sliven",
+            "Blagoevgrad",
+            "Veliko Tarnovo",
+            "Haskovo",
+            "Sofia",
+            "Smolyan",
+            "Vratsa",
+            "Burgas",
+            "Vidin",
+            "Plovdiv",
+            "Sofia",
+            "Veliko Tarnovo",
+            "Kardzhali",
+            "Burgas",
+            "Varna",
+            "Rousse",
+            "Varna",
+            "Pleven",
+            "Sofia",
+            "Sofia",
+            "Smolyan",
+            "Veliko Tarnovo",
+            "Pleven",
+            "Pazardzhik",
+            "Pleven",
+            "Sofia",
+            "Pleven",
+            "Rousse",
+            "Pazardzhik",
+            "Veliko Tarnovo",
+            "Pazardzhik",
+            "Kyustendil",
+            "Varna",
+            "Shumen",
+            "Pernik",
+            "Burgas",
+            "Pleven",
+            "Sliven",
+            "Pazardzhik",
+            "Razgrad",
+            "Haskovo",
+            "Montana",
+            "Rousse",
+            "Rousse",
+            "Pazardzhik",
+            "Lovech",
+            "Shumen",
+            "Pleven",
+            "Kardzhali",
+            "Dobrich",
+            "Smolyan",
+            "Pazardzhik",
+            "Blagoevgrad",
+            "Plovdiv",
+            "Pazardzhik",
+            "Stara Zagora",
+            "Varna",
+            "Pleven",
+            "Sofia",
+            "Razgrad",
+            "Stara Zagora",
+            "Vratsa",
+            "Burgas",
+            "Burgas",
+            "Pleven",
+            "Vratsa",
+            "Vidin",
+            "Plovdiv",
+            "Rousse",
+            "Shumen",
+            "Lovech",
+            "Blagoevgrad",
+            "Vratsa",
+            "Kardzhali",
+            "Veliko Tarnovo",
+            "Sofia City",
+            "Stara Zagora",
+            "Stara Zagora",
+            "Stara Zagora",
+            "Lovech",
+            "Burgas",
+            "Targovishte",
+            "Kyustendil",
+            "Lovech",
+            "Vidin",
+            "Blagoevgrad",
+            "Blagoevgrad",
+            "Vidin",
+            "Veliko Tarnovo",
+            "Veliko Tarnovo",
+            "Kyustendil",
+            "Smolyan",
+            "Pernik",
+            "Plovdiv",
+            "Plovdiv",
+            "Sofia",
+            "Burgas",
+            "Razgrad",
+            "Burgas",
+            "Veliko Tarnovo",
+            "Rousse",
+            "Pernik",
+            "Burgas",
+            "Burgas",
+            "Varna",
+            "Pleven",
+            "Veliko Tarnovo",
+            "Haskovo",
+            "Silistra",
+            "Montana",
+            "Sliven",
+            "Plovdiv",
+            "Gabrovo",
+            "Pernik",
+            "Burgas",
+            "Silistra",
+            "Montana",
+            "Vidin",
+            "Rousse",
+            "Sofia",
+            "Shumen",
+            "Stara Zagora",
+            "Targovishte",
+            "Burgas",
+            "Kyustendil",
+            "Yambol",
+            "Montana",
+            "Plovdiv",
+            "Vidin",
+            "Burgas",
+            "Shumen",
+            "Haskovo",
+            "Blagoevgrad"
+        ]
+    },
+    {
+        "name": "Cambodia",
+        "vi": "Cambodia",
+        "alpha-2": "KH",
+        "alpha-3": "KHM",
+        "numeric": "116",
+        "flagPath": "",
+        "states": [
+Banteay Meanchey
+
+Battambang
+
+Kampong Cham
+
+Kampong Chhnang
+
+Kampong Speu
+
+Kampong Thom
+
+Kampot
+
+Kandal
+
+Koh Kong
+
+Kratié
+
+Mondulkiri
+
+Phnom Penh
+
+Preah Vihear
+
+Prey Veng
+
+Pursat
+
+Ratanak Kiri
+
+Siem Reap
+
+Preah Sihanouk
+
+Steung Treng
+
+Svay Rieng
+
+Takéo
+
+Oddar Meanchey
+
+Kep
+
+Pailin
+
+Tboung Khmum
+        ]
+    },
+    {
+        "name": "Canada",
+        "vi": "Canada",
+        "alpha-2": "CA",
+        "alpha-3": "CAN",
+        "numeric": "124",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "China",
+        "vi": "Trung Quốc",
+        "alpha-2": "CN",
+        "alpha-3": "CHN",
+        "numeric": "156",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Cuba",
+        "vi": "Cuba",
+        "alpha-2": "CU",
+        "alpha-3": "CUB",
+        "numeric": "192",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Czech Republic",
+        "vi": "Séc",
+        "alpha-2": "CZ",
+        "alpha-3": "CZE",
+        "numeric": "203",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Denmark",
+        "vi": "Đan Mạch",
+        "alpha-2": "DK",
+        "alpha-3": "DNK",
+        "numeric": "208",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Filand",
+        "vi": "Phần Lan",
+        "alpha-2": "FI",
+        "alpha-3": "FIN",
+        "numeric": "246",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "France",
+        "vi": "Pháp",
+        "alpha-2": "FR",
+        "alpha-3": "FRA",
+        "numeric": "250",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Germany",
+        "vi": "Đức",
+        "alpha-2": "DE",
+        "alpha-3": "DEU",
+        "numeric": "276",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Hungary",
+        "vi": "Hungary",
+        "alpha-2": "HU",
+        "alpha-3": "HUN",
+        "numeric": "348",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "India",
+        "vi": "Ấn Độ",
+        "alpha-2": "IN",
+        "alpha-3": "IND",
+        "numeric": "356",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Indonesia",
+        "vi": "Indonesia",
+        "alpha-2": "ID",
+        "alpha-3": "IDN",
+        "numeric": "360",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Ireland",
+        "vi": "Ireland",
+        "alpha-2": "IE",
+        "alpha-3": "IRL",
+        "numeric": "372",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Italy",
+        "vi": "Ý",
+        "alpha-2": "IT",
+        "alpha-3": "ITA",
+        "numeric": "380",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Japan",
+        "vi": "Nhật",
+        "alpha-2": "JP",
+        "alpha-3": "JPN",
+        "numeric": "392",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Korea",
+        "vi": "Hàn Quốc",
+        "alpha-2": "KR",
+        "alpha-3": "KOR",
+        "numeric": "410",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Malaysia",
+        "vi": "Malaysia",
+        "alpha-2": "MY",
+        "alpha-3": "MYS",
+        "numeric": "458",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Netherlands",
+        "vi": "Hà Lan",
+        "alpha-2": "NL",
+        "alpha-3": "NLD",
+        "numeric": "528",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "New Zealand",
+        "vi": "New Zealand",
+        "alpha-2": "NZ",
+        "alpha-3": "NZL",
+        "numeric": "554",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Philippines",
+        "vi": "Philipines",
+        "alpha-2": "PH",
+        "alpha-3": "PHL",
+        "numeric": "608",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Poland",
+        "vi": "Ba Lan",
+        "alpha-2": "PL",
+        "alpha-3": "POL",
+        "numeric": "616",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Portugal",
+        "vi": "Bồ Đào Nha",
+        "alpha-2": "PT",
+        "alpha-3": "PRT",
+        "numeric": "620",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Romania",
+        "vi": "Romania",
+        "alpha-2": "RO",
+        "alpha-3": "ROU",
+        "numeric": "642",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Russia",
+        "vi": "Nga",
+        "alpha-2": "RU",
+        "alpha-3": "RUS",
+        "numeric": "643",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Singapore",
+        "vi": "Singapore",
+        "alpha-2": "SG",
+        "alpha-3": "SGP",
+        "numeric": "702",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Slovakia",
+        "vi": "Slovkia",
+        "alpha-2": "SK",
+        "alpha-3": "SVK",
+        "numeric": "703",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Sweden",
+        "vi": "Thụy Điển",
+        "alpha-2": "SE",
+        "alpha-3": "SWE",
+        "numeric": "752",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Switzerland",
+        "vi": "Thụy Sĩ",
+        "alpha-2": "CH",
+        "alpha-3": "CHE",
+        "numeric": "756",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Taiwan",
+        "vi": "Đài Loan",
+        "alpha-2": "TW",
+        "alpha-3": "TWN",
+        "numeric": "158",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Thailand",
+        "vi": "Thái Lan",
+        "alpha-2": "TH",
+        "alpha-3": "THA",
+        "numeric": "764",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "Ukraine",
+        "vi": "Ukraine",
+        "alpha-2": "UA",
+        "alpha-3": "UKR",
+        "numeric": "804",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "United Kingdom",
+        "vi": "Anh",
+        "alpha-2": "GB",
+        "alpha-3": "GBR",
+        "numeric": "826",
+        "flagPath": "",
+        "states": []
+    },
+    {
+        "name": "United States of America",
+        "vi": "Mỹ",
+        "alpha-2": "US",
+        "alpha-3": "USA",
+        "numeric": "840",
+        "flagPath": "",
+        "states": []
+    }
+]
