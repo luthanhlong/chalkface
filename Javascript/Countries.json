@@ -334,55 +334,11 @@
         "numeric": "116",
         "flagPath": "",
         "states": [
-Banteay Meanchey
-
-Battambang
-
-Kampong Cham
-
-Kampong Chhnang
-
-Kampong Speu
-
-Kampong Thom
-
-Kampot
-
-Kandal
-
-Koh Kong
-
-Kratié
-
-Mondulkiri
-
-Phnom Penh
-
-Preah Vihear
-
-Prey Veng
-
-Pursat
-
-Ratanak Kiri
-
-Siem Reap
-
-Preah Sihanouk
-
-Steung Treng
-
-Svay Rieng
-
-Takéo
-
-Oddar Meanchey
-
-Kep
-
-Pailin
-
-Tboung Khmum
+            "Banteay Meanchey","Battambang","Kampong Cham","Kampong Chhnang",
+            "Kampong Speu","Kampong Thom","Kampot","Kandal","Koh Kong",
+            "Kratié","Mondulkiri","Phnom Penh","Preah Vihear","Prey Veng",
+            "Pursat","Ratanak Kiri","Siem Reap","Preah Sihanouk","Steung Treng",
+            "Svay Rieng","Takéo","Oddar Meanchey","Kep","Pailin","Tboung Khmum"
         ]
     },
     {
@@ -392,7 +348,11 @@ Tboung Khmum
         "alpha-3": "CAN",
         "numeric": "124",
         "flagPath": "",
-        "states": []
+        "states": [
+            "Nunavut","Quebec","Northwest Territories","Ontario","British Columbia",
+            "Alberta","Saskatchewan","Manitoba","Yukon","Newfoundland and Labrador",
+            "New Brunswick","Nova Scotia","Prince Edward Island"
+        ]
     },
     {
         "name": "China",
