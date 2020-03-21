@@ -361,7 +361,17 @@
         "alpha-3": "CHN",
         "numeric": "156",
         "flagPath": "",
-        "states": []
+        "states": ["Anhui Province","Beijing Municipality","Chongqing Municipality",
+            "Fujian Province","Gansu Province","Guangdong Province","Guangxi Zhuang Autonomous Region",
+            "Guizhou Province","Hainan Province","Hebei Province","Heilongjiang Province",
+            "Henan Province","Hong Kong Special Administrative Region","Hubei Province",
+            "Hunan Province","Inner Mongolia Autonomous Region","Jiangsu Province",
+            "Jiangxi Province","Jilin Province","Liaoning Province","Macau Special Administrative Region",
+            "Ningxia Hui Autonomous Region","Qinghai Province","Shaanxi Province",
+            "Shandong Province","Shanghai Municipality","Shanxi Province",
+            "Sichuan Province","Taiwan Province","Tianjin Municipality","Tibet Autonomous Region",
+            "Xinjiang Uyghur Autonomous Region","Yunnan Province","Zhejiang Province" 
+            ]
     },
     {
         "name": "Cuba",
@@ -370,7 +380,10 @@
         "alpha-3": "CUB",
         "numeric": "192",
         "flagPath": "",
-        "states": []
+        "states": ["Artemisa","Camagüey","Ciego de Ávila","Cienfuegos","Granma","Guantánamo",
+            "Holguín","Isla de la Juventud","La Habana","Las Tunas","Matanzas","Mayabeque",
+            "Pinar del Río","Sancti Spíritus","Santiago de Cuba","Villa Clara"
+            ]
     },
     {
         "name": "Czech Republic",
@@ -379,7 +392,9 @@
         "alpha-3": "CZE",
         "numeric": "203",
         "flagPath": "",
-        "states": []
+        "states": ["Central","Bohemian","Hradec Králové","Karlovy Vary","Liberec",
+            "Moravian-Silesian","Olomouc","Pardubice","Plzeň","Prague","South Bohemian",
+            "South Moravian","Ústí nad Labem","Vysočina","Zlín"]
     },
     {
         "name": "Denmark",
@@ -388,7 +403,10 @@
         "alpha-3": "DNK",
         "numeric": "208",
         "flagPath": "",
-        "states": []
+        "states": ["Bornholm","Copenhagen City","Copenhagen Surroundings","East Jutland",
+            "East Zealand","Funen","North Jutland","North Zealand","South Jutland",
+            "West & South Zealand","West Jutland"
+            ]
     },
     {
         "name": "Filand",
@@ -397,7 +415,12 @@
         "alpha-3": "FIN",
         "numeric": "246",
         "flagPath": "",
-        "states": []
+        "states": ["Turku and Pori","Nyland and Tavastehus","Ostrobothnia","Viborg and Nyslott",
+        "Kexholm","Kymmenegård and Nyslott","Savolax and Kymmenegård","Vaasa","Oulu",
+        "Kymmenegård","Savolax and Karelia","Viipuri","Uusimaa","Häme","Mikkeli",
+        "Kuopio","Åland","Petsamo","Lapland","Kymi","Central Finland","North Karelia",
+        "Southern Finland","Western Finland","Eastern Finland"
+           ]
     },
     {
         "name": "France",
