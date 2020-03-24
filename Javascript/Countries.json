@@ -1,68 +1,75 @@
 [
     {
-        "name": "Australia",
-        "vi": "Úc",
-        "alpha-2": "AU",
-        "alpha-3": "AUS",
-        "numeric": "036",
-        "flagPath": "",
-        "states": [
-            "New South Wales",
-            "Queensland",
-            "South Australia",
-            "Tasmania",
-            "Victoria",
-            "Western Australia",
-            "Australian Capital Territory",
-            "Jervis Bay Territory",
-            "Northern Territory",
-            "Ashmore and Cartier Islands",
-            "Australian Antarctic Territory",
-            "Christmas Island",
-            "Cocos (Keeling) Islands",
-            "Coral Sea Islands",
-            "Heard Island and McDonald Islands",
-            "Norfolk Island"
-        ]
+        "Australia": {
+            "name": "Australia",
+            "vi": "Úc",
+            "alpha-2": "AU",
+            "alpha-3": "AUS",
+            "numeric": "036",
+            "flagPath": "",
+            "states": [
+                "New South Wales",
+                "Queensland",
+                "South Australia",
+                "Tasmania",
+                "Victoria",
+                "Western Australia",
+                "Australian Capital Territory",
+                "Jervis Bay Territory",
+                "Northern Territory",
+                "Ashmore and Cartier Islands",
+                "Australian Antarctic Territory",
+                "Christmas Island",
+                "Cocos (Keeling) Islands",
+                "Coral Sea Islands",
+                "Heard Island and McDonald Islands",
+                "Norfolk Island"
+            ]
+        }
     },
     {
-        "name": "Austria",
-        "vi": "Áo",
-        "alpha-2": "AT",
-        "alpha-3": "AUT",
-        "numeric": "040",
-        "flagPath": "",
-        "states": [
-            "Burgenland",
-            "Carinthia",
-            "Lower Austria",
-            "Salzburg",
-            "Styria",
-            "Tyrol",
-            "Upper Austria",
-            "Vienna",
-            "Vorarlberg"
-        ]
+        "Austria": {
+            "name": "Austria",
+            "vi": "Áo",
+            "alpha-2": "AT",
+            "alpha-3": "AUT",
+            "numeric": "040",
+            "flagPath": "",
+            "states": [
+                "Burgenland",
+                "Carinthia",
+                "Lower Austria",
+                "Salzburg",
+                "Styria",
+                "Tyrol",
+                "Upper Austria",
+                "Vienna",
+                "Vorarlberg"
+            ]
+        }
     },
     {
-        "name": "Belarus",
-        "vi": "Belarus",
-        "alpha-2": "BY",
-        "alpha-3": "BLR",
-        "numeric": "112",
-        "flagPath": "",
-        "states": [
-            "All Belarus",
-            "City of Minsk",
-            "Brest Region",
-            "Gomel Region",
-            "Grodno Region",
-            "Mogilev Region",
-            "Minsk Region",
-            "Vitebsk Region"
-        ]
+        "Belarus": {
+            "name": "Belarus",
+            "vi": "Belarus",
+            "alpha-2": "BY",
+            "alpha-3": "BLR",
+            "numeric": "112",
+            "flagPath": "",
+            "states": [
+                "All Belarus",
+                "City of Minsk",
+                "Brest Region",
+                "Gomel Region",
+                "Grodno Region",
+                "Mogilev Region",
+                "Minsk Region",
+                "Vitebsk Region"
+            ]
+        }   
     },
     {
+        "Bulgaria": {
         "name": "Bulgaria",
         "vi": "Bulgaria",
         "alpha-2": "BG",
@@ -325,449 +332,518 @@
             "Haskovo",
             "Blagoevgrad"
         ]
+        }
     },
     {
-        "name": "Cambodia",
-        "vi": "Cambodia",
-        "alpha-2": "KH",
-        "alpha-3": "KHM",
-        "numeric": "116",
-        "flagPath": "",
-        "states": [
-            "Banteay Meanchey","Battambang","Kampong Cham","Kampong Chhnang",
-            "Kampong Speu","Kampong Thom","Kampot","Kandal","Koh Kong",
-            "Kratié","Mondulkiri","Phnom Penh","Preah Vihear","Prey Veng",
-            "Pursat","Ratanak Kiri","Siem Reap","Preah Sihanouk","Steung Treng",
-            "Svay Rieng","Takéo","Oddar Meanchey","Kep","Pailin","Tboung Khmum"
-        ]
-    },
-    {
-        "name": "Canada",
-        "vi": "Canada",
-        "alpha-2": "CA",
-        "alpha-3": "CAN",
-        "numeric": "124",
-        "flagPath": "",
-        "states": [
-            "Nunavut","Quebec","Northwest Territories","Ontario","British Columbia",
-            "Alberta","Saskatchewan","Manitoba","Yukon","Newfoundland and Labrador",
-            "New Brunswick","Nova Scotia","Prince Edward Island"
-        ]
-    },
-    {
-        "name": "China",
-        "vi": "Trung Quốc",
-        "alpha-2": "CN",
-        "alpha-3": "CHN",
-        "numeric": "156",
-        "flagPath": "",
-        "states": ["Anhui Province","Beijing Municipality","Chongqing Municipality",
-            "Fujian Province","Gansu Province","Guangdong Province","Guangxi Zhuang Autonomous Region",
-            "Guizhou Province","Hainan Province","Hebei Province","Heilongjiang Province",
-            "Henan Province","Hong Kong Special Administrative Region","Hubei Province",
-            "Hunan Province","Inner Mongolia Autonomous Region","Jiangsu Province",
-            "Jiangxi Province","Jilin Province","Liaoning Province","Macau Special Administrative Region",
-            "Ningxia Hui Autonomous Region","Qinghai Province","Shaanxi Province",
-            "Shandong Province","Shanghai Municipality","Shanxi Province",
-            "Sichuan Province","Taiwan Province","Tianjin Municipality","Tibet Autonomous Region",
-            "Xinjiang Uyghur Autonomous Region","Yunnan Province","Zhejiang Province" 
+        "Cambodia":{
+            "name": "Cambodia",
+            "vi": "Cambodia",
+            "alpha-2": "KH",
+            "alpha-3": "KHM",
+            "numeric": "116",
+            "flagPath": "",
+            "states": [
+                "Banteay Meanchey","Battambang","Kampong Cham","Kampong Chhnang",
+                "Kampong Speu","Kampong Thom","Kampot","Kandal","Koh Kong",
+                "Kratié","Mondulkiri","Phnom Penh","Preah Vihear","Prey Veng",
+                "Pursat","Ratanak Kiri","Siem Reap","Preah Sihanouk","Steung Treng",
+                "Svay Rieng","Takéo","Oddar Meanchey","Kep","Pailin","Tboung Khmum"
             ]
+        }
     },
     {
-        "name": "Cuba",
-        "vi": "Cuba",
-        "alpha-2": "CU",
-        "alpha-3": "CUB",
-        "numeric": "192",
-        "flagPath": "",
-        "states": ["Artemisa","Camagüey","Ciego de Ávila","Cienfuegos","Granma","Guantánamo",
-            "Holguín","Isla de la Juventud","La Habana","Las Tunas","Matanzas","Mayabeque",
-            "Pinar del Río","Sancti Spíritus","Santiago de Cuba","Villa Clara"
+        "Canada":{
+            "name": "Canada",
+            "vi": "Canada",
+            "alpha-2": "CA",
+            "alpha-3": "CAN",
+            "numeric": "124",
+            "flagPath": "",
+            "states": [
+                "Nunavut","Quebec","Northwest Territories","Ontario","British Columbia",
+                "Alberta","Saskatchewan","Manitoba","Yukon","Newfoundland and Labrador",
+                "New Brunswick","Nova Scotia","Prince Edward Island"
             ]
+        }
     },
     {
-        "name": "Czech Republic",
-        "vi": "Séc",
-        "alpha-2": "CZ",
-        "alpha-3": "CZE",
-        "numeric": "203",
-        "flagPath": "",
-        "states": ["Central","Bohemian","Hradec Králové","Karlovy Vary","Liberec",
-            "Moravian-Silesian","Olomouc","Pardubice","Plzeň","Prague","South Bohemian",
-            "South Moravian","Ústí nad Labem","Vysočina","Zlín"]
-    },
-    {
-        "name": "Denmark",
-        "vi": "Đan Mạch",
-        "alpha-2": "DK",
-        "alpha-3": "DNK",
-        "numeric": "208",
-        "flagPath": "",
-        "states": ["Bornholm","Copenhagen City","Copenhagen Surroundings","East Jutland",
-            "East Zealand","Funen","North Jutland","North Zealand","South Jutland",
-            "West & South Zealand","West Jutland"
+        "China":{
+            "name": "China",
+            "vi": "Trung Quốc",
+            "alpha-2": "CN",
+            "alpha-3": "CHN",
+            "numeric": "156",
+            "flagPath": "",
+            "states": ["Anhui Province","Beijing Municipality","Chongqing Municipality",
+                "Fujian Province","Gansu Province","Guangdong Province","Guangxi Zhuang Autonomous Region",
+                "Guizhou Province","Hainan Province","Hebei Province","Heilongjiang Province",
+                "Henan Province","Hong Kong Special Administrative Region","Hubei Province",
+                "Hunan Province","Inner Mongolia Autonomous Region","Jiangsu Province",
+                "Jiangxi Province","Jilin Province","Liaoning Province","Macau Special Administrative Region",
+                "Ningxia Hui Autonomous Region","Qinghai Province","Shaanxi Province",
+                "Shandong Province","Shanghai Municipality","Shanxi Province",
+                "Sichuan Province","Taiwan Province","Tianjin Municipality","Tibet Autonomous Region",
+                "Xinjiang Uyghur Autonomous Region","Yunnan Province","Zhejiang Province" 
             ]
+        }
     },
     {
-        "name": "Filand",
-        "vi": "Phần Lan",
-        "alpha-2": "FI",
-        "alpha-3": "FIN",
-        "numeric": "246",
-        "flagPath": "",
-        "states": ["Turku and Pori","Nyland and Tavastehus","Ostrobothnia","Viborg and Nyslott",
-        "Kexholm","Kymmenegård and Nyslott","Savolax and Kymmenegård","Vaasa","Oulu",
-        "Kymmenegård","Savolax and Karelia","Viipuri","Uusimaa","Häme","Mikkeli",
-        "Kuopio","Åland","Petsamo","Lapland","Kymi","Central Finland","North Karelia",
-        "Southern Finland","Western Finland","Eastern Finland"
-           ]
-    },
-    {
-        "name": "France",
-        "vi": "Pháp",
-        "alpha-2": "FR",
-        "alpha-3": "FRA",
-        "numeric": "250",
-        "flagPath": "",
-        "states": ["Auvergne-Rhône-Alpes","Bourgogne-Franche-Comté","Brittany",
-            "Centre-Val de Loire","Corsica","French Guiana","Grand Est Guadeloupe",
-            "Hauts-de-France","Île-de-France","Martinique","Mayotte","Normandy","Nouvelle-Aquitaine",
-            "Occitanie","Pays de la Loire","Provence-Alpes-Côte d'Azur","Réunion"
+        "Cuba":{
+            "name": "Cuba",
+            "vi": "Cuba",
+            "alpha-2": "CU",
+            "alpha-3": "CUB",
+            "numeric": "192",
+            "flagPath": "",
+            "states": ["Artemisa","Camagüey","Ciego de Ávila","Cienfuegos","Granma","Guantánamo",
+                "Holguín","Isla de la Juventud","La Habana","Las Tunas","Matanzas","Mayabeque",
+                "Pinar del Río","Sancti Spíritus","Santiago de Cuba","Villa Clara"
             ]
+        }
     },
     {
-        "name": "Germany",
-        "vi": "Đức",
-        "alpha-2": "DE",
-        "alpha-3": "DEU",
-        "numeric": "276",
-        "flagPath": "",
-        "states": ["Baden-Württemberg","Bavaria (Bayern)","Berlin ","Brandenburg ","Bremen",
-            "Hamburg","Hesse (Hessen)","Lower Saxony (Niedersachsen)","Mecklenburg-Vorpommern",
-            "North Rhine-Westphalia (Nordrhein-Westfalen)","Rhineland-Palatinate (Rheinland-Pfalz)",
-            "Saarland","Saxony-Anhalt (Sachsen-Anhalt)","Saxony (Sachsen)","Schleswig-Holstein",
-            "Thuringia (Thüringen)"
+        "Czech":{
+            "name": "Czech Republic",
+            "vi": "Séc",
+            "alpha-2": "CZ",
+            "alpha-3": "CZE",
+            "numeric": "203",
+            "flagPath": "",
+            "states": ["Central","Bohemian","Hradec Králové","Karlovy Vary","Liberec",
+                "Moravian-Silesian","Olomouc","Pardubice","Plzeň","Prague","South Bohemian",
+                "South Moravian","Ústí nad Labem","Vysočina","Zlín"
             ]
+        }
     },
     {
-        "name": "Hungary",
-        "vi": "Hungary",
-        "alpha-2": "HU",
-        "alpha-3": "HUN",
-        "numeric": "348",
-        "flagPath": "",
-        "states": ["Baranya","Bács-Kiskun","Békés","Borsod-Abaúj-Zemplén","Budapest",
-            "Csongrád","Fejér","Győr-Moson-Sopron","Hajdú-Bihar","Heves","Jász-Nagykun-Szolnok",
-            "Komárom-Esztergom","Nógrád","Pest","Somogy","Szabolcs-Szatmár-Bereg","Tolna",
-            "Vas","Veszprém","Zala"
+        "Denmark":{
+            "name": "Denmark",
+            "vi": "Đan Mạch",
+            "alpha-2": "DK",
+            "alpha-3": "DNK",
+            "numeric": "208",
+            "flagPath": "",
+            "states": ["Bornholm","Copenhagen City","Copenhagen Surroundings","East Jutland",
+                "East Zealand","Funen","North Jutland","North Zealand","South Jutland",
+                "West & South Zealand","West Jutland"
             ]
+        }
     },
     {
-        "name": "India",
-        "vi": "Ấn Độ",
-        "alpha-2": "IN",
-        "alpha-3": "IND",
-        "numeric": "356",
-        "flagPath": "",
-        "states": ["Andhra Pradesh","Arunachal Pradesh","Assam","Bihar","Chhattisgarh","Goa",
-            "Gujarat","Haryana","Himachal Pradesh","Jharkhand","Karnataka","Kerala","Madhya Pradesh",
-            "Maharashtra","Manipur","Meghalaya","Mizoram ","Nagaland ","Odisha","Punjab",
-            "Rajasthan","Sikkim","Tamil Nadu","Telangana","Tripura","Uttar Pradesh","Uttarakhand",
-            "West Bengal" 
+        "Filand":{
+            "name": "Filand",
+            "vi": "Phần Lan",
+            "alpha-2": "FI",
+            "alpha-3": "FIN",
+            "numeric": "246",
+            "flagPath": "",
+            "states": ["Turku and Pori","Nyland and Tavastehus","Ostrobothnia","Viborg and Nyslott",
+            "Kexholm","Kymmenegård and Nyslott","Savolax and Kymmenegård","Vaasa","Oulu",
+            "Kymmenegård","Savolax and Karelia","Viipuri","Uusimaa","Häme","Mikkeli",
+            "Kuopio","Åland","Petsamo","Lapland","Kymi","Central Finland","North Karelia",
+            "Southern Finland","Western Finland","Eastern Finland"
             ]
+        }
     },
     {
-        "name": "Indonesia",
-        "vi": "Indonesia",
-        "alpha-2": "ID",
-        "alpha-3": "IDN",
-        "numeric": "360",
-        "flagPath": "",
-        "states": ["Bali","Bangka Belitung Islands","Banten","Bengkulu","Central Java",
-            "Central Kalimantan","Central Sulawesi","East Java","East Kalimantan",
-            "East Nusa Tenggara","Gorontalo","Jakarta","Jambi","Lampung","Maluku",
-            "North Kalimantan","North Maluku","North Sulawesi","North Sumatra","Papua",
-            "Riau","Riau Islands","Southeast Sulawesi","South Kalimantan","South Sulawesi",
-            "South Sumatra","West Java","West Kalimantan","West Nusa Tenggara","West Papua",
-            "West Sulawesi","West Sumatra","Yogyakarta"]
-    },
-    {
-        "name": "Ireland",
-        "vi": "Ireland",
-        "alpha-2": "IE",
-        "alpha-3": "IRL",
-        "numeric": "372",
-        "flagPath": "",
-        "states": ["Connacht","Leinster","Munster ","Ulster"
-        ]
-    },
-    {
-        "name": "Italy",
-        "vi": "Ý",
-        "alpha-2": "IT",
-        "alpha-3": "ITA",
-        "numeric": "380",
-        "flagPath": "",
-        "states": ["Abruzzo","Aosta Valley","Apulia","Basilicata","Calabria","Campania",
-            "Emilia-Romagna","Lazio","Lombardy","Marche","Overseas constituencies",
-            "Sicily","Molise","Piedmont","Sardinia","Trentino-Alto Adige/Südtirol",
-            "Tuscany","Friuli-Venezia Giulia","Umbria","Veneto","Liguria"
-          ]
-    },
-    {
-        "name": "Japan",
-        "vi": "Nhật",
-        "alpha-2": "JP",
-        "alpha-3": "JPN",
-        "numeric": "392",
-        "flagPath": "",
-        "states": ["Aichi","Akita","Aomori","Chiba","Ehime","Fukui","Fukuoka","Fukushima",
-        "Gifu","Gunma","Hiroshima","Hokkaidō","Hyōgo","Ibaraki","Ishikawa","Iwate","Kagawa",
-        "Kagoshima","Kanagawa","Kōchi","Kumamoto","Kyōto","Mie","Miyagi","Miyazaki",
-        "Nagano","Nagasaki","Nara","Niigata","Ōita","Okayama","Okinawa","Ōsaka","Saga",
-        "Saitama","Shiga","Shimane","Shizuoka","Tochigi","Tokushima","Tōkyō","Tottori",
-        "Toyama","Wakayama","Yamagata","Yamaguchi","Yamanashi"
-        ]
-    },
-    {
-        "name": "Korea",
-        "vi": "Hàn Quốc",
-        "alpha-2": "KR",
-        "alpha-3": "KOR",
-        "numeric": "410",
-        "flagPath": "",
-        "states": [ "North Chungcheong","South Chungcheong","Gangwon","Gyeonggi",
-            "North Gyeongsang","South Gyeongsang","North Jeolla","South Jeolla",
-            "Jeju"
-        ]
-    },
-    {
-        "name": "Malaysia",
-        "vi": "Malaysia",
-        "alpha-2": "MY",
-        "alpha-3": "MYS",
-        "numeric": "458",
-        "flagPath": "",
-        "states": ["Johor Darul Ta'zim","Kedah Darul Aman","Kelantan Darul Naim","Labuan",
-            "Malacca","Negeri Sembilan Darul Khusus","Pahang Darul Makmur","Penang",
-            "Perak Darul Ridzuan","Perlis Indera Kayangan","Putrajaya","Sabah","Sarawak",
-            "Selangor Darul Ehsan","Terengganu Darul Iman","Kuala Lumpur"
+        "France":{
+            "name": "France",
+            "vi": "Pháp",
+            "alpha-2": "FR",
+            "alpha-3": "FRA",
+            "numeric": "250",
+            "flagPath": "",
+            "states": ["Auvergne-Rhône-Alpes","Bourgogne-Franche-Comté","Brittany",
+                "Centre-Val de Loire","Corsica","French Guiana","Grand Est Guadeloupe",
+                "Hauts-de-France","Île-de-France","Martinique","Mayotte","Normandy","Nouvelle-Aquitaine",
+                "Occitanie","Pays de la Loire","Provence-Alpes-Côte d'Azur","Réunion"
             ]
+        }
     },
     {
-        "name": "Netherlands",
-        "vi": "Hà Lan",
-        "alpha-2": "NL",
-        "alpha-3": "NLD",
-        "numeric": "528",
-        "flagPath": "",
-        "states": [ "Bonaire", "Drenthe", "Flevoland", "Friesland", "Gelderland", 
-            "Groningen", "Limburg", "North Brabant", "North Holland", "Overijssel", "Saba", 
-            "Sint Eustatius", "South Holland", "Utrecht", "Zeeland"
-        ]
-    },
-    {
-        "name": "New Zealand",
-        "vi": "New Zealand",
-        "alpha-2": "NZ",
-        "alpha-3": "NZL",
-        "numeric": "554",
-        "flagPath": "",
-        "states": ["Auckland","Bay of Plenty","Canterbury","Gisborne","Hawke's Bay",
-            "Manawatu-Wanganui","Marlborough Nelson Northland","Otago","Southland",
-            "Taranaki","Tasman","Waikato","Wellington","West Coast"
+        "Germany":{
+            "name": "Germany",
+            "vi": "Đức",
+            "alpha-2": "DE",
+            "alpha-3": "DEU",
+            "numeric": "276",
+            "flagPath": "",
+            "states": ["Baden-Württemberg","Bavaria (Bayern)","Berlin ","Brandenburg ","Bremen",
+                "Hamburg","Hesse (Hessen)","Lower Saxony (Niedersachsen)","Mecklenburg-Vorpommern",
+                "North Rhine-Westphalia (Nordrhein-Westfalen)","Rhineland-Palatinate (Rheinland-Pfalz)",
+                "Saarland","Saxony-Anhalt (Sachsen-Anhalt)","Saxony (Sachsen)","Schleswig-Holstein",
+                "Thuringia (Thüringen)"
             ]
+        }
     },
     {
-        "name": "Philippines",
-        "vi": "Philipines",
-        "alpha-2": "PH",
-        "alpha-3": "PHL",
-        "numeric": "608",
-        "flagPath": "",
-        "states": ["Abra","Agusan del Norte","Agusan del Sur","Aklan","Albay","Antique",
-            "Apayao","Aurora","Basilan","Bataan","Batanes","Batangas","Benguet","Biliran",
-            "Bohol","Bukidnon","Bulacan","Cagayan","Camarines Norte","Camarines Sur","Camiguin",
-            "Capiz","Catanduanes","Cavite","Cebu","Cotabato","Davao de Oro","Davao del Norte",
-            "Davao del Sur","Davao Occidental","Davao Oriental","Dinagat Islands","Eastern Samar",
-            "Guimaras","Ifugao","Ilocos Norte","Ilocos Sur","Iloilo","Isabela","Kalinga","La Union",
-            "Laguna","Lanao del Norte","Lanao del Sur","Leyte","Maguindanao","Marinduque","Masbate",
-            "Metro Manila","Misamis Occidental","Misamis Oriental","Mountain Province","Negros Occidental",
-            "Negros Oriental","Northern Samar"," Nueva Ecija"," Nueva Vizcaya","Occidental Mindoro",
-            "Oriental Mindoro ","Palawan","Pampanga","Pangasinan","Quezon","Quirino","Rizal",
-            "Romblon","Samar","Sarangani","Sibugay","Siquijor","Sorsogon","South Cotabato",
-            "Southern Leyte","Sultan Kudarat","Sulu","Surigao del Norte","Surigao del Sur",
-            "Tarlac","Tawi-Tawi","Zambales","Zamboanga","Zamboanga del Norte","Zamboanga del Sur"
-          ]
-    },
-    {
-        "name": "Poland",
-        "vi": "Ba Lan",
-        "alpha-2": "PL",
-        "alpha-3": "POL",
-        "numeric": "616",
-        "flagPath": "",
-        "states": ["Holy Cross","Kujawsko-Pomorskie","Łódź","Lower Silesia","Lublin",
-            "Lubuskie","Małopolska","Masovia","Opole","Podkarpackie","Podlasie","Pomerania",
-            "Silesia","Warmia-Masuria","West Pomerania","Wielkopolska" 
+        "Hungary":{
+            "name": "Hungary",
+            "vi": "Hungary",
+            "alpha-2": "HU",
+            "alpha-3": "HUN",
+            "numeric": "348",
+            "flagPath": "",
+            "states": ["Baranya","Bács-Kiskun","Békés","Borsod-Abaúj-Zemplén","Budapest",
+                "Csongrád","Fejér","Győr-Moson-Sopron","Hajdú-Bihar","Heves","Jász-Nagykun-Szolnok",
+                "Komárom-Esztergom","Nógrád","Pest","Somogy","Szabolcs-Szatmár-Bereg","Tolna",
+                "Vas","Veszprém","Zala"
             ]
+        }
     },
     {
-        "name": "Portugal",
-        "vi": "Bồ Đào Nha",
-        "alpha-2": "PT",
-        "alpha-3": "PRT",
-        "numeric": "620",
-        "flagPath": "",
-        "states": ["Algarve","Alto Alentejo","Azores","Baixo Alentejo","Beira Alta",
-            "Beira Baixa","Beira Litoral","Douro Litoral","Estremadura","Madeira",
-            "Minho","Ribatejo","Trás-os-Montes e Alto Douro"
+        "India":{
+            "name": "India",
+            "vi": "Ấn Độ",
+            "alpha-2": "IN",
+            "alpha-3": "IND",
+            "numeric": "356",
+            "flagPath": "",
+            "states": ["Andhra Pradesh","Arunachal Pradesh","Assam","Bihar","Chhattisgarh","Goa",
+                "Gujarat","Haryana","Himachal Pradesh","Jharkhand","Karnataka","Kerala","Madhya Pradesh",
+                "Maharashtra","Manipur","Meghalaya","Mizoram ","Nagaland ","Odisha","Punjab",
+                "Rajasthan","Sikkim","Tamil Nadu","Telangana","Tripura","Uttar Pradesh","Uttarakhand",
+                "West Bengal" 
             ]
+        }
     },
     {
-        "name": "Romania",
-        "vi": "Romania",
-        "alpha-2": "RO",
-        "alpha-3": "ROU",
-        "numeric": "642",
-        "flagPath": "",
-        "states": ["Alba","Arad","Argeș","Bacău","Bihor","Bistrița-Năsăud","Botoșani",
-            "Brăila","Brașov","Bucharest","Buzău","Călărași","Caraș-Severin","Cluj",
-            "Constanța","Covasna","Dâmbovița","Dolj","Galați","Giurgiu","Gorj","Harghita",
-            "Hunedoara","Ialomița","Iași","Ilfov","Maramureș","Mehedinți","Mureș","Neamț",
-            "Olt","Prahova","Sălaj","Satu Mare","Sibiu","Suceava","Teleorman","Timiș",
-            "Tulcea","Vâlcea","Vaslui","Vrancea"
+        "Indonesia":{
+            "name": "Indonesia",
+            "vi": "Indonesia",
+            "alpha-2": "ID",
+            "alpha-3": "IDN",
+            "numeric": "360",
+            "flagPath": "",
+            "states": ["Bali","Bangka Belitung Islands","Banten","Bengkulu","Central Java",
+                "Central Kalimantan","Central Sulawesi","East Java","East Kalimantan",
+                "East Nusa Tenggara","Gorontalo","Jakarta","Jambi","Lampung","Maluku",
+                "North Kalimantan","North Maluku","North Sulawesi","North Sumatra","Papua",
+                "Riau","Riau Islands","Southeast Sulawesi","South Kalimantan","South Sulawesi",
+                "South Sumatra","West Java","West Kalimantan","West Nusa Tenggara","West Papua",
+                "West Sulawesi","West Sumatra","Yogyakarta"
             ]
+        }   
     },
     {
-        "name": "Russia",
-        "vi": "Nga",
-        "alpha-2": "RU",
-        "alpha-3": "RUS",
-        "numeric": "643",
-        "flagPath": "",
-        "states": ["Amur","Arkhangelsk","Astrakhan","Belgorod","Bryansk","Chelyabinsk",
-            "Chita","Irkutsk","Ivanovo","Kaliningrad","Kaluga","Kemerovo","Kirov",
-            "Kostroma","Kurgan","Kursk","Leningrad","Lipetsk","Magadan","Moscow",
-            "Murmansk","Nizhny Novgorod","Novgorod","Novosibirsk","Omsk","Orenburg",
-            "Oryol","Penza","Pskov","Rostov","Ryazan","Sakhalin","Samara","Saratov",
-            "Smolensk","Sverdlovsk","Tambov","Tomsk","Tula","Tver","Tyumen","Ulyanovsk",
-            "Vladimir","Volgograd","Vologda","Voronezh","Yaroslavl" 
+        "Ireland":{
+            "name": "Ireland",
+            "vi": "Ireland",
+            "alpha-2": "IE",
+            "alpha-3": "IRL",
+            "numeric": "372",
+            "flagPath": "",
+            "states": ["Connacht","Leinster","Munster ","Ulster"
             ]
+        }
     },
     {
-        "name": "Singapore",
-        "vi": "Singapore",
-        "alpha-2": "SG",
-        "alpha-3": "SGP",
-        "numeric": "702",
-        "flagPath": "",
-        "states": []
-    },
-    {
-        "name": "Slovakia",
-        "vi": "Slovkia",
-        "alpha-2": "SK",
-        "alpha-3": "SVK",
-        "numeric": "703",
-        "flagPath": "",
-        "states": ["Banská Bystrica","Bratislava"," Košice","Nitra",
-            "Prešov","Trenčín","Trnava","Žilina" 
-           ]
-    },
-    {
-        "name": "Sweden",
-        "vi": "Thụy Điển",
-        "alpha-2": "SE",
-        "alpha-3": "SWE",
-        "numeric": "752",
-        "flagPath": "",
-        "states": ["Angermannia","Blechingia","Bahusia","Dalecarlia","Dalia","Gotlandia",
-            "Gestricia","Hallandia","Helsingia","Herdalia","Jemtia","Lapponia Suecana",
-            "Medelpadia","Norbothnia","Nericia","Olandia","Ostrogothia","Scania","Smolandia",
-            "Sudermannia","Uplandia","Wermlandia","Westmannia","Westrobothnia","Westrogothia"
+        "Italy":{
+            "name": "Italy",
+            "vi": "Ý",
+            "alpha-2": "IT",
+            "alpha-3": "ITA",
+            "numeric": "380",
+            "flagPath": "",
+            "states": ["Abruzzo","Aosta Valley","Apulia","Basilicata","Calabria","Campania",
+                "Emilia-Romagna","Lazio","Lombardy","Marche","Overseas constituencies",
+                "Sicily","Molise","Piedmont","Sardinia","Trentino-Alto Adige/Südtirol",
+                "Tuscany","Friuli-Venezia Giulia","Umbria","Veneto","Liguria"
             ]
+        }
     },
     {
-        "name": "Switzerland",
-        "vi": "Thụy Sĩ",
-        "alpha-2": "CH",
-        "alpha-3": "CHE",
-        "numeric": "756",
-        "flagPath": "",
-        "states": ["Aargau","Appenzell Ausserrhoden","Appenzell Innerrhoden","Basel-Landschaft",
-            "Basel-Stadt","Bern","Fribourg","Geneva","Glarus","Grisons","Jura","Luzern",
-            "Neuchâtel","Nidwalden","Obwalden","Schaffhausen","Schwyz","Solothurn","St. Gallen",
-            "Thurgau","Ticino","Uri","Valais","Vaud","Zug","Zürich" 
+        "Japan":{
+            "name": "Japan",
+            "vi": "Nhật",
+            "alpha-2": "JP",
+            "alpha-3": "JPN",
+            "numeric": "392",
+            "flagPath": "",
+            "states": ["Aichi","Akita","Aomori","Chiba","Ehime","Fukui","Fukuoka","Fukushima",
+            "Gifu","Gunma","Hiroshima","Hokkaidō","Hyōgo","Ibaraki","Ishikawa","Iwate","Kagawa",
+            "Kagoshima","Kanagawa","Kōchi","Kumamoto","Kyōto","Mie","Miyagi","Miyazaki",
+            "Nagano","Nagasaki","Nara","Niigata","Ōita","Okayama","Okinawa","Ōsaka","Saga",
+            "Saitama","Shiga","Shimane","Shizuoka","Tochigi","Tokushima","Tōkyō","Tottori",
+            "Toyama","Wakayama","Yamagata","Yamaguchi","Yamanashi"
             ]
+        }
     },
     {
-        "name": "Taiwan",
-        "vi": "Đài Loan",
-        "alpha-2": "TW",
-        "alpha-3": "TWN",
-        "numeric": "158",
-        "flagPath": "",
-        "states": ["Taipeh","Taiwan","Tainan","Taitung"]
-    },
-    {
-        "name": "Thailand",
-        "vi": "Thái Lan",
-        "alpha-2": "TH",
-        "alpha-3": "THA",
-        "numeric": "764",
-        "flagPath": "",
-        "states": [ "Amnat Charoen","Ang Thong","Bangkok","Bueng Kan","Buriram","Chachoengsao",
-            "Chai Nat","Chaiyaphum","Chanthaburi","Chiang Mai","Chonburi","Chumphon","Kalasin",
-            "Kamphaeng Phet","Kanchanaburi","Khon Kaen","Krabi","Lampang","Lamphun","Loei",
-            "Lopburi","Mae Hong Son","Maha Sarakham","Mukdahan","Nakhon Nayok","Nakhon Pathom",
-            "Nakhon Ratchasima","Nakhon Sawan","Nakhon Si Thammarat","Nan","Narathiwat",
-            "Nong Bua Lamphu","Nong Khai","Nonthaburi","Pathum Thani","Pattani","Phang Nga",
-            "Phatthalung","Phayao","Phetchabun","Phetchaburi","Phichit","Phitsanulok",
-            "Phra Nakhon Si Ayutthaya","Phrae","Phuket","Prachinburi","Prachuap Khiri Khan",
-            "Ranong","Ratchaburi","Rayong","Roi Et","Sa Kaeo","Sakon Nakhon","Samut Prakan",
-            "Samut Sakhon","Samut Songkhram","Saraburi","Satun","Sing Buri","Sisaket","Songkhla",
-            "Sukhothai","Suphan Buri","Surat Thani","Surin","Tak","Trang","Trat","Ubon Ratchathani",
-            "Udon Thani","Uthai Thani","Uttaradit","Yala","Yasothon" 
-        ]
-    },
-    {
-        "name": "Ukraine",
-        "vi": "Ukraine",
-        "alpha-2": "UA",
-        "alpha-3": "UKR",
-        "numeric": "804",
-        "flagPath": "",
-        "states": ["Cherkasy","Chernihiv","Chernivtsi","Dnipropetrovsk","Donetsk","Ivano-Frankivsk",
-            "Kharkiv","Kherson","Khmelnytskyi","Kiev","Kirovohrad","Luhansk"," Lviv","Mykolaiv",
-            "Odessa","Poltava","Rivne","Sumy","Ternopil","Vinnytsia","Volyn","Zakarpattia",
-            "Zaporizhia","Zhytomyr" 
-        ]
-    },
-    {
-        "name": "United Kingdom",
-        "vi": "Anh",
-        "alpha-2": "GB",
-        "alpha-3": "GBR",
-        "numeric": "826",
-        "flagPath": "",
-        "states": ["England","Northern Ireland","Scotland","Wales"
+        "Korea":{
+            "name": "Korea",
+            "vi": "Hàn Quốc",
+            "alpha-2": "KR",
+            "alpha-3": "KOR",
+            "numeric": "410",
+            "flagPath": "",
+            "states": [ "North Chungcheong","South Chungcheong","Gangwon","Gyeonggi",
+                "North Gyeongsang","South Gyeongsang","North Jeolla","South Jeolla",
+                "Jeju"
             ]
+        }
     },
     {
-        "name": "United States of America",
-        "vi": "Mỹ",
-        "alpha-2": "US",
-        "alpha-3": "USA",
-        "numeric": "840",
-        "flagPath": "",
-        "states": ["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut",
-            "Delaware","District of Columbia","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa",
-            "Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan",
-            "Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire",
-            "New Jersey","New Mexico","New York","North Carolina","North Dakota","Ohio","Oklahoma",
-            "Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee",
-            "Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"
-        ]
+        "Malaysia":{
+            "name": "Malaysia",
+            "vi": "Malaysia",
+            "alpha-2": "MY",
+            "alpha-3": "MYS",
+            "numeric": "458",
+            "flagPath": "",
+            "states": ["Johor Darul Ta'zim","Kedah Darul Aman","Kelantan Darul Naim","Labuan",
+                "Malacca","Negeri Sembilan Darul Khusus","Pahang Darul Makmur","Penang",
+                "Perak Darul Ridzuan","Perlis Indera Kayangan","Putrajaya","Sabah","Sarawak",
+                "Selangor Darul Ehsan","Terengganu Darul Iman","Kuala Lumpur"
+            ]
+        }
+    },
+    {
+        "Netherlands":{
+            "name": "Netherlands",
+            "vi": "Hà Lan",
+            "alpha-2": "NL",
+            "alpha-3": "NLD",
+            "numeric": "528",
+            "flagPath": "",
+            "states": [ "Bonaire", "Drenthe", "Flevoland", "Friesland", "Gelderland", 
+                "Groningen", "Limburg", "North Brabant", "North Holland", "Overijssel", "Saba", 
+                "Sint Eustatius", "South Holland", "Utrecht", "Zeeland"
+            ]
+        }
+    },
+    {
+        "NewZealand":{
+            "name": "New Zealand",
+            "vi": "New Zealand",
+            "alpha-2": "NZ",
+            "alpha-3": "NZL",
+            "numeric": "554",
+            "flagPath": "",
+            "states": ["Auckland","Bay of Plenty","Canterbury","Gisborne","Hawke's Bay",
+                "Manawatu-Wanganui","Marlborough Nelson Northland","Otago","Southland",
+                "Taranaki","Tasman","Waikato","Wellington","West Coast"
+            ]
+        }
+    },
+    {
+        "Philippines":{
+            "name": "Philippines",
+            "vi": "Philipines",
+            "alpha-2": "PH",
+            "alpha-3": "PHL",
+            "numeric": "608",
+            "flagPath": "",
+            "states": ["Abra","Agusan del Norte","Agusan del Sur","Aklan","Albay","Antique",
+                "Apayao","Aurora","Basilan","Bataan","Batanes","Batangas","Benguet","Biliran",
+                "Bohol","Bukidnon","Bulacan","Cagayan","Camarines Norte","Camarines Sur","Camiguin",
+                "Capiz","Catanduanes","Cavite","Cebu","Cotabato","Davao de Oro","Davao del Norte",
+                "Davao del Sur","Davao Occidental","Davao Oriental","Dinagat Islands","Eastern Samar",
+                "Guimaras","Ifugao","Ilocos Norte","Ilocos Sur","Iloilo","Isabela","Kalinga","La Union",
+                "Laguna","Lanao del Norte","Lanao del Sur","Leyte","Maguindanao","Marinduque","Masbate",
+                "Metro Manila","Misamis Occidental","Misamis Oriental","Mountain Province","Negros Occidental",
+                "Negros Oriental","Northern Samar"," Nueva Ecija"," Nueva Vizcaya","Occidental Mindoro",
+                "Oriental Mindoro ","Palawan","Pampanga","Pangasinan","Quezon","Quirino","Rizal",
+                "Romblon","Samar","Sarangani","Sibugay","Siquijor","Sorsogon","South Cotabato",
+                "Southern Leyte","Sultan Kudarat","Sulu","Surigao del Norte","Surigao del Sur",
+                "Tarlac","Tawi-Tawi","Zambales","Zamboanga","Zamboanga del Norte","Zamboanga del Sur"
+            ]
+        }
+    },
+    {
+        "Poland":{
+            "name": "Poland",
+            "vi": "Ba Lan",
+            "alpha-2": "PL",
+            "alpha-3": "POL",
+            "numeric": "616",
+            "flagPath": "",
+            "states": ["Holy Cross","Kujawsko-Pomorskie","Łódź","Lower Silesia","Lublin",
+                "Lubuskie","Małopolska","Masovia","Opole","Podkarpackie","Podlasie","Pomerania",
+                "Silesia","Warmia-Masuria","West Pomerania","Wielkopolska" 
+            ]
+        }
+    },
+    {
+        "Portugal":{
+            "name": "Portugal",
+            "vi": "Bồ Đào Nha",
+            "alpha-2": "PT",
+            "alpha-3": "PRT",
+            "numeric": "620",
+            "flagPath": "",
+            "states": ["Algarve","Alto Alentejo","Azores","Baixo Alentejo","Beira Alta",
+                "Beira Baixa","Beira Litoral","Douro Litoral","Estremadura","Madeira",
+                "Minho","Ribatejo","Trás-os-Montes e Alto Douro"
+            ]
+        }
+    },
+    {
+        "Romania":{
+            "name": "Romania",
+            "vi": "Romania",
+            "alpha-2": "RO",
+            "alpha-3": "ROU",
+            "numeric": "642",
+            "flagPath": "",
+            "states": ["Alba","Arad","Argeș","Bacău","Bihor","Bistrița-Năsăud","Botoșani",
+                "Brăila","Brașov","Bucharest","Buzău","Călărași","Caraș-Severin","Cluj",
+                "Constanța","Covasna","Dâmbovița","Dolj","Galați","Giurgiu","Gorj","Harghita",
+                "Hunedoara","Ialomița","Iași","Ilfov","Maramureș","Mehedinți","Mureș","Neamț",
+                "Olt","Prahova","Sălaj","Satu Mare","Sibiu","Suceava","Teleorman","Timiș",
+                "Tulcea","Vâlcea","Vaslui","Vrancea"
+            ]
+        }
+    },
+    {
+        "Russia":{
+            "name": "Russia",
+            "vi": "Nga",
+            "alpha-2": "RU",
+            "alpha-3": "RUS",
+            "numeric": "643",
+            "flagPath": "",
+            "states": ["Amur","Arkhangelsk","Astrakhan","Belgorod","Bryansk","Chelyabinsk",
+                "Chita","Irkutsk","Ivanovo","Kaliningrad","Kaluga","Kemerovo","Kirov",
+                "Kostroma","Kurgan","Kursk","Leningrad","Lipetsk","Magadan","Moscow",
+                "Murmansk","Nizhny Novgorod","Novgorod","Novosibirsk","Omsk","Orenburg",
+                "Oryol","Penza","Pskov","Rostov","Ryazan","Sakhalin","Samara","Saratov",
+                "Smolensk","Sverdlovsk","Tambov","Tomsk","Tula","Tver","Tyumen","Ulyanovsk",
+                "Vladimir","Volgograd","Vologda","Voronezh","Yaroslavl" 
+                ]
+        }
+    },
+    {
+        "Singapore":{
+            "name": "Singapore",
+            "vi": "Singapore",
+            "alpha-2": "SG",
+            "alpha-3": "SGP",
+            "numeric": "702",
+            "flagPath": "",
+            "states": []
+        }
+    },
+    {
+        "Slovakia":{
+            "name": "Slovakia",
+            "vi": "Slovkia",
+            "alpha-2": "SK",
+            "alpha-3": "SVK",
+            "numeric": "703",
+            "flagPath": "",
+            "states": ["Banská Bystrica","Bratislava"," Košice","Nitra",
+                "Prešov","Trenčín","Trnava","Žilina" 
+            ]
+        }
+    },
+    {
+        "Sweden":{
+            "name": "Sweden",
+            "vi": "Thụy Điển",
+            "alpha-2": "SE",
+            "alpha-3": "SWE",
+            "numeric": "752",
+            "flagPath": "",
+            "states": ["Angermannia","Blechingia","Bahusia","Dalecarlia","Dalia","Gotlandia",
+                "Gestricia","Hallandia","Helsingia","Herdalia","Jemtia","Lapponia Suecana",
+                "Medelpadia","Norbothnia","Nericia","Olandia","Ostrogothia","Scania","Smolandia",
+                "Sudermannia","Uplandia","Wermlandia","Westmannia","Westrobothnia","Westrogothia"
+            ]
+        }
+    },
+    {
+        "Switzerland":{
+            "name": "Switzerland",
+            "vi": "Thụy Sĩ",
+            "alpha-2": "CH",
+            "alpha-3": "CHE",
+            "numeric": "756",
+            "flagPath": "",
+            "states": ["Aargau","Appenzell Ausserrhoden","Appenzell Innerrhoden","Basel-Landschaft",
+                "Basel-Stadt","Bern","Fribourg","Geneva","Glarus","Grisons","Jura","Luzern",
+                "Neuchâtel","Nidwalden","Obwalden","Schaffhausen","Schwyz","Solothurn","St. Gallen",
+                "Thurgau","Ticino","Uri","Valais","Vaud","Zug","Zürich" 
+            ]
+        }
+    },
+    {
+        "Taiwan":{
+            "name": "Taiwan",
+            "vi": "Đài Loan",
+            "alpha-2": "TW",
+            "alpha-3": "TWN",
+            "numeric": "158",
+            "flagPath": "",
+            "states": ["Taipeh","Taiwan","Tainan","Taitung"]
+        }
+    },
+    {
+        "Thailand":{
+            "name": "Thailand",
+            "vi": "Thái Lan",
+            "alpha-2": "TH",
+            "alpha-3": "THA",
+            "numeric": "764",
+            "flagPath": "",
+            "states": [ "Amnat Charoen","Ang Thong","Bangkok","Bueng Kan","Buriram","Chachoengsao",
+                "Chai Nat","Chaiyaphum","Chanthaburi","Chiang Mai","Chonburi","Chumphon","Kalasin",
+                "Kamphaeng Phet","Kanchanaburi","Khon Kaen","Krabi","Lampang","Lamphun","Loei",
+                "Lopburi","Mae Hong Son","Maha Sarakham","Mukdahan","Nakhon Nayok","Nakhon Pathom",
+                "Nakhon Ratchasima","Nakhon Sawan","Nakhon Si Thammarat","Nan","Narathiwat",
+                "Nong Bua Lamphu","Nong Khai","Nonthaburi","Pathum Thani","Pattani","Phang Nga",
+                "Phatthalung","Phayao","Phetchabun","Phetchaburi","Phichit","Phitsanulok",
+                "Phra Nakhon Si Ayutthaya","Phrae","Phuket","Prachinburi","Prachuap Khiri Khan",
+                "Ranong","Ratchaburi","Rayong","Roi Et","Sa Kaeo","Sakon Nakhon","Samut Prakan",
+                "Samut Sakhon","Samut Songkhram","Saraburi","Satun","Sing Buri","Sisaket","Songkhla",
+                "Sukhothai","Suphan Buri","Surat Thani","Surin","Tak","Trang","Trat","Ubon Ratchathani",
+                "Udon Thani","Uthai Thani","Uttaradit","Yala","Yasothon" 
+            ]
+        }
+    },
+    {
+        "Ukraine":{
+            "name": "Ukraine",
+            "vi": "Ukraine",
+            "alpha-2": "UA",
+            "alpha-3": "UKR",
+            "numeric": "804",
+            "flagPath": "",
+            "states": ["Cherkasy","Chernihiv","Chernivtsi","Dnipropetrovsk","Donetsk","Ivano-Frankivsk",
+                "Kharkiv","Kherson","Khmelnytskyi","Kiev","Kirovohrad","Luhansk"," Lviv","Mykolaiv",
+                "Odessa","Poltava","Rivne","Sumy","Ternopil","Vinnytsia","Volyn","Zakarpattia",
+                "Zaporizhia","Zhytomyr" 
+            ]
+        }   
+    },
+    {
+        "UK":{
+            "name": "United Kingdom",
+            "vi": "Anh",
+            "alpha-2": "GB",
+            "alpha-3": "GBR",
+            "numeric": "826",
+            "flagPath": "",
+            "states": ["England","Northern Ireland","Scotland","Wales"
+            ]
+        }
+    },
+    {
+        "USA":{
+            "name": "United States of America",
+            "vi": "Mỹ",
+            "alpha-2": "US",
+            "alpha-3": "USA",
+            "numeric": "840",
+            "flagPath": "",
+            "states": ["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut",
+                "Delaware","District of Columbia","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa",
+                "Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan",
+                "Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire",
+                "New Jersey","New Mexico","New York","North Carolina","North Dakota","Ohio","Oklahoma",
+                "Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee",
+                "Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"
+            ]
+        }
     }
 ]
