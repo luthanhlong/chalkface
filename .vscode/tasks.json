@@ -13,5 +13,13 @@
             "type": "shell",
             "command": "echo Hello"
         }
+        {
+            "label": "watch",
+            "command": "${workspaceFolder}/node_modules/.bin/babel",
+            "args": ["src", "--out-dir", "lib", "-w", "--source-maps"],
+            "type": "shell",
+            "group": { "kind": "build", "isDefault": true },
+            "isBackground": true
+          }
     ]
 }

@@ -1,6 +1,7 @@
 [
     {
         "editor.fontFamily": "'Consolas', 'Courier New', 'monospace','Arial'",
+        "javascript.implicitProjectConfig.checkJs": true
     },
     {
         "liveServer.settings.port": 5500,
