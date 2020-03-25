@@ -1,4 +1,4 @@
-getDataFromJsonFile(FilePath,Callback){
+function getDataFromJsonFile(FilePath,Callback){
     var rawFile = new XMLHttpRequest();
     rawFile.overrideMimeType("application/json");
     rawFile.open("GET", FilePath, true);
@@ -8,4 +8,11 @@ getDataFromJsonFile(FilePath,Callback){
         }
     }
     rawFile.send(null); 
+}
+function clearSelectOptions(SelectElement, MinIndex) { 
+    var i, L = SelectElement.options.length - 1;
+    for (i = L; i >= MinIndex; i--) {
+        SelectElement.remove(i);
+    }
+    
 }

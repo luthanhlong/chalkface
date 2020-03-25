@@ -3,8 +3,8 @@
         "Australia": {
             "name": "Australia",
             "vi": "Úc",
-            "alpha-2": "AU",
-            "alpha-3": "AUS",
+            "alpha2": "AU",
+            "alpha3": "AUS",
             "numeric": "036",
             "flagPath": "",
             "states": [
@@ -31,8 +31,8 @@
         "Austria": {
             "name": "Austria",
             "vi": "Áo",
-            "alpha-2": "AT",
-            "alpha-3": "AUT",
+            "alpha2": "AT",
+            "alpha3": "AUT",
             "numeric": "040",
             "flagPath": "",
             "states": [
@@ -52,8 +52,8 @@
         "Belarus": {
             "name": "Belarus",
             "vi": "Belarus",
-            "alpha-2": "BY",
-            "alpha-3": "BLR",
+            "alpha2": "BY",
+            "alpha3": "BLR",
             "numeric": "112",
             "flagPath": "",
             "states": [
@@ -72,8 +72,8 @@
         "Bulgaria": {
         "name": "Bulgaria",
         "vi": "Bulgaria",
-        "alpha-2": "BG",
-        "alpha-3": "BGR",
+        "alpha2": "BG",
+        "alpha3": "BGR",
         "numeric": "100",
         "flagPath": "",
         "states": [
@@ -338,8 +338,8 @@
         "Cambodia":{
             "name": "Cambodia",
             "vi": "Cambodia",
-            "alpha-2": "KH",
-            "alpha-3": "KHM",
+            "alpha2": "KH",
+            "alpha3": "KHM",
             "numeric": "116",
             "flagPath": "",
             "states": [
@@ -355,8 +355,8 @@
         "Canada":{
             "name": "Canada",
             "vi": "Canada",
-            "alpha-2": "CA",
-            "alpha-3": "CAN",
+            "alpha2": "CA",
+            "alpha3": "CAN",
             "numeric": "124",
             "flagPath": "",
             "states": [
@@ -370,8 +370,8 @@
         "China":{
             "name": "China",
             "vi": "Trung Quốc",
-            "alpha-2": "CN",
-            "alpha-3": "CHN",
+            "alpha2": "CN",
+            "alpha3": "CHN",
             "numeric": "156",
             "flagPath": "",
             "states": ["Anhui Province","Beijing Municipality","Chongqing Municipality",
@@ -391,8 +391,8 @@
         "Cuba":{
             "name": "Cuba",
             "vi": "Cuba",
-            "alpha-2": "CU",
-            "alpha-3": "CUB",
+            "alpha2": "CU",
+            "alpha3": "CUB",
             "numeric": "192",
             "flagPath": "",
             "states": ["Artemisa","Camagüey","Ciego de Ávila","Cienfuegos","Granma","Guantánamo",
@@ -405,8 +405,8 @@
         "Czech":{
             "name": "Czech Republic",
             "vi": "Séc",
-            "alpha-2": "CZ",
-            "alpha-3": "CZE",
+            "alpha2": "CZ",
+            "alpha3": "CZE",
             "numeric": "203",
             "flagPath": "",
             "states": ["Central","Bohemian","Hradec Králové","Karlovy Vary","Liberec",
@@ -419,8 +419,8 @@
         "Denmark":{
             "name": "Denmark",
             "vi": "Đan Mạch",
-            "alpha-2": "DK",
-            "alpha-3": "DNK",
+            "alpha2": "DK",
+            "alpha3": "DNK",
             "numeric": "208",
             "flagPath": "",
             "states": ["Bornholm","Copenhagen City","Copenhagen Surroundings","East Jutland",
@@ -433,8 +433,8 @@
         "Filand":{
             "name": "Filand",
             "vi": "Phần Lan",
-            "alpha-2": "FI",
-            "alpha-3": "FIN",
+            "alpha2": "FI",
+            "alpha3": "FIN",
             "numeric": "246",
             "flagPath": "",
             "states": ["Turku and Pori","Nyland and Tavastehus","Ostrobothnia","Viborg and Nyslott",
@@ -449,8 +449,8 @@
         "France":{
             "name": "France",
             "vi": "Pháp",
-            "alpha-2": "FR",
-            "alpha-3": "FRA",
+            "alpha2": "FR",
+            "alpha3": "FRA",
             "numeric": "250",
             "flagPath": "",
             "states": ["Auvergne-Rhône-Alpes","Bourgogne-Franche-Comté","Brittany",
@@ -464,8 +464,8 @@
         "Germany":{
             "name": "Germany",
             "vi": "Đức",
-            "alpha-2": "DE",
-            "alpha-3": "DEU",
+            "alpha2": "DE",
+            "alpha3": "DEU",
             "numeric": "276",
             "flagPath": "",
             "states": ["Baden-Württemberg","Bavaria (Bayern)","Berlin ","Brandenburg ","Bremen",
@@ -480,8 +480,8 @@
         "Hungary":{
             "name": "Hungary",
             "vi": "Hungary",
-            "alpha-2": "HU",
-            "alpha-3": "HUN",
+            "alpha2": "HU",
+            "alpha3": "HUN",
             "numeric": "348",
             "flagPath": "",
             "states": ["Baranya","Bács-Kiskun","Békés","Borsod-Abaúj-Zemplén","Budapest",
@@ -495,8 +495,8 @@
         "India":{
             "name": "India",
             "vi": "Ấn Độ",
-            "alpha-2": "IN",
-            "alpha-3": "IND",
+            "alpha2": "IN",
+            "alpha3": "IND",
             "numeric": "356",
             "flagPath": "",
             "states": ["Andhra Pradesh","Arunachal Pradesh","Assam","Bihar","Chhattisgarh","Goa",
@@ -511,8 +511,8 @@
         "Indonesia":{
             "name": "Indonesia",
             "vi": "Indonesia",
-            "alpha-2": "ID",
-            "alpha-3": "IDN",
+            "alpha2": "ID",
+            "alpha3": "IDN",
             "numeric": "360",
             "flagPath": "",
             "states": ["Bali","Bangka Belitung Islands","Banten","Bengkulu","Central Java",
@@ -529,8 +529,8 @@
         "Ireland":{
             "name": "Ireland",
             "vi": "Ireland",
-            "alpha-2": "IE",
-            "alpha-3": "IRL",
+            "alpha2": "IE",
+            "alpha3": "IRL",
             "numeric": "372",
             "flagPath": "",
             "states": ["Connacht","Leinster","Munster ","Ulster"
@@ -541,8 +541,8 @@
         "Italy":{
             "name": "Italy",
             "vi": "Ý",
-            "alpha-2": "IT",
-            "alpha-3": "ITA",
+            "alpha2": "IT",
+            "alpha3": "ITA",
             "numeric": "380",
             "flagPath": "",
             "states": ["Abruzzo","Aosta Valley","Apulia","Basilicata","Calabria","Campania",
@@ -556,8 +556,8 @@
         "Japan":{
             "name": "Japan",
             "vi": "Nhật",
-            "alpha-2": "JP",
-            "alpha-3": "JPN",
+            "alpha2": "JP",
+            "alpha3": "JPN",
             "numeric": "392",
             "flagPath": "",
             "states": ["Aichi","Akita","Aomori","Chiba","Ehime","Fukui","Fukuoka","Fukushima",
@@ -573,8 +573,8 @@
         "Korea":{
             "name": "Korea",
             "vi": "Hàn Quốc",
-            "alpha-2": "KR",
-            "alpha-3": "KOR",
+            "alpha2": "KR",
+            "alpha3": "KOR",
             "numeric": "410",
             "flagPath": "",
             "states": [ "North Chungcheong","South Chungcheong","Gangwon","Gyeonggi",
@@ -587,8 +587,8 @@
         "Malaysia":{
             "name": "Malaysia",
             "vi": "Malaysia",
-            "alpha-2": "MY",
-            "alpha-3": "MYS",
+            "alpha2": "MY",
+            "alpha3": "MYS",
             "numeric": "458",
             "flagPath": "",
             "states": ["Johor Darul Ta'zim","Kedah Darul Aman","Kelantan Darul Naim","Labuan",
@@ -602,8 +602,8 @@
         "Netherlands":{
             "name": "Netherlands",
             "vi": "Hà Lan",
-            "alpha-2": "NL",
-            "alpha-3": "NLD",
+            "alpha2": "NL",
+            "alpha3": "NLD",
             "numeric": "528",
             "flagPath": "",
             "states": [ "Bonaire", "Drenthe", "Flevoland", "Friesland", "Gelderland", 
@@ -616,8 +616,8 @@
         "NewZealand":{
             "name": "New Zealand",
             "vi": "New Zealand",
-            "alpha-2": "NZ",
-            "alpha-3": "NZL",
+            "alpha2": "NZ",
+            "alpha3": "NZL",
             "numeric": "554",
             "flagPath": "",
             "states": ["Auckland","Bay of Plenty","Canterbury","Gisborne","Hawke's Bay",
@@ -630,8 +630,8 @@
         "Philippines":{
             "name": "Philippines",
             "vi": "Philipines",
-            "alpha-2": "PH",
-            "alpha-3": "PHL",
+            "alpha2": "PH",
+            "alpha3": "PHL",
             "numeric": "608",
             "flagPath": "",
             "states": ["Abra","Agusan del Norte","Agusan del Sur","Aklan","Albay","Antique",
@@ -654,8 +654,8 @@
         "Poland":{
             "name": "Poland",
             "vi": "Ba Lan",
-            "alpha-2": "PL",
-            "alpha-3": "POL",
+            "alpha2": "PL",
+            "alpha3": "POL",
             "numeric": "616",
             "flagPath": "",
             "states": ["Holy Cross","Kujawsko-Pomorskie","Łódź","Lower Silesia","Lublin",
@@ -668,8 +668,8 @@
         "Portugal":{
             "name": "Portugal",
             "vi": "Bồ Đào Nha",
-            "alpha-2": "PT",
-            "alpha-3": "PRT",
+            "alpha2": "PT",
+            "alpha3": "PRT",
             "numeric": "620",
             "flagPath": "",
             "states": ["Algarve","Alto Alentejo","Azores","Baixo Alentejo","Beira Alta",
@@ -682,8 +682,8 @@
         "Romania":{
             "name": "Romania",
             "vi": "Romania",
-            "alpha-2": "RO",
-            "alpha-3": "ROU",
+            "alpha2": "RO",
+            "alpha3": "ROU",
             "numeric": "642",
             "flagPath": "",
             "states": ["Alba","Arad","Argeș","Bacău","Bihor","Bistrița-Năsăud","Botoșani",
@@ -699,8 +699,8 @@
         "Russia":{
             "name": "Russia",
             "vi": "Nga",
-            "alpha-2": "RU",
-            "alpha-3": "RUS",
+            "alpha2": "RU",
+            "alpha3": "RUS",
             "numeric": "643",
             "flagPath": "",
             "states": ["Amur","Arkhangelsk","Astrakhan","Belgorod","Bryansk","Chelyabinsk",
@@ -717,8 +717,8 @@
         "Singapore":{
             "name": "Singapore",
             "vi": "Singapore",
-            "alpha-2": "SG",
-            "alpha-3": "SGP",
+            "alpha2": "SG",
+            "alpha3": "SGP",
             "numeric": "702",
             "flagPath": "",
             "states": []
@@ -728,8 +728,8 @@
         "Slovakia":{
             "name": "Slovakia",
             "vi": "Slovkia",
-            "alpha-2": "SK",
-            "alpha-3": "SVK",
+            "alpha2": "SK",
+            "alpha3": "SVK",
             "numeric": "703",
             "flagPath": "",
             "states": ["Banská Bystrica","Bratislava"," Košice","Nitra",
@@ -741,8 +741,8 @@
         "Sweden":{
             "name": "Sweden",
             "vi": "Thụy Điển",
-            "alpha-2": "SE",
-            "alpha-3": "SWE",
+            "alpha2": "SE",
+            "alpha3": "SWE",
             "numeric": "752",
             "flagPath": "",
             "states": ["Angermannia","Blechingia","Bahusia","Dalecarlia","Dalia","Gotlandia",
@@ -756,8 +756,8 @@
         "Switzerland":{
             "name": "Switzerland",
             "vi": "Thụy Sĩ",
-            "alpha-2": "CH",
-            "alpha-3": "CHE",
+            "alpha2": "CH",
+            "alpha3": "CHE",
             "numeric": "756",
             "flagPath": "",
             "states": ["Aargau","Appenzell Ausserrhoden","Appenzell Innerrhoden","Basel-Landschaft",
@@ -771,8 +771,8 @@
         "Taiwan":{
             "name": "Taiwan",
             "vi": "Đài Loan",
-            "alpha-2": "TW",
-            "alpha-3": "TWN",
+            "alpha2": "TW",
+            "alpha3": "TWN",
             "numeric": "158",
             "flagPath": "",
             "states": ["Taipeh","Taiwan","Tainan","Taitung"]
@@ -782,8 +782,8 @@
         "Thailand":{
             "name": "Thailand",
             "vi": "Thái Lan",
-            "alpha-2": "TH",
-            "alpha-3": "THA",
+            "alpha2": "TH",
+            "alpha3": "THA",
             "numeric": "764",
             "flagPath": "",
             "states": [ "Amnat Charoen","Ang Thong","Bangkok","Bueng Kan","Buriram","Chachoengsao",
@@ -805,8 +805,8 @@
         "Ukraine":{
             "name": "Ukraine",
             "vi": "Ukraine",
-            "alpha-2": "UA",
-            "alpha-3": "UKR",
+            "alpha2": "UA",
+            "alpha3": "UKR",
             "numeric": "804",
             "flagPath": "",
             "states": ["Cherkasy","Chernihiv","Chernivtsi","Dnipropetrovsk","Donetsk","Ivano-Frankivsk",
@@ -820,8 +820,8 @@
         "UK":{
             "name": "United Kingdom",
             "vi": "Anh",
-            "alpha-2": "GB",
-            "alpha-3": "GBR",
+            "alpha2": "GB",
+            "alpha3": "GBR",
             "numeric": "826",
             "flagPath": "",
             "states": ["England","Northern Ireland","Scotland","Wales"
@@ -832,8 +832,8 @@
         "USA":{
             "name": "United States of America",
             "vi": "Mỹ",
-            "alpha-2": "US",
-            "alpha-3": "USA",
+            "alpha2": "US",
+            "alpha3": "USA",
             "numeric": "840",
             "flagPath": "",
             "states": ["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut",
