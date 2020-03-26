@@ -1,4 +1,4 @@
-var DataPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface/Data/";
+var DataPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface/Data/";alert(DataPath);
 var dCountries, dTuitions;
 var dvSchoolTools, ipSchool, slTuitions, slCountries, slStates, btnFindSchool;
     dvSchoolToolsId="dvSchoolTools",ipSchoolId="ipSchool", slTuitionsId ="slTuitions",
