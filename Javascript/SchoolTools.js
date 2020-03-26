@@ -1,4 +1,4 @@
-var DataPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface@V1.0.1/Data/";
+var DataPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface@V1.0.2/Data/";
 var dCountries, dTuitions;
 var dvSchoolTools, ipSchool, slTuitions, slCountries, slStates, btnFindSchool;
     dvSchoolToolsId="dvSchoolTools",ipSchoolId="ipSchool", slTuitionsId ="slTuitions",
@@ -44,7 +44,7 @@ getDataFromJsonFile(DataPath + "Countries.json", function(sData){
           for (var key in Country) {
                 if (Country.hasOwnProperty(key)) { 
                   var opt = document.createElement("option");
-                  opt.value = Country[key].alpha2;
+                  opt.value = Country[key].name;
                   opt.innerText = Country[key].name; 
                   slCountries.add(opt,i+1) ;                        
                 }
@@ -61,14 +61,12 @@ function updateStates(){
       if(typeof Country === 'object'){
             for (var key in Country) {
                   if (Country.hasOwnProperty(key)) { 
-                    if(slCountries.value===Country[key].alpha2){
-                      
+                    if(slCountries.value===Country[key].name){                      
                       Country[key].states.forEach(state => {
                         var opt = document.createElement("option");
                         opt.value = state;
                         opt.innerText = state; 
                         slStates.add(opt,i+1) ;
-
                       });
                     }
                                           
