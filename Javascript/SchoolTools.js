@@ -1,4 +1,4 @@
-var DataPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface/Data/";alert(DataPath);
+var DataPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface/Data/";
 var dCountries, dTuitions;
 var dvSchoolTools, ipSchool, slTuitions, slCountries, slStates, btnFindSchool;
     dvSchoolToolsId="dvSchoolTools",ipSchoolId="ipSchool", slTuitionsId ="slTuitions",
@@ -16,7 +16,7 @@ function initSchoolTools(){
 }
 
 getDataFromJsonFile(DataPath + "Com.json", function(sData){ 
-    initSchoolTools(); alert(DataPath);
+    initSchoolTools(); 
     dTuitions = JSON.parse(sData);        
     var opt0 = document.createElement("option"); opt0.value=0; opt0.innerText = "Chọn học phí";
     slTuitions.add(opt0,0); 
