@@ -9,97 +9,18 @@
     <title>Test</title>
 
     
-    <script src="Javascript/Com.js"></script>
+    <script type="text/javascript" src="Javascript/Com.js"></script>
+    <script type="text/javascript" src="Javascript/SchoolTools.js"></script>
+    <link rel="stylesheet" href="CSS/SchoolTools.css">   
   </head>
 
   <body>
-    <div class="dvFindSchool" style="max-width: 100%; text-align:center">
-      <input id="ipSchool" class="ipSchool" type="text" style="max-width:200px" placeholder="Tìm trường, ngành học ..." />
-      <select id="slctTuition">
-        <option value="0">Chọn mức học phí</option>
-        <option value="Nhỏ hơn $10.000">nhỏ hơn $10.000</option>
-        <option value="$10.000 - $20.000">$10.000 - $20.000</option>
-        <option value="$10.000 - $20.000">$10.000 - $20.000</option>
-        <option value="$20.000 - $30.000">$20.000 - $30.000</option>
-        <option value="$30.000 - $40.000">$30.000 - $40.000</option>
-        <option value="$40.000 - $50.000">$40.000 - $50.000</option>
-        <option value="Lớn hơn $50.000">lớn hơn $50.000</option>
-      </select>
-      <select id="slctCountries" onchange="SelectCountryChange()"></select>
-      <select id="slctStates"></select>
-      <button id="btnFindSchool" onclick="findSchool()">tìm</button>
-      
+    <div class="dvFindSchool" style="text-align:center">
+      <input id="ipSchool" class="SchoolTools" type="text" placeholder="Tìm trường, ngành học ..." />
+      <select id="slTuitions" class="SchoolTools"></select>
+      <select id="slCountries" class="SchoolTools"></select>
+      <select id="slStates" class="SchoolTools"></select>
+      <button id="btnFindSchool" class="SchoolTools ButtonSchoolTools" >Tìm</button>      
     </div>
-    <script type="text/javascript">
-      var DataFilePath = "Data/Countries.json";
-      var dCountries;
-      getDataFromJsonFile(DataFilePath, function(sData){   
-          dCountries = JSON.parse(sData);
-          var slCountries = document.getElementById("slctCountries");        
-          var optC = document.createElement("option"); optC.value=0; optC.innerText = "Chọn quốc gia";
-          slCountries.add(optC,0);
-          
-          var slStates = document.getElementById("slctStates");    
-          var optS = document.createElement("option");
-          optS.value=0; optS.innerText = "Chọn vùng";
-          slStates.add(optS,0);
-
-          for (var i = 0; i < dCountries.length; i++) {
-              var Country = dCountries[i]; 
-              if(typeof Country === 'object'){
-                for (var key in Country) {
-                      if (Country.hasOwnProperty(key)) { 
-                        var opt = document.createElement("option");
-                        opt.value = Country[key].alpha2;
-                        opt.innerText = Country[key].name; 
-                        slCountries.add(opt,i+1) ;                        
-                      }
-                  }
-              }
-          }      
-          
-        }
-      )
-      function SelectCountryChange(){
-        var slCountries = document.getElementById("slctCountries");
-        var slStates = document.getElementById("slctStates"); 
-        clearSelectOptions(slStates,1); 
-         
-          for (var i = 0; i < dCountries.length; i++) {
-            var Country = dCountries[i]; 
-            if(typeof Country === 'object'){
-                  for (var key in Country) {
-                        if (Country.hasOwnProperty(key)) { 
-                          if(slCountries.value===Country[key].alpha2){
-                            
-                            Country[key].states.forEach(state => {
-                              var opt = document.createElement("option");
-                              opt.value = state;
-                              opt.innerText = state; 
-                              slStates.add(opt,i+1) ;
-
-                            });
-                          }
-                                                
-                        }
-                  }
-            }
-          } 
-            
-      }
-      function findSchool(){
-        var search="/search?q=label:" 
-            + document.getElementById("ipSchool").value
-            + "|label:"
-            + document.getElementById("slctTuition").value
-            + "|label:"
-            + document.getElementById("slctCountries").value
-            + "|label:"
-            + document.getElementById("slctStates").value;
-        
-        window.location =  window.location.protocol + "//" + window.location.hostname + search;
-      }
-    </script>
-    
   </body>
 </html>
