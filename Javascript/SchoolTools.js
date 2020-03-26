@@ -16,7 +16,7 @@ function initSchoolTools(){
 }
 
 getDataFromJsonFile(DataPath + "Com.json", function(sData){ 
-    initSchoolTools();
+    initSchoolTools(); alert(DataPath  + "Com.json");
     dTuitions = JSON.parse(sData);        
     var opt0 = document.createElement("option"); opt0.value=0; opt0.innerText = "Chọn học phí";
     slTuitions.add(opt0,0); 
