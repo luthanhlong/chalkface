@@ -1,4 +1,4 @@
-var DataPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface/Data/";
+var DataPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface@V1.0.0/Data/";
 var dCountries, dTuitions;
 var dvSchoolTools, ipSchool, slTuitions, slCountries, slStates, btnFindSchool;
     dvSchoolToolsId="dvSchoolTools",ipSchoolId="ipSchool", slTuitionsId ="slTuitions",
@@ -18,7 +18,7 @@ function initSchoolTools(){
 getDataFromJsonFile(DataPath + "Com.json", function(sData){ 
     initSchoolTools(); 
     dTuitions = JSON.parse(sData);        
-    var opt0 = document.createElement("option"); opt0.value=0; opt0.innerText = "Chọn học phí";
+    var opt0 = document.createElement("option"); opt0.value=""; opt0.innerText = "Chọn học phí";
     slTuitions.add(opt0,0); 
     var Tuitions =dTuitions[0].Tuitions, n=0; 
     Tuitions.forEach(ech => {
@@ -31,11 +31,11 @@ getDataFromJsonFile(DataPath + "Com.json", function(sData){
 )
 getDataFromJsonFile(DataPath + "Countries.json", function(sData){   
     dCountries = JSON.parse(sData);       
-    var optC = document.createElement("option"); optC.value=0; optC.innerText = "Chọn quốc gia";
+    var optC = document.createElement("option"); optC.value=""; optC.innerText = "Chọn quốc gia";
     slCountries.add(optC,0);
         
     var optS = document.createElement("option");
-    optS.value=0; optS.innerText = "Chọn vùng";
+    optS.value=""; optS.innerText = "Chọn vùng";
     slStates.add(optS,0);
 
     for (var i = 0; i < dCountries.length; i++) {
@@ -78,14 +78,11 @@ function updateStates(){
     }       
 }
 function findSchool(){
-    var search="/search?q=label:" 
+    var search="/search/?q="    
         + ipSchool.value
-        + "|label:"
-        + slTuitions.value
-        + "|label:"
-        + slCountries.value
-        + "|label:"
-        + slStates.value;  
+        + "|" + slTuitions.value
+        + "|" + slCountries.value
+        + "|" + slStates.value;  
     window.location =  window.location.protocol + "//" + window.location.hostname + search;
 }
 
