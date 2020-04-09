@@ -1,6 +1,6 @@
 var submitted = false;
 getDataFromJsonFile (DomainPath + "Data/Com.json",
-    function(sData){alert(DomainPath + "Data/Com.json")
+    function(sData){
       var dContact = JSON.parse(sData)[1].ContactForm;
       var frm = document.getElementById('mG61Hd');
       if(frm!=undefined) {
