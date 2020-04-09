@@ -1,4 +1,4 @@
-var DomainPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface@V1.0.1/";
+var DomainPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface@V1.0.5/";
 function getDataFromJsonFile(FilePath,Callback){
     var rawFile = new XMLHttpRequest();
     rawFile.overrideMimeType("application/json"); 
