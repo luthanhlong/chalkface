@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website" />
+    <title>Test</title>
+    <link rel="stylesheet" href="CSS/Com.css" />
+    <link rel="stylesheet" href="CSS/TabTools.css" />
+    <script type="text/javascript" src="Javascript/Com.js"></script>
+    <script type="text/javascript" src="Javascript/Links.js"></script>
+    <script type="text/javascript" src="Javascript/SchoolTools.js" ></script>
+    <script type="text/javascript" src="Javascript/ViewTools.js"></script>
+  </head>
+
+  <body>
+    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScYMS3Hl-TnHUNF9eu0_ev1PRf9HiRETZs5SFdGzWmVGEEPxg/formResponse" id="mG61Hd" method="POST" name="contactform" onsubmit="submitted=true;"  target="hidden_iframe">
+      <label>Tên của bạn</label><input  name="entry.2005620554" placeholder="Nhập tên của bạn..." type="text" />
+      <label>Điện thoại</label><input name="entry.1166974658" pattern="[0-9]{10}" placeholder="Nhập số điện thoại..." type="text"/>
+      <label>Địa chỉ email</label><input name="entry.1045781291" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" placeholder="Nhập địa chỉ email..." type="text" />
+      <label>Tiêu đề</label><input name="entry.839337160" placeholder="Nhập tiêu đề..." type="text" />
+      <label>Nội dung</label><textarea name="entry.704268403" placeholder="Nhập nội dung..." ></textarea><br />
+      <input type="submit" value="Gửi" />
+    </form>
+    <div id='mG61HdMSG' name='mG61HdMSG'>
+      <i><strong>Cảm ơn bạn đã liên hệ với Chalkface Travel!</strong> 
+        Chúng tôi sẽ phản hồi yêu cầu của bạn sớm nhất.
+      </i>
+    </div>
+    <script type="text/javascript">
+      var submitted=false;
+      function showSuccess(success){ 
+        var frm = document.getElementById('mG61Hd'), frmMSG = document.getElementById('mG61HdMSG');
+
+      if(success){frm.style.display='none';frmMSG.style.display='block';}else{frm.style.display='block';frmMSG.style.display='none';}
+      }
+    </script>
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="showSuccess(submitted)"></iframe>
+    <script type="text/javascript">
+      
+    </script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+[
+   {
+       "HBottomLinks":{    
+            "Phone":{
+                "Image":"images/icons/HBottomLinks/Phone.png",
+                "Link": "tel:0908965657"
+            },
+            "Messenger":{
+                "Image":"images/icons/HBottomLinks/Messenger.png",
+                "Link": "http://m.me/chalkface.vn"
+            },
+            "Viber":{
+                "Image":"images/icons/HBottomLinks/Viber.png",
+                "Link": "viber://chat/?number=%2B84908965657"
+            },
+            "Zalo":{
+                "Image":"images/icons/HBottomLinks/Zalo.png",
+                "Link": "https://zalo.me/0908965657"
+            },
+            "Email":{
+                "Image":"images/icons/HBottomLinks/Email.png",
+                "Link": "mailto:info@chalkface.vn"
+            },
+            "QA":{
+                "Image":"images/icons/HBottomLinks/QA.png",
+                "Link": "https://www.facebook.com/groups/chalkfacevisa"
+            },
+            "GoogleMap":{
+                "Image":"images/icons/HBottomLinks/GoogleMap.png",
+                "Link": "https://www.google.com/maps/place/Chalkface/@10.8548994,106.648419,17z/data=!3m1!4b1!4m5!3m4!1s0x317529c59d32372d:0x373d5f3f042d20f2!8m2!3d10.8548941!4d106.6506077?hl=vi-VN"
+            },
+            "ContactForm":{
+                "Image":"images/icons/HBottomLinks/ContactForm.png",
+                "Link": "/contact.html"
+            },
+            "Share":{
+                "Image":"images/icons/HBottomLinks/Share.png",
+                "Link": "javascript:openBox('dvShares',true)"
+            }
+        },
+        "ShareLinks":{
+            "CopyLink":{
+                "Image":"images/icons/Shares/CopyLink.png",
+                "Link": "javascript:copyUrltoClipboard()"
+            },
+            "Facebook":{
+                "Image":"images/icons/Shares/Facebook.png",
+                "Link": "javascript:shareLink('Facebook')"
+            },
+            "Twitter":{
+                "Image":"images/icons/Shares/Twitter.png",
+                "Link": "javascript:shareLink('Twitter')"
+            },
+            "Pinterest":{
+                "Image":"images/icons/Shares/Pinterest.png",
+                "Link": "javascript:shareLink('Pinterest')"
+            },
+            "Email":{
+                "Image":"images/icons/Shares/BlueEmail.png",
+                "Link": "javascript:shareLink('Email')"
+            },
+            "Close":{
+                "Image":"images/icons/Shares/Close.png",
+                "Link": "javascript:openBox('dvShares',false)"
+            }
+        }
+   } 
+]

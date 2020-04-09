@@ -1,4 +1,4 @@
-var DataPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface@V1.0.2/Data/";
+var DataPath = DomainPath + "Data/";
 var dCountries, dTuitions;
 var dvSchoolTools, ipSchool, slTuitions, slCountries, slStates, btnFindSchool;
     dvSchoolToolsId="dvSchoolTools",ipSchoolId="ipSchool", slTuitionsId ="slTuitions",
@@ -14,7 +14,6 @@ function initSchoolTools(){
     btnFindSchool=document.getElementById(btnFindSchoolId);
     btnFindSchool.addEventListener("click",findSchool);
 }
-
 getDataFromJsonFile(DataPath + "Com.json", function(sData){ 
     initSchoolTools(); 
     dTuitions = JSON.parse(sData);        
@@ -61,13 +60,8 @@ function updateStates(){
       if(typeof Country === 'object'){
             for (var key in Country) {
                   if (Country.hasOwnProperty(key)) { 
-<<<<<<< HEAD
                     if(slCountries.value===Country[key].name){
-                      
-=======
-                    if(slCountries.value===Country[key].name){                      
->>>>>>> 66b069d42c44abafd1073b5678149c67cdb92846
-                      Country[key].states.forEach(state => {
+                        Country[key].states.forEach(state => {
                         var opt = document.createElement("option");
                         opt.value = state;
                         opt.innerText = state; 

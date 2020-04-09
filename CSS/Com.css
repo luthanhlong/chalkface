@@ -1,0 +1,70 @@
+:root{
+    --Domain-Path:"/";
+    --Image-Path: "images/";
+}
+
+#dvHorizontalLinks {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 35px;
+    background: #003399;
+    z-index: 1000;
+    vertical-align:middle;
+    text-align:center;
+    padding:5px 0 0 0;
+}
+#dvShares{
+    position: fixed; 
+    background-color:lightgrey;
+    right:0px;left:0px;
+    bottom: 35px;
+    vertical-align:middle;
+    text-align:center;
+}
+.HImageLinks{
+    height:30px;width:30px;
+}
+#mG61Hd{
+    max-width: 100%;
+}
+#mG61Hd div{
+    margin:10px 0px 10px 0px;
+    border:none;
+    width:350px;height:auto;
+    display: flex; 
+    vertical-align: -webkit-baseline-middle;    
+}
+#mG61Hd label{
+    line-height: 25px;
+    width:30px;
+    background-color: #003399;
+    display: inline-block;
+    text-align: center;
+    vertical-align: -webkit-baseline-middle;
+}
+#mG61Hd img{
+    height:16px;
+    width:20px;
+    display: inline-block;
+    margin-top:6px;
+}
+#mG61Hd input{
+    width:300px;
+    line-height: 25px;
+    display: inline-block;
+}
+#mG61Hd textarea{
+    width:300px;
+    height:200px;
+}
+#mG61Hd button{
+    color: #ffffff;
+    background-color: #003399;
+    border-radius: 10px;
+    padding:5px;
+    line-height: 25px;
+    cursor: pointer;
+    width:50px;
+}
