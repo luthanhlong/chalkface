@@ -11,7 +11,7 @@ getDataFromJsonFile (DomainPath + "Data/Com.json",
           dv.style.width = "100%";
           var lbl = document.createElement("label");          
           var img = document.createElement('img'), input;       
-          img.src = child.ImageLabel;
+          img.src = DomainPath + child.ImageLabel;
           switch(child.Type){
             default:                  
               input = document.createElement('input');
