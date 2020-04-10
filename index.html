@@ -4,16 +4,38 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:type" content="website" />
-    <title>Test</title>    
-
-
-    <link rel="stylesheet" href="CSS/Com.css" />
-    <link rel="stylesheet" href="CSS/TabTools.css" />
-    <script type="text/javascript" src="Javascript/Com.js"></script>
-    <script type="text/javascript" src="Javascript/ContactForm.js"></script>
-    <script type="text/javascript" src="Javascript/Links.js"></script>
-    <script type="text/javascript" src="Javascript/SchoolTools.js" ></script>
-    <script type="text/javascript" src="Javascript/ViewTools.js"></script>  </head>
+    <title>Test</title>   
+   
+    <script type="text/javascript">
+      var DomainPath = "/";
+      function loadScripts(){  
+        var head = document.getElementsByTagName('head')[0];
+        var Links =[
+          "CSS/Com.css",
+          "CSS/SchoolTools.css",
+          "CSS/TabTools.css"
+        ],
+        Scripts = [
+          "Javascript/Com.js",
+          "Javascript/ContactForm.js",
+          "Javascript/Links.js",
+          "Javascript/SchoolTools.js",
+          "Javascript/ViewTools.js"
+        ]
+        Links.forEach(hrf=>{
+          var lnk = document.createElement("link");
+          lnk.rel = "stylesheet";lnk.href= DomainPath + hrf;
+          head.appendChild(lnk);
+        })
+        Scripts.forEach(src=>{
+          var scrpt = document.createElement("script");
+          scrpt.type = "text/javascript";scrpt.src= DomainPath + src;
+          head.appendChild(scrpt);
+        })        
+      }
+      loadScripts();
+    </script>    
+  </head>
 
   <body>
     xin chào
