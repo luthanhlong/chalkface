@@ -14,7 +14,7 @@ function initSchoolTools(){
     btnFindSchool=document.getElementById(btnFindSchoolId);
     btnFindSchool.addEventListener("click",findSchool);
 }
-getDataFromJsonFile(DataPath + "Com.json", function(sData){ 
+getDataFromJsonFile(DataPath + "Com.json", function(sData){     
     initSchoolTools(); 
     dTuitions = JSON.parse(sData);        
     var opt0 = document.createElement("option"); opt0.value=""; opt0.innerText = "Chọn học phí";
@@ -29,14 +29,13 @@ getDataFromJsonFile(DataPath + "Com.json", function(sData){
   }
 )
 getDataFromJsonFile(DataPath + "Countries.json", function(sData){   
+    initSchoolTools(); 
     dCountries = JSON.parse(sData);       
     var optC = document.createElement("option"); optC.value=""; optC.innerText = "Chọn quốc gia";
-    slCountries.add(optC,0);
-        
+    slCountries.add(optC,0);        
     var optS = document.createElement("option");
     optS.value=""; optS.innerText = "Chọn vùng";
     slStates.add(optS,0);
-
     for (var i = 0; i < dCountries.length; i++) {
         var Country = dCountries[i]; 
         if(typeof Country === 'object'){

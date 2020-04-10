@@ -7,7 +7,7 @@
     <title>Test</title>   
    
     <script type="text/javascript">
-      //var DomainPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface@V1.0.8/";
+      //var DomainPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface@V1.0.9/";
       var DomainPath = "/";
       function loadScripts(){  
         var head = document.getElementsByTagName('head')[0];
@@ -33,14 +33,18 @@
           scrpt.type = "text/javascript";scrpt.src= DomainPath + src;
           head.appendChild(scrpt);
         })        
-      }
-      loadScripts();
+      }    
     </script>    
   </head>
 
   <body>
-    xin chào
-    <form id='mG61Hd'></form>
-    <button onclick="var dvMsg = document.getElementById('mG61HdMSG');dvMsg.style.display='block';dvMsg.style.backgroundColor='blue';dvMsg.focus()">click</button>
+    <div class="dvFindSchool" style="text-align:center">
+      <input id="ipSchool" class="SchoolTools" type="text" placeholder="Tìm trường, ngành học ..." />
+      <select id="slTuitions" class="SchoolTools"></select>
+      <select id="slCountries" class="SchoolTools"></select>
+      <select id="slStates" class="SchoolTools"></select>
+      <button id="btnFindSchool" class="SchoolTools ButtonSchoolTools" >Tìm</button>      
+    </div>
+  <script>window.onload=function(){loadScripts()}</script> 
   </body>
 </html>
