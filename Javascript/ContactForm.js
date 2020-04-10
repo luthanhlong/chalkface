@@ -18,11 +18,13 @@ getDataFromJsonFile (DomainPath + "Data/Com.json",
               input['name']=child.InputName;              
               input['placeholder']=child.InputPlaceholder;
               input['type']=child.InputType;
+              input['required']=child.InputRequired;
               if(child.InputPattern!=""){input['pattern']=child.InputPattern};
               break;
             case "Content":
               input = document.createElement('textarea');
               input['name']=child.InputName;
+              input['required']=child.InputRequired;
               input['placeholder']=child.InputPlaceholder;
               break;
           }    
@@ -42,14 +44,14 @@ getDataFromJsonFile (DomainPath + "Data/Com.json",
         dvMsg.className = dContact.MsgAttributes["class"];
         dvMsg.innerHTML = dContact.MsgAttributes["innerHTML"];
         dvMsg.style =  dContact.MsgAttributes["style"];
-        document.body.appendChild(dvMsg)
+        frm.parentElement.appendChild(dvMsg)
         var ifrm = document.createElement("iframe");
         for(var key in dContact.IframeAttributes){ifrm[key]=dContact.IframeAttributes[key];}       
         ifrm.onload = function(){
           frm.style.display = (submitted)?'none':'block';
-          dvMsg.style.display = (submitted)?'block':'none';         
+          dvMsg.style.display = (submitted)?'block':'none';              
         }
-        document.body.appendChild(ifrm);
+        frm.parentElement.appendChild(ifrm);
       }
     }
 )
