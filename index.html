@@ -7,8 +7,8 @@
     <title>Test</title>   
    
     <script type="text/javascript">
-      //var DomainPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface@V1.0.9/";
-      var DomainPath = "/";
+      var DomainPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface@V1.0.10/";
+      //var DomainPath = "/";
       function loadScripts(){  
         var head = document.getElementsByTagName('head')[0];
         var Links =[
@@ -33,7 +33,8 @@
           scrpt.type = "text/javascript";scrpt.src= DomainPath + src;
           head.appendChild(scrpt);
         })        
-      }    
+      }   
+      loadScripts(); 
     </script>    
   </head>
 
@@ -45,6 +46,6 @@
       <select id="slStates" class="SchoolTools"></select>
       <button id="btnFindSchool" class="SchoolTools ButtonSchoolTools" >Tìm</button>      
     </div>
-  <script>window.onload=function(){loadScripts()}</script> 
+
   </body>
 </html>

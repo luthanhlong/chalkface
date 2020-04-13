@@ -74,11 +74,11 @@ function updateStates(){
     }       
 }
 function findSchool(){
-    var search="/search/?q="    
-        + ipSchool.value
-        + "|" + slTuitions.value
-        + "|" + slCountries.value
-        + "|" + slStates.value;  
+    var search="/search/?q=";
+    search +=(ipSchool.value!="")?"label:\"" + ipSchool.value + "\"":"";
+    search +=(slTuitions.value!="")?"+label:\"" + slTuitions.value + "\"":"";
+    search +=(slCountries.value!="")?"+label:\"" + slCountries.value + "\"":"";
+    search +=(slStates.value!="")?"+label:\"" + slStates.value + "\"":"";       
     window.location =  window.location.protocol + "//" + window.location.hostname + search;
 }
 
