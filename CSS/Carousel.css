@@ -1,0 +1,97 @@
+* {box-sizing:border-box}
+/* Slideshow container */
+.Carousels {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+.Carousels .slides {display: none}
+.Carousels img {vertical-align: middle;width:100%;}
+/* Next & previous buttons */
+.Carousels .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.Carousels .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.Carousels .prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.Carousels .caption {
+  color: #f2f2f2;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11pt;
+  text-align: center;
+  background-color: rgba(0,0,0,0.2);
+}
+
+/* The dots/bullets/indicators */
+.Carousels .dot-bar{
+  width:100%;
+  margin-top:5px;
+  text-align: center;
+}
+.Carousels .dot {
+  cursor: pointer;
+  color:#474646;
+  height: 25px;
+  width: 25px;
+  font-family: Arial;
+  font-size: 10pt;
+  text-align: center;
+  padding-top:5px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.Carousels .active, .dot:hover {
+  background-color: #717171;
+  color:#f2f2f2;
+}
+
+/* Fading animation */
+.Carousels .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  /*.prev, .next,.text {font-size: 11px}*/
+}

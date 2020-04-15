@@ -7,11 +7,12 @@
     <title>Test</title>   
    
     <script type="text/javascript">
-      var DomainPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface@V1.0.10/";
-      //var DomainPath = "/";
+      //var DomainPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface@V1.0.10/";
+      var DomainPath = "/";
       function loadScripts(){  
         var head = document.getElementsByTagName('head')[0];
         var Links =[
+          "CSS/Carousel.css",
           "CSS/Com.css",
           "CSS/SchoolTools.css",
           "CSS/TabTools.css"
@@ -21,7 +22,8 @@
           "Javascript/ContactForm.js",
           "Javascript/Links.js",
           "Javascript/SchoolTools.js",
-          "Javascript/ViewTools.js"
+          "Javascript/ViewTools.js",
+          "Javascript/Carousel.js"
         ]
         Links.forEach(hrf=>{
           var lnk = document.createElement("link");
@@ -35,17 +37,30 @@
         })        
       }   
       loadScripts(); 
+       
     </script>    
   </head>
 
   <body>
-    <div class="dvFindSchool" style="text-align:center">
-      <input id="ipSchool" class="SchoolTools" type="text" placeholder="Tìm trường, ngành học ..." />
-      <select id="slTuitions" class="SchoolTools"></select>
-      <select id="slCountries" class="SchoolTools"></select>
-      <select id="slStates" class="SchoolTools"></select>
-      <button id="btnFindSchool" class="SchoolTools ButtonSchoolTools" >Tìm</button>      
+    <script>   
+      document.body.onload = function(){new Carousel('Carousel1').show()};
+       
+    </script>
+    <div id="Carousel1" class="Carousels">
+      <a href="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg">
+        <img src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg" alt='Hình 1' />
+      </a>      
+      <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/tnc_69881045.jpg?crop=240,0,2400,1320&wid=4000&hei=2200&scl=0.6" alt='Hình 2'>
+      <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" alt='Hình 3'>
+      <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" alt='Hình 4'>
+      <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" alt='Hình 5'>     
     </div>
-
+  
+    <script>   
+      document.body.onload = function(){
+        Array.from(document.getElementsByClassName("Carousels")).forEach(ech => { new Carousel(ech.id).show();});
+      };
+    </script>
+  
   </body>
 </html>
