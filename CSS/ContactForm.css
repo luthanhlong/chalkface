@@ -1,13 +1,13 @@
 .ContactForms {
-    margin: auto; max-width: 320px;
+    margin: auto; max-width: 380px;
 }
 .ContactForms form{
-    max-width: 100%;
+    width: 100%;
 }
 .ContactForms form div{
     margin:10px 0px 10px 0px;
     border:none;
-    width:350px;height:auto;
+    width:100%;height:auto;
     display: flex; 
     vertical-align: -webkit-baseline-middle;    
 }
@@ -26,12 +26,12 @@
     margin-top:6px;
 }
 .ContactForms form div input{
-    width:300px;
+    width:320px;
     line-height: 25px;
     display: inline-block;
 }
 .ContactForms form div textarea{
-    width:300px;
+    width:320px;
     height:200px;
 }
 .ContactForms form button{
