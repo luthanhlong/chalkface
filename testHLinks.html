@@ -1,29 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html lang="en">
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://lipis.github.io/flag-icon-css/" />
-
-    <title>Test</title>
-
+    <title>Test</title>   
+   
     <script type="text/javascript">
+      //var DomainPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface@V1.0.10/";
       var DomainPath = "/";
-      //var DomainPath = "/";
       function loadScripts(){  
         var head = document.getElementsByTagName('head')[0];
         var Links =[
+          "CSS/Carousel.css",
           "CSS/Com.css",
-          "CSS/SchoolTools.css",
-          "CSS/TabTools.css"
+          "CSS/SchoolSearch.css",
+          "CSS/TabView.css",
+          "CSS/HLinks.css"
         ],
         Scripts = [
           "Javascript/Com.js",
           "Javascript/ContactForm.js",
-          "Javascript/Links.js",
-          "Javascript/SchoolTools.js",
-          "Javascript/ViewTools.js"
+          "Javascript/HLinks.js",
+          "Javascript/SchoolSearch.js",
+          "Javascript/TabView.js",
+          "Javascript/Carousel.js"
         ]
         Links.forEach(hrf=>{
           var lnk = document.createElement("link");
@@ -37,16 +39,18 @@
         })        
       }   
       loadScripts(); 
-    </script> 
+       
+    </script>    
   </head>
 
   <body>
-    <div class="dvFindSchool" style="text-align:center">
-      <input id="ipSchool" class="SchoolTools" type="text" placeholder="Tìm trường, ngành học ..." />
-      <select id="slTuitions" class="SchoolTools"></select>
-      <select id="slCountries" class="SchoolTools"></select>
-      <select id="slStates" class="SchoolTools"></select>
-      <button id="btnFindSchool" class="SchoolTools ButtonSchoolTools" >Tìm</button>      
-    </div>
+    
+     
+    <script>   
+      document.body.onload = function(){
+        new HLinks("dvHLinks")
+      };
+    </script>
+  
   </body>
 </html>

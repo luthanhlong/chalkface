@@ -1,21 +1,11 @@
 [
     {
-        "Tuitions":[
-            "Nhỏ hơn $10.000",
-            "$10.000 - $20.000","$10.000 - $20.000",         
-            "$20.000 - $30.000","$30.000 - $40.000", 
-            "$40.000 - $50.000",
-            "Lớn hơn $50.000"
-        ]  
-    },
-    {
         "ContactForm":{
             "Attributes":{
                 "id":"mG61Hd",
                 "name":"contactform",
                 "action":"https://docs.google.com/forms/u/0/d/e/1FAIpQLScYMS3Hl-TnHUNF9eu0_ev1PRf9HiRETZs5SFdGzWmVGEEPxg/formResponse",
                 "method":"post",
-                "onsubmit":"submitted=true;",
                 "target":"hidden_iframe"
             },
             "Children":[
@@ -85,3 +75,4 @@
         }
     }   
 ]
+

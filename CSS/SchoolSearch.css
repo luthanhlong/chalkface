@@ -1,0 +1,24 @@
+.SchoolSearches { 
+    width:100%;text-align: center;
+}
+.SchoolSearches input { 
+    width:250px;
+}
+.SchoolSearches button{
+    cursor: pointer;
+    color:#ffffff;
+    background-color:#003399; 
+    border-radius: 5px; 
+    padding:5px
+}  
+.SchoolSearches .Tools{    
+    border-radius: 5px; 
+    padding:5px;
+    margin:0px 2px 0 0;
+} 
+@media screen and (max-width: 600px){
+    .SchoolSearches .Tools{
+        display:block;       
+        margin:5px auto 5px auto;
+    }      
+}

@@ -1,27 +1,29 @@
-.Tabs-Container{
+.TabViews {
     width:100%
-  }
-  .Tab-Bar{
+}
+.TabViews .Tab-Bar{
     width:100%;
     border-collapse: collapse;
     background-color:#e6e8e6;
-  }
-  .Tab-Button:focus{outline:none}
-  .Tab-Button{
+}
+.TabViews .Tab{
+  width: 100%;
+}
+.TabViews .Tab-Name{
+  display:none;
+}
+.TabViews .Tab-Button:focus{outline:none}
+.TabViews .Tab-Button{
     background-color:#e6e8e6;
     border-collapse: collapse;  
     cursor: pointer;
     display: inline-block;
     text-align: center;
-  }
-  .Tab-Button-Active{
+}
+.TabViews .Tab-Button-Active{
     background-color:white;
     border:none;
     margin: 0 0 -2px 0;    
-  }
-  .Tab{
-    width: 100%;
-  }
-  .Tab-Name{
-    display:none;
-  }
+}
+  
+  

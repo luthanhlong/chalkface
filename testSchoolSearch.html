@@ -12,20 +12,18 @@
       var DomainPath = "/";
       function loadScripts(){  
         var head = document.getElementsByTagName('head')[0];
-        var Links =[         
+        var Links =[
+          "CSS/Carousel.css",
           "CSS/Com.css",
-          "CSS/ContactForm.css",
-          "CSS/HLinks.css",
           "CSS/SchoolSearch.css",
-          "CSS/TabView.css",          
-          "CSS/Carousel.css"
+          "CSS/TabTools.css"
         ],
         Scripts = [
           "Javascript/Com.js",
           "Javascript/ContactForm.js",
-          "Javascript/HLinks.js",
+          "Javascript/Links.js",
           "Javascript/SchoolSearch.js",
-          "Javascript/TabView.js",
+          "Javascript/ViewTools.js",
           "Javascript/Carousel.js"
         ]
         Links.forEach(hrf=>{
@@ -45,11 +43,15 @@
   </head>
 
   <body>
-    <div id="ContactForm1" class="ContactForms"></div>
-     
+    <script>   
+      document.body.onload = function(){new Carousel('Carousel1').show()};
+       
+    </script>
+      <div id="SchoolSearch1" class="SchoolSearches"></div>     
+      <div id="SchoolSearch2" class="SchoolSearches"></div> 
     <script>   
       document.body.onload = function(){
-        new ContactForm("ContactForm1")
+        Array.from(document.getElementsByClassName("SchoolSearches")).forEach(ech => {new SchoolSearch(ech.id);});
       };
     </script>
   

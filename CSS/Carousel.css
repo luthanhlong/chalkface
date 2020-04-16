@@ -1,4 +1,4 @@
-* {box-sizing:border-box}
+.Carousels *{box-sizing:border-box}
 /* Slideshow container */
 .Carousels {
   max-width: 800px;
@@ -61,7 +61,7 @@
   font-family: Arial;
   font-size: 10pt;
   text-align: center;
-  padding-top:5px;
+  padding: 0.5%; 
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;

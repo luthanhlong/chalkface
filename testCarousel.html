@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html lang="en">
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +22,7 @@
           "Javascript/Com.js",
           "Javascript/ContactForm.js",
           "Javascript/Links.js",
-          "Javascript/SchoolTools.js",
+          "Javascript/Carousel.js",
           "Javascript/ViewTools.js"
         ]
         Links.forEach(hrf=>{
@@ -40,112 +41,46 @@
   </head>
 
   <body>
-    <div class="Carousel">
-      <div class="mySlides fade">
+    <div id="Carousel1" class="Carousels">
         <a href="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg">
-          <img src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg" />
+          <img src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg" alt="Hình 1"/>
         </a>
-        <div class="caption">Caption Text</div>
-      </div>
-      
-      <div class="mySlides fade">
-        <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/tnc_69881045.jpg?crop=240,0,2400,1320&wid=4000&hei=2200&scl=0.6" >
-        <div class="caption">Caption Two</div>
-      </div>
-      
-      <div class="mySlides fade">
-        <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" >
-        <div class="caption">Caption Three</div>
-      </div>
-
-      <div class="mySlides fade">
-        <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" >
-        <div class="caption">Caption Three</div>
-      </div>
-
-      <div class="mySlides fade">
-        <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" >
-        <div class="caption">Caption Three</div>
-      </div>
-      
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      <div class="dot-bar">
-        <span class="dot" onclick="currentSlide(1)">1</span> 
-        <span class="dot" onclick="currentSlide(2)">2</span> 
-        <span class="dot" onclick="currentSlide(3)">3</span> 
-        <span class="dot" onclick="currentSlide(4)">4</span> 
-        <span class="dot" onclick="currentSlide(5)">10</span> 
-      </div>
+        <a href="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/tnc_69881045.jpg?crop=240,0,2400,1320&wid=4000&hei=2200&scl=0.6">
+          <img alt="Hình 2" src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/tnc_69881045.jpg?crop=240,0,2400,1320&wid=4000&hei=2200&scl=0.6" />
+        </a>
+        <a href="https://www.w3schools.com/howto/img_nature_wide.jpg">
+          <img alt="Hình 3"  src="https://www.w3schools.com/howto/img_nature_wide.jpg" />
+        </a>
+        <a href="https://www.w3schools.com/howto/img_snow_wide.jpg">
+          <img alt="Hình 4"  src="https://www.w3schools.com/howto/img_snow_wide.jpg" />
+        </a>
+        <a href="https://www.w3schools.com/howto/img_mountains_wide.jpg">
+        <img alt="Hình 5"  src="https://www.w3schools.com/howto/img_mountains_wide.jpg" >
+        </a>
     </div>
-
-      
-      
-      
-      <script>     
-     
-      function Carousel(DivCarouselId){
-        var dvCarousel = document.getElementById(DivCarouselId);       
-        var Imgs = dvCarousel.getElementsByTagName("img");
-        dvCarousel.innerHTML ='';
-        dvCarousel.DotBar = document.createElement("div");
-        dvCarousel.DotBar.className = "dot-bar";
-        dvCarousel.SlideIndex = 1;
-        dvCarousel.Slides = [];
-        var n=0;
-        Imgs.array(img=>{
-          n+=1;
-          var slide = new CarouselSlide(img);
-          dvCarousel.Slides.push(slide);
-          dvCarousel.appendChild(slide);
-          dvCarousel.DotBar.appendChild(new CarouselDot(showSlides(n)));
-        });
-        var aPrev = document.createElement("a"),aNext = document.createElement("a");
-        aPrev.className = "prev"; aPrev.innerHTML = "&#10094;"; aPrev.onclick =function(){plusSlides(-1)};
-        aNext.className = "next"; aNext.innerHTML = "&#10095;"; aNext.onclick = function(){plusSlides(1)};
-        dvCarousel.appendChild(aPrev);
-        dvCarousel.appendChild(aNext);
-        dvCarousel.appendChild(dvCarousel.DotBar);
-        return dvCarousel;
-      }
-      Carousel.prototype.showSlides = function(n){
-        var i, dots = this.DotBar.getElementsByClassName("dot");
-        if (n > Slides.length) {SlideIndex = 1}    
-        if (n < 1) {SlideIndex = Slides.length}
-        for (i = 0; i < Slides.length; i++) {
-            Slides[i].style.display = "none";  
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        Slides[SlideIndex-1].style.display = "block";  
-        dots[SlideIndex-1].className += " active";
-      }
-      Carousel.prototype.show = function(){
-        showSlides(SlideIndex);
-      }
-      Carousel.prototype.plusSlides = function(n){
-        showSlides(SlideIndex +=n);
-      }
-      Carousel.prototype.currentSlides = function(n){
-        showSlides(SlideIndex = n);
-      }
-      function CarouselSlide(img){
-        var dv = document.createElement("div"),
-            a = document.createElement("a"),
-            dvCap = document.createElement("div");        
-        a.href = img.src, a.appendChild(img);
-        dvCap.className = "caption"; dvCap.innerText = img.alt;
-        dv.className = "slides fade";
-        return dv;
-      }
-      function CarouselDot(clickfuction){
-        var sp = document.createElement("span");
-        sp.className = "dot";
-        sp.onclick = clickfuction;
-        return sp;
-      }     
-      </script>
+    <div id="Carousel2" class="Carousels">
+      <a href="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg">
+        <img src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg" alt="Hình 1"/>
+      </a>
+      <a href="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/tnc_69881045.jpg?crop=240,0,2400,1320&wid=4000&hei=2200&scl=0.6">
+        <img alt="Hình 2" src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/tnc_69881045.jpg?crop=240,0,2400,1320&wid=4000&hei=2200&scl=0.6" />
+      </a>
+      <a href="https://www.w3schools.com/howto/img_nature_wide.jpg">
+        <img alt="Hình 3"  src="https://www.w3schools.com/howto/img_nature_wide.jpg" />
+      </a>
+      <a href="https://www.w3schools.com/howto/img_snow_wide.jpg">
+        <img alt="Hình 4"  src="https://www.w3schools.com/howto/img_snow_wide.jpg" />
+      </a>
+      <a href="https://www.w3schools.com/howto/img_mountains_wide.jpg">
+      <img alt="Hình 5"  src="https://www.w3schools.com/howto/img_mountains_wide.jpg" >
+      </a>
+  </div>
+  <div style="width:100%;height:500px">Long</div>
+    <script>   
+      document.body.onload = function(){
+        Array.from(document.getElementsByClassName("Carousels")).forEach(ech => { new Carousel(ech.id).show();});
+      };
+    </script>
 
   </body>
 </html>

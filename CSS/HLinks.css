@@ -1,0 +1,23 @@
+.HLinks {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 35px;
+    background: #003399;
+    z-index: 1000;
+    vertical-align:middle;
+    text-align:center;
+    padding:5px 0 0 0;
+}
+.HLinks img{height:30px;width:30px;margin:0 2px 0 0;}
+.HShares{
+    position: fixed; 
+    background-color:lightgrey;
+    right:0px;left:0px;
+    vertical-align:middle;
+    text-align:center;
+    padding:0.5% 0 0 0;
+    z-index: 1001;
+}
+.HShares img{height:30px;width:30px;margin:0 2px 0 0;}
