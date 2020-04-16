@@ -4,7 +4,7 @@
 .TabViews .Tab-Bar{
     width:100%;
     border-collapse: collapse;
-    background-color:#e6e8e6;
+    background-color:#dadada;
 }
 .TabViews .Tab{
   width: 100%;
@@ -19,6 +19,8 @@
     cursor: pointer;
     display: inline-block;
     text-align: center;
+    padding:5px 5px 5px 5px;
+    font-weight: bold;
 }
 .TabViews .Tab-Button-Active{
     background-color:white;
