@@ -17,7 +17,8 @@
           "CSS/ContactForm.css",
           "CSS/HLinks.css",
           "CSS/SchoolSearch.css",
-          "CSS/TabView.css",          
+          "CSS/TabView.css", 
+          "CSS/CollapseView.css",         
           "CSS/Carousel.css"
         ],
         Scripts = [
@@ -26,6 +27,7 @@
           "Javascript/HLinks.js",
           "Javascript/SchoolSearch.js",
           "Javascript/TabView.js",
+          "Javascript/CollapseView.js",
           "Javascript/Carousel.js"
         ]
         Links.forEach(hrf=>{
@@ -37,20 +39,32 @@
           var scrpt = document.createElement("script");
           scrpt.type = "text/javascript";scrpt.src= DomainPath + src;
           head.appendChild(scrpt);
-        })        
+        })       
       }   
       loadScripts(); 
-       
     </script>    
   </head>
 
   <body>
-    <div id="ContactForm1" class="ContactForms"></div>
-     
-    <script>   
+    <h2>Animated Collapsibles</h2>
+    <div id="CollapseView1" class="CollapseViews">      
+      <div class="content" header="header1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="content" header="header2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="content" header="header3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="content" header="header4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>    
+    <script> 
       document.body.onload = function(){
-        new ContactForm("ContactForm1")
-      };
+        new CollapseView('CollapseView1');
+      }
     </script>
   
   </body>

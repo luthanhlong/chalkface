@@ -17,7 +17,8 @@
           "CSS/ContactForm.css",
           "CSS/HLinks.css",
           "CSS/SchoolSearch.css",
-          "CSS/TabView.css",          
+          "CSS/TabView.css",  
+          "CSS/CollapseView.css",        
           "CSS/Carousel.css"
         ],
         Scripts = [
@@ -26,6 +27,7 @@
           "Javascript/HLinks.js",
           "Javascript/SchoolSearch.js",
           "Javascript/TabView.js",
+          "Javascript/CollapseView.js",
           "Javascript/Carousel.js"
         ]
         Links.forEach(hrf=>{
@@ -103,7 +105,25 @@
         </div>
     </div>
     <div id="ContactForm1" class="ContactForms"></div>
-    <div style="height:400px"></div>
+    <h2>Animated Collapsibles</h2>
+    <div id="CollapseView1" class="CollapseViews">      
+      <div class="content" header="header1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="content" header="header2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="content" header="header3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="content" header="header4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="content" header="header5">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>    
+    <div style="height:500px"></div>
     <script> 
         document.body.onload = function(){
             Array.from(document.getElementsByClassName("Carousels")).forEach(ech => {
@@ -115,7 +135,9 @@
             Array.from(document.getElementsByClassName("SchoolSearches")).forEach(ech => {
                 new SchoolSearch(ech.id);}); 
             Array.from(document.getElementsByClassName("TabViews")).forEach(ech => {
-                new TabView(ech.id);});       
+                new TabView(ech.id);});
+            Array.from(document.getElementsByClassName("CollapseViews")).forEach(ech => {
+                new CollapseView(ech.id);});    
         };
     </script>
   

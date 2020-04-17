@@ -1,0 +1,30 @@
+.CollapseViews .header {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+.CollapseViews .active, .header:hover {
+    background-color: #555;
+}  
+.CollapseViews .header:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.CollapseViews .active:after {
+    content: "\2212";
+}
+.CollapseViews  .content {
+    padding: 0 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+}
