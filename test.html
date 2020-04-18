@@ -19,7 +19,8 @@
           "CSS/SchoolSearch.css",
           "CSS/TabView.css",  
           "CSS/CollapseView.css",        
-          "CSS/Carousel.css"
+          "CSS/Carousel.css",
+          "CSS/Youtube.css"
         ],
         Scripts = [
           "Javascript/Com.js",
@@ -28,7 +29,8 @@
           "Javascript/SchoolSearch.js",
           "Javascript/TabView.js",
           "Javascript/CollapseView.js",
-          "Javascript/Carousel.js"
+          "Javascript/Carousel.js",
+          "Javascript/Youtube.js"
         ]
         Links.forEach(hrf=>{
           var lnk = document.createElement("link");
@@ -73,8 +75,11 @@
         <div class="Tab" tabname="Học phí">
           <h2>Học phí</h2>
           <p>Paris is the capital of France.</p> 
+        </div>      
+        <div class="Tab" tabname="Xếp hạng">
+          <h2>Xếp hạng</h2>
+          <p>Tokyo is the capital of Japan.</p>
         </div>
-      
         <div class="Tab" tabname="Hình ảnh">
           <h2>Hình ảnh</h2>
             <div id="Carousel2" class="Carousels">
@@ -94,10 +99,12 @@
                 <img alt="Hình 5"  src="https://www.w3schools.com/howto/img_mountains_wide.jpg" >
                 </a>
             </div>  
-        </div>
-        <div class="Tab" tabname="Xếp hạng">
-          <h2>Xếp hạng</h2>
-          <p>Tokyo is the capital of Japan.</p>
+        </div>       
+        <div class="Tab" tabname="Video">
+          <h2>Videos</h2>
+          <iframe class="Youtubes" width="642" height="361" src="https://www.youtube.com/embed/yU3PgVgUU9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="Youtubes" width="642" height="361" src="https://www.youtube.com/embed/LuJKrTGKFpI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="Youtubes" width="642" height="361" src="https://www.youtube.com/embed/mTrYKWkAYgw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="Tab" tabname="Liên hệ">
           <h2>Liên hệ</h2>
@@ -137,8 +144,8 @@
             Array.from(document.getElementsByClassName("TabViews")).forEach(ech => {
                 new TabView(ech.id);});
             Array.from(document.getElementsByClassName("CollapseViews")).forEach(ech => {
-                new CollapseView(ech.id);});    
-        };
+                new CollapseView(ech.id);});
+          }
     </script>
   
   </body>

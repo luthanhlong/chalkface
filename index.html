@@ -28,7 +28,8 @@
           "Javascript/SchoolSearch.js",
           "Javascript/TabView.js",
           "Javascript/CollapseView.js",
-          "Javascript/Carousel.js"
+          "Javascript/Carousel.js",
+          "Javascript/Youtube.js"
         ]
         Links.forEach(hrf=>{
           var lnk = document.createElement("link");
@@ -46,24 +47,13 @@
   </head>
 
   <body>
-    <h2>Animated Collapsibles</h2>
-    <div id="CollapseView1" class="CollapseViews">      
-      <div class="content" header="header1">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-      <div class="content" header="header2">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-      <div class="content" header="header3">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-      <div class="content" header="header4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
+    <h2>Videos</h2>
+    <div id="Youtube1" class="Youtubes">   
+      https://www.youtube.com/embed/yU3PgVgUU9E
     </div>    
     <script> 
       document.body.onload = function(){
-        new CollapseView('CollapseView1');
+        new Youtube("Youtube1");
       }
     </script>
   

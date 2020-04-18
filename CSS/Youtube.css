@@ -1,0 +1,10 @@
+.Youtubes {
+    width: 642px;
+    height: 361px;
+}
+@media screen and (max-width: 600px){
+  .Youtubes {
+      width:360px;       
+      height:200px;
+  }      
+}

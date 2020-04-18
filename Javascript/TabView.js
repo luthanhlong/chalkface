@@ -29,7 +29,7 @@ class TabView {
         var btn = evt.currentTarget, tab = tabs[btn["tabIndex"]];
         tab.style.display = "block"; 
         btn.className +=" Tab-Button-Active"; 
-        btn.scrollIntoView();
+        btns[0].scrollIntoView();
     }  
 }
 
