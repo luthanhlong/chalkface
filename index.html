@@ -48,12 +48,17 @@
 
   <body>
     <h2>Videos</h2>
-    <div id="Youtube1" class="Youtubes">   
-      https://www.youtube.com/embed/yU3PgVgUU9E
+    <div id="Youtube1" style="text-align:center;color:white;width:350px;height:300px;background-color:blue;">   
+      <div id="txt" style="width:50%;height:50%;margin:auto;background-color: green;"></div>
     </div>    
     <script> 
       document.body.onload = function(){
-        new Youtube("Youtube1");
+        var dv = document.getElementById("Youtube1"),
+            dvTxt = document.getElementById("txt");
+        var swpe = new Swipe(dv);
+        swpe.onLeft(function(){dvTxt.innerText="left"});
+        swpe.onRight(function(){dvTxt.innerText="right"});
+        swpe.run();
       }
     </script>
   

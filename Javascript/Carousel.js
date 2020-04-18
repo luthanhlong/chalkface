@@ -28,6 +28,10 @@ class Carousel {
     this.Next.innerHTML = "&#10095;";
     this.Prev.onclick = function () { me.plusSlides(-1); };
     this.Next.onclick = function () { me.plusSlides(1); };
+    var swpe = new Swipe(dvCarousel);
+    swpe.onLeft(function(){me.plusSlides(1);});
+    swpe.onRight(function(){me.plusSlides(-1);});
+    swpe.run();
     dvCarousel.appendChild(this.Prev);
     dvCarousel.appendChild(this.Next);
     dvCarousel.appendChild(this.DotBar);
