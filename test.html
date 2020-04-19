@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:type" content="website" />
     <title>Test</title>   
-   
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
-      var DomainPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface@V1.0.18/";
-      //var DomainPath = "/";
+      //var DomainPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface@V1.0.20/";
+      var DomainPath = "/";
       function loadScripts(){  
         var head = document.getElementsByTagName('head')[0];
         var Links =[         
@@ -20,7 +20,9 @@
           "CSS/TabView.css",  
           "CSS/CollapseView.css",        
           "CSS/Carousel.css",
-          "CSS/Youtube.css"
+          "CSS/Youtube.css",
+          "CSS/WorldRank.css",
+          "CSS/RankingCriteria.css"
         ],
         Scripts = [
           "Javascript/Com.js",
@@ -30,7 +32,9 @@
           "Javascript/TabView.js",
           "Javascript/CollapseView.js",
           "Javascript/Carousel.js",
-          "Javascript/Youtube.js"
+          "Javascript/Youtube.js",
+          "Javascript/WorldRank.js",
+          "Javascript/RankingCriteria.js"
         ]
         Links.forEach(hrf=>{
           var lnk = document.createElement("link");
@@ -72,13 +76,22 @@
           <h2>Ngành học</h2>
           <p>London is the capital city of England.</p>
         </div>
-        <div class="Tab" tabname="Học phí">
+        <div class="Tab" tabname="Học phí" >
           <h2>Học phí</h2>
-          <p>Paris is the capital of France.</p> 
+          <p>Alert me</p> 
         </div>      
-        <div class="Tab" tabname="Xếp hạng">
-          <h2>Xếp hạng</h2>
-          <p>Tokyo is the capital of Japan.</p>
+        <div class="Tab" tabname="Xếp hạng" 
+          callback="function(){new WorldRank('WorldRank1');new RankingCriteria('RankingCriteria1')}"
+        >
+          <div id="WorldRank1" class="WorldRanks" 
+          data-year='[
+            ["2017", 435, "Năm:2017; Hạng: 431-440" ],
+            ["2018", 445, "Năm:2018; Hạng: 445"],
+            ["2019", 500, "Năm:2019; Hạng: 500"],  
+            ["2020", 477, "Năm:2020; Hạng: 477"]]' 
+        >
+        </div>
+          <div id="RankingCriteria1" data-rates="[24.9,14.5,25.8,15.7,24.3,100,67.8]" class="RankingCriterias"></div>
         </div>
         <div class="Tab" tabname="Hình ảnh">
           <h2>Hình ảnh</h2>
@@ -145,6 +158,10 @@
                 new TabView(ech.id);});
             Array.from(document.getElementsByClassName("CollapseViews")).forEach(ech => {
                 new CollapseView(ech.id);});
+            Array.from(document.getElementsByClassName("RankingCriterias")).forEach(ech => {
+                new RankingCriteria(ech.id);});
+            Array.from(document.getElementsByClassName("WorldRanks")).forEach(ech => {
+                new WorldRank(ech.id);});
           }
     </script>
   

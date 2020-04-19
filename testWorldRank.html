@@ -7,9 +7,8 @@
     <meta property="og:type" content="website" />
     <title>Test</title>   
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-   
     <script type="text/javascript">
-      //var DomainPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface@V1.0.10/";
+      //var DomainPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface@V1.0.20/";
       var DomainPath = "/";
       function loadScripts(){  
         var head = document.getElementsByTagName('head')[0];
@@ -21,7 +20,8 @@
           "CSS/TabView.css", 
           "CSS/CollapseView.css",         
           "CSS/Carousel.css",
-          "CSS/WorldRank.css"
+          "CSS/WorldRank.css",
+          "CSS/RankingCriteria.css"
         ],
         Scripts = [
           "Javascript/Com.js",
@@ -32,7 +32,8 @@
           "Javascript/CollapseView.js",
           "Javascript/Carousel.js",
           "Javascript/Youtube.js",
-          "Javascript/WorldRank.js"
+          "Javascript/WorldRank.js",
+          "Javascript/RankingCriteria.js"
         ]
         Links.forEach(hrf=>{
           var lnk = document.createElement("link");
@@ -50,18 +51,17 @@
   </head>
 
   <body>
+    
+       
     <div id="WorldRank1" class="WorldRanks" 
-      data-year='[
-        ["2017", 435, "Năm:2017; Hạng: 435" ],
-        ["2018", 445, "Năm:2018; Hạng: 445"],
-        ["2019", 500, "Năm:2019; Hạng: 500"],  
-        ["2020", 477, "Năm:2020; Hạng: 477"]
-      ]' 
-      
-    >
-     
+          data-year='[
+            ["2017", 435, "Năm:2017; Hạng: 431-440" ],
+            ["2018", 445, "Năm:2018; Hạng: 445"],
+            ["2019", 500, "Năm:2019; Hạng: 500"],  
+            ["2020", 477, "Năm:2020; Hạng: 477"]
+          ]'  >
     </div>
-        
+  
     <script> 
       document.body.onload = function(){        
         Array.from(document.getElementsByClassName("WorldRanks")).forEach(ech => {

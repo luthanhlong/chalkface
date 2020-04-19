@@ -27,9 +27,11 @@ class TabView {
           btns[i].className = "Tab-Button";
         } 
         var btn = evt.currentTarget, tab = tabs[btn["tabIndex"]];
-        tab.style.display = "block"; 
+        tab.style.display = "block";        
         btn.className +=" Tab-Button-Active"; 
         btns[0].scrollIntoView();
+        window.eval("var callback = " + tab.getAttribute("callback"));
+        if(callback){callback()}
     }  
 }
 

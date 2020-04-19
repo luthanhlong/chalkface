@@ -1,6 +1,6 @@
 class WorldRank {
     constructor(Id) {
-      var dv = document.getElementById(Id);
+      var dv = document.getElementById(Id);dv.innerHTML="";
       var Data = JSON.parse(dv.getAttribute('data-year')),Ticks=JSON.parse(dv.getAttribute('data-ticks'));
       google.charts.load("current", {packages:["corechart"]});
       google.charts.setOnLoadCallback(drawChart);
@@ -20,8 +20,8 @@ class WorldRank {
             0: { color: '#003399', pointShape:'circle' }
           },
           vAxis:{ 
-            title:"Hạng trên thế giới", direction:-1, gridlines: { count: 10 },
-            ticks:(Ticks)?Ticks:[1,50,100,150,200,250,300,350,400,450,500,550,600,650,700,750,800,850,900,950,1000]
+            title:"Hạng trên thế giới", direction:-1, gridlines: { count: 21 },
+            ticks:(Ticks!=undefined)?Ticks:[1,50,100,150,200,250,300,350,400,450,500,550,600,650,700,750,800,850,900,950,1000]
           },
           hAxis:{title:"Năm"}
         };

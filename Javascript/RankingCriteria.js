@@ -1,6 +1,6 @@
 class RankingCriteria {
     constructor(Id) {
-      var dv = document.getElementById(Id);
+      var dv = document.getElementById(Id);dv.innerHTML="";
       var rates = JSON.parse(dv.getAttribute("data-rates"));
       google.charts.load("current", {packages:["corechart"]});
       google.charts.setOnLoadCallback(drawChart);
@@ -24,7 +24,7 @@ class RankingCriteria {
           bar: {groupWidth: "20%"},
           legend: { position: "none" },
           hAxis:{ 
-            title:"Điểm", gridlines: { count: 10 },
+            title:"Điểm", gridlines: { count: 11 },
             ticks:[1,10,20,30,40,50,60,70,80,90,100]
           },
         };
