@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:type" content="website" />
     <title>Test</title>   
-   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
    
     <script type="text/javascript">
       //var DomainPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface@V1.0.10/";
@@ -21,8 +21,7 @@
           "CSS/TabView.css", 
           "CSS/CollapseView.css",         
           "CSS/Carousel.css",
-          "CSS/WorldRank.css",
-          "CSS/RankingCriteria.css"
+          "CSS/WorldRank.css"
         ],
         Scripts = [
           "Javascript/Com.js",
@@ -32,7 +31,8 @@
           "Javascript/TabView.js",
           "Javascript/CollapseView.js",
           "Javascript/Carousel.js",
-          "Javascript/Youtube.js"
+          "Javascript/Youtube.js",
+          "Javascript/WorldRank.js"
         ]
         Links.forEach(hrf=>{
           var lnk = document.createElement("link");
@@ -50,41 +50,23 @@
   </head>
 
   <body>
-    <div id="RankingCriteria1" data-rates="[24.9,14.5,25.8,15.7,24.3,100,67.8]" class="RankingCriterias"></div>
+    <div id="WorldRank1" class="WorldRanks" 
+      data-year='[
+        ["2017", 435, "Năm:2017; Hạng: 435" ],
+        ["2018", 445, "Năm:2018; Hạng: 445"],
+        ["2019", 500, "Năm:2019; Hạng: 500"],  
+        ["2020", 477, "Năm:2020; Hạng: 477"]
+      ]' 
+      
+    >
+     
+    </div>
         
-   
-   <script type="text/javascript">
-      var dv = document.getElementById("RankingCriteria1");
-      var rates = JSON.parse(dv.getAttribute("data-rates"));
-      google.charts.load("current", {packages:["corechart"]});
-      google.charts.setOnLoadCallback(drawChart);
-      function drawChart() {
-        var dataTable = google.visualization.arrayToDataTable([
-          ["Element", "Điểm", { role: "style" } ],
-          ["Điểm tổng thể", rates[0], "blue"],
-          ["Danh tiếng học thuật", rates[1], "green"],
-          ["Danh tiếng nhà tuyển dụng", rates[2], "lightgreen"],
-          ["Sinh viên khoa", rates[3], "brown"],
-          ["Trích dẫn khoa", rates[4], "purple"],
-          ["Khoa quốc tế", rates[5], "red"],
-          ["Sinh viên quốc tế", rates[6], "orange"],
-        ]);
-
-        var view = new google.visualization.DataView(dataTable);
-        
-        var options = {
-          title: "Tiêu chuẩn xếp hạng",
-          pointSize:10,
-          bar: {groupWidth: "20%"},
-          legend: { position: "none" },
-          hAxis:{ 
-            title:"Điểm", gridlines: { count: 10 },
-            ticks:[1,10,20,30,40,50,60,70,80,90,100]
-          },
-        };
-        var chart = new google.visualization.BarChart(dv);
-        chart.draw(view, options);
+    <script> 
+      document.body.onload = function(){        
+        Array.from(document.getElementsByClassName("WorldRanks")).forEach(ech => {
+          new WorldRank(ech.id);});
       }
-  </script>
+    </script>   
   </body>
 </html>
