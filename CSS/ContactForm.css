@@ -1,3 +1,4 @@
+
 .ContactForms {
     margin: auto; max-width: 380px;
 }
@@ -5,34 +6,28 @@
     width: 100%;
 }
 .ContactForms form div{
-    margin:10px 0px 10px 0px;
-    border:none;
-    width:100%;height:auto;
-    display: flex; 
-    vertical-align: -webkit-baseline-middle;    
+    width:100%;
+    display: flex;
+    margin:5px 0px 5px 0px;
 }
 .ContactForms form div label{
-    line-height: 25px;
     width:30px;
     background-color: #003399;
-    display: inline-block;
     text-align: center;
-    vertical-align: -webkit-baseline-middle;
+    line-height:25px;
+    margin:0;
 }
 .ContactForms form div img{
     height:16px;
     width:20px;
-    display: inline-block;
-    margin-top:6px;
 }
 .ContactForms form div input{
     width:320px;
-    line-height: 25px;
-    display: inline-block;
+    line-height:25px;margin:0;
 }
 .ContactForms form div textarea{
     width:320px;
-    height:200px;
+    height:200px;margin:0;
 }
 .ContactForms form button{
     color: #ffffff;
