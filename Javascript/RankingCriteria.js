@@ -21,7 +21,7 @@ class RankingCriteria {
         var options = {
           title: "Tiêu chuẩn xếp hạng",
           pointSize:10,
-          bar: {groupWidth: "20%"},
+          bar: {groupWidth: "30%"},
           legend: { position: "none" },
           hAxis:{ 
             title:"Điểm", gridlines: { count: 11 },

@@ -54,14 +54,19 @@
     
        
     <div id="WorldRank1" class="WorldRanks" 
-          data-year='[
+          data-year='[["2016", 12, "Năm:2016; Hạng: 12" ],
             ["2017", 435, "Năm:2017; Hạng: 431-440" ],
             ["2018", 445, "Năm:2018; Hạng: 445"],
             ["2019", 500, "Năm:2019; Hạng: 500"],  
-            ["2020", 477, "Năm:2020; Hạng: 477"]
-          ]'  >
+            ["2020", 477, "Năm:2020; Hạng: 477"]]' >
     </div>
-  
+    <div id="WorldRank2" class="WorldRanks" 
+      data-year='[["2016", 12, "Năm:2016; Hạng: 12" ],
+          ["2017", 12, "Năm:2017; Hạng: 12" ],
+          ["2018", 15, "Năm:2018; Hạng: 15"],
+          ["2019", 11, "Năm:2019; Hạng: 11"],  
+          ["2020", 11, "Năm:2020; Đồng hạng: 11"]]' >
+    </div>
     <script> 
       document.body.onload = function(){        
         Array.from(document.getElementsByClassName("WorldRanks")).forEach(ech => {

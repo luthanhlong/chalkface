@@ -78,7 +78,7 @@ class SchoolSearch {
   }
   findSchool(TextSearch,TuitionValue,CountryValue,StateValue){
     var search="/search/?q=";
-    search +=(TextSearch!="")?"label:\"" + TextSearch + "\"":"";
+    search +=(TextSearch!="")?"\"" + TextSearch + "\"":"";
     search +=(TuitionValue!="")?"+label:\"" + TuitionValue + "\"":"";
     search +=(CountryValue!="")?"+label:\"" + CountryValue + "\"":"";
     search +=(StateValue!="")?"+label:\"" + StateValue + "\"":""; 
