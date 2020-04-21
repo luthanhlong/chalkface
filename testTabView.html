@@ -12,19 +12,29 @@
       var DomainPath = "/";
       function loadScripts(){  
         var head = document.getElementsByTagName('head')[0];
-        var Links =[
-          "CSS/Carousel.css",
+        var Links =[         
           "CSS/Com.css",
+          "CSS/ContactForm.css",
+          "CSS/HLinks.css",
           "CSS/SchoolSearch.css",
-          "CSS/TabView.css"
+          "CSS/TabView.css",  
+          "CSS/CollapseView.css",        
+          "CSS/Carousel.css",
+          "CSS/Youtube.css",
+          "CSS/WorldRank.css",
+          "CSS/RankingCriteria.css"
         ],
         Scripts = [
           "Javascript/Com.js",
           "Javascript/ContactForm.js",
-          "Javascript/Links.js",
+          "Javascript/HLinks.js",
           "Javascript/SchoolSearch.js",
           "Javascript/TabView.js",
-          "Javascript/Carousel.js"
+          "Javascript/CollapseView.js",
+          "Javascript/Carousel.js",
+          "Javascript/Youtube.js",
+          "Javascript/WorldRank.js",
+          "Javascript/RankingCriteria.js"
         ]
         Links.forEach(hrf=>{
           var lnk = document.createElement("link");
@@ -44,55 +54,67 @@
 
   <body>
     <div id="tabview1" class="TabViews">
-        <div class="Tab" tabname="Ngành học">
-          <h2>Ngành học</h2>
-          <p>London is the capital city of England.</p>
+        <div class="Tab" tabname="NGÀNH HỌC">
+          Ngành học:
+            Kế toán và kinh doanh
+            Nghệ thuật, Thiết kế & Truyền thông
+            Nghiên cứu truyền thông
+            Giáo dục
+            Kỹ thuật
+            Nhân văn
+            Y học
+            Khoa học
+            Khoa học xã hội
+            Khoa học thể thao
+          Chương trình NTU theo loại:
+            Chương trình bằng kép
+            Chương trình đôi chính
+            Chương trình học giả hàng đầu
+            Chương trình đặc biệt
+            Chương trình nghiên cứu đại học
+            Chương trình bán thời gian
         </div>
-        <div class="Tab" tabname="Học phí">
-          <h2>Học phí</h2>
-          <p>Paris is the capital of France.</p> 
+        <div class="Tab" tabname="HỌC PHÍ">
+          Học phí - Chương trình toàn thời gian
+Được chấp nhận chương trình phục vụ vào năm 2020
+NTU sẽ đóng băng học phí đối với công dân Singapore nhận vào chương trình đại học được chính phủ trợ cấp trong AY2020. Điều này sẽ giúp giảm thiểu tác động của chi phí đối với các hộ gia đình Singapore trong những thời điểm khó khăn này.
+Đối với đầu vào đại học AY2020, sinh viên Singapore sẽ trả học phí AY2019 trong suốt thời gian khóa học của họ.
+Việc đóng băng học phí cho AY2020 không áp dụng cho các khoản phí phải trả của Thường trú nhân Singapore (PR) và sinh viên quốc tế (IS). 
         </div>
       
-        <div class="Tab" tabname="Hình ảnh">
+        <div class="Tab" tabname="HÌNH ẢNH">
           <h2>Hình ảnh</h2>
           <p>Tokyo is the capital of Japan.</p>
         </div>
-        <div class="Tab" tabname="Xếp hạng">
+        <div class="Tab" tabname="XẾP HẠNG">
           <h2>Xếp hạng</h2>
           <p>Tokyo is the capital of Japan.</p>
         </div>
-        <div class="Tab" tabname="Liên hệ">
+        <div class="Tab" tabname="LIÊN HỆ">
           <h2>Liên hệ</h2>
           <p>Tokyo is the capital of Japan.</p>
         </div>
     </div>
-    <div id="tabview2" class="TabViews">
-      <div class="Tab" tabname="Ngành học">
-        <h2>Ngành học</h2>
-        <p>London is the capital city of England.</p>
-      </div>
-      <div class="Tab" tabname="Học phí">
-        <h2>Học phí</h2>
-        <p>Paris is the capital of France.</p> 
-      </div>
     
-      <div class="Tab" tabname="Hình ảnh">
-        <h2>Hình ảnh</h2>
-        <p>Tokyo is the capital of Japan.</p>
-      </div>
-      <div class="Tab" tabname="Xếp hạng">
-        <h2>Xếp hạng</h2>
-        <p>Tokyo is the capital of Japan.</p>
-      </div>
-      <div class="Tab" tabname="Liên hệ">
-        <h2>Liên hệ</h2>
-        <p>Tokyo is the capital of Japan.</p>
-      </div>
-  </div>
     <script>   
       document.body.onload = function(){
-        Array.from(document.getElementsByClassName("TabViews")).forEach(ech => { new TabView(ech.id);});
-      };
+        Array.from(document.getElementsByClassName("Carousels")).forEach(ech => {
+            new Carousel(ech.id).show();});
+        Array.from(document.getElementsByClassName("ContactForms")).forEach(ech => {
+            new ContactForm(ech.id);});
+        // initialize HLinks
+        new HLinks("dvHLinks");
+        Array.from(document.getElementsByClassName("SchoolSearches")).forEach(ech => {
+            new SchoolSearch(ech.id);}); 
+        Array.from(document.getElementsByClassName("TabViews")).forEach(ech => {
+            new TabView(ech.id);});
+        Array.from(document.getElementsByClassName("CollapseViews")).forEach(ech => {
+            new CollapseView(ech.id);});
+        Array.from(document.getElementsByClassName("RankingCriterias")).forEach(ech => {
+            new RankingCriteria(ech.id);});
+        Array.from(document.getElementsByClassName("WorldRanks")).forEach(ech => {
+            new WorldRank(ech.id);});
+      }      
     </script>
   
   </body>

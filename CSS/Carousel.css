@@ -50,7 +50,6 @@
 /* The dots/bullets/indicators */
 .Carousels .dot-bar{
   width:100%;
-  margin-top:5px;
   text-align: center;
 }
 .Carousels .dot {
