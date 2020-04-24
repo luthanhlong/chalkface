@@ -18,6 +18,13 @@ class TabView {
           this.buttons.push(btn);
           dvBar.appendChild(btn);
       } 
+      var imgScroll = document.createElement("img");
+      imgScroll.className = "ScrollToBar";
+      imgScroll.src = DomainPath + "images/icons/Com/ScrollTo.png";
+      imgScroll.onclick = function() {
+        me.buttons[0].scrollIntoView();
+      }
+      dv.appendChild(imgScroll);
     }
     openTab(evt) {
         var tabs = this.tabs,

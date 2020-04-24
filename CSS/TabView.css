@@ -27,5 +27,8 @@
     border:none;
     margin: 0 0 -2px 0;    
 }
-  
-  
+.TabViews .ScrollToBar{
+  margin-left:50%;
+  width:30px;height:30px;
+  cursor: pointer;
+}  

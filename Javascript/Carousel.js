@@ -11,7 +11,7 @@ class Carousel {
     var n = 0;
     var me = this;
     Imgs.forEach(img => {
-      n += 1;
+      n += 1; img.alt = (img.alt)?img.alt:`Hình ${n}`;
       var slide = me.CarouselSlide(img);
       this.Slides.push(slide);
       dvCarousel.appendChild(slide);

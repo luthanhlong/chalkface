@@ -46,10 +46,44 @@
       }   
       loadScripts(); 
     </script>    
+    <style>
+      .wrap {
+          position: relative;
+          width:50%;
+          margin:50px auto;
+          background:red;
+      }
+      .item {
+          position: absolute;
+          top:50%;
+          left:0; /*now it is in relation to parent*/
+          background: lightblue;
+      }
+      p {margin:100px 0;}
+    </style>
   </head>
 
   <body>
-       
+    
+
+<div class="wrap">
+    <div class="item">absolute child</div>
+    <p>Scrolling text</p>
+    <p>Scrolling text</p>
+    <p>Scrolling text</p>
+    <p>Scrolling text</p>
+    <p>Scrolling text</p>
+</div>
+
+<div class="wrap">
+    <p>Scrolling text</p>
+    <p>Scrolling text</p>
+    <p>Scrolling text</p>
+    <p>Scrolling text</p>
+    <p>Scrolling text</p>
+</div>
+
+
   <button onclick='alertMe()' >Click</button>
   <div id="dv" callback="function(){alert('long')}" ></div>
    <script type="text/javascript">
