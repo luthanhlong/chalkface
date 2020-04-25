@@ -46,7 +46,7 @@ class SchoolSearch {
     btnSearch.innerText = "Tìm";
     btnSearch.addEventListener("click",
     function(){
-      me.findSchool(ipSchool.value,slTuitions.value,slCountries.options[slCountries.selectedIndex].text,slStates.value);
+      me.findSchool(ipSchool.value,slTuitions.value,(slCountries.selectedIndex==0)?"":slCountries.options[slCountries.selectedIndex].text,slStates.value);
     });    
     dvSchoolSearch.appendChild(ipSchool);
     dvSchoolSearch.appendChild(slTuitions);
