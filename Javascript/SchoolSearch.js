@@ -34,20 +34,19 @@ class SchoolSearch {
             for (var key in Country) {
                   if (Country.hasOwnProperty(key)) { 
                     var opt = document.createElement("option");
-                    opt.value = Country[key].name;
-                    opt.innerText = Country[key].name; 
+                    opt.value = Country[key].alpha2;
+                    opt.innerText = Country[key].vi; 
                     slCountries.add(opt,i+1) ;                        
                   }
               }
           }
       }
       slCountries.addEventListener("change",function(){me.updateStates(dCountries,this.value,slStates)});
-
     })
     btnSearch.innerText = "Tìm";
     btnSearch.addEventListener("click",
     function(){
-      me.findSchool(ipSchool.value,slTuitions.value,slCountries.value,slStates.value);
+      me.findSchool(ipSchool.value,slTuitions.value,slCountries.options[slCountries.selectedIndex].text,slStates.value);
     });    
     dvSchoolSearch.appendChild(ipSchool);
     dvSchoolSearch.appendChild(slTuitions);
@@ -63,7 +62,7 @@ class SchoolSearch {
         if(typeof Country === 'object'){
               for (var key in Country) {
                     if (Country.hasOwnProperty(key)) { 
-                      if(CountryValue===Country[key].name){
+                      if(CountryValue===Country[key].alpha2){
                           Country[key].states.forEach(state => {
                           var opt = document.createElement("option");
                           opt.value = state;

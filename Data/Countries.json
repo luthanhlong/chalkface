@@ -577,9 +577,10 @@
             "alpha3": "KOR",
             "numeric": "410",
             "flagPath": "",
-            "states": [ "North Chungcheong","South Chungcheong","Gangwon","Gyeonggi",
-                "North Gyeongsang","South Gyeongsang","North Jeolla","South Jeolla",
-                "Jeju"
+            "states": ["Busan","Changwon Daegu","Daejeon","Gangwon-do","Goyang","Gwangju",
+                "Gyeonggi-do","Incheon","Jeju-do","North Chungcheong","North Gyeongsang",
+                "North Jeolla","Sejong","Seoul","South Chungcheong","South Gyeongsang",
+                "South Jeolla","Suwon","Ulsan","Yongin"      
             ]
         }
     },

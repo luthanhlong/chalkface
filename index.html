@@ -45,52 +45,28 @@
         })       
       }   
       loadScripts(); 
-    </script>    
-    <style>
-      .wrap {
-          position: relative;
-          width:50%;
-          margin:50px auto;
-          background:red;
-      }
-      .item {
-          position: absolute;
-          top:50%;
-          left:0; /*now it is in relation to parent*/
-          background: lightblue;
-      }
-      p {margin:100px 0;}
-    </style>
+    </script>   
+   
   </head>
 
   <body>
     
+    <select id="sl1">
+      <option value=0>Không</option>
+      <option value=1>Một</option>
+      <option value=2>Hai</option>
+      <option value=3>Ba</option>
+      <option value=4>Bốn</option>
+      <option value=5>Năm</option>
+    </select>
 
-<div class="wrap">
-    <div class="item">absolute child</div>
-    <p>Scrolling text</p>
-    <p>Scrolling text</p>
-    <p>Scrolling text</p>
-    <p>Scrolling text</p>
-    <p>Scrolling text</p>
-</div>
-
-<div class="wrap">
-    <p>Scrolling text</p>
-    <p>Scrolling text</p>
-    <p>Scrolling text</p>
-    <p>Scrolling text</p>
-    <p>Scrolling text</p>
-</div>
 
 
   <button onclick='alertMe()' >Click</button>
-  <div id="dv" callback="function(){alert('long')}" ></div>
    <script type="text/javascript">
     function alertMe(){
-      str = document.getElementById("dv").getAttribute("callback");
-      window.eval("var callback = " + str);alert(callback);
-      if(callback){callback()};
+      var sl = document.getElementById("sl1");
+      alert(sl.options[sl.selectedIndex].text);
     }
   </script>
   

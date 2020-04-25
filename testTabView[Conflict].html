@@ -50,38 +50,47 @@
   </head>
 
   <body>
-    <div class="TabViews" id="tabview1">
-      <div class="Tab" tabname="NGÀNH HỌC">
-        <div id="CollapseView1" class="CollapseViews">
-        <div class="content" header="A. CHƯƠNG TRÌNH ĐẠI HỌC">
-        </div>
-        <div class="content" header="B. CHƯƠNG TRÌNH SAU ĐẠI HỌC">
-        </div>
+    <div id="tabview1" class="TabViews">
+      <div class="Tab" tabname="Ngành học">
+        <div id="CollapseView1" class="CollapseViews">      
+          <div class="content" header="A. CHƯƠNG TRÌNH ĐẠI HỌC"></div>
+          <div class="content" header="B. CHƯƠNG TRÌNH SAU ĐẠI HỌC"></div>
         </div>
       </div>
-      <div class="Tab" tabname="HỌC PHÍ"></div>
-      <div class="Tab" tabname="XẾP HẠNG" callback="function(){new WorldRank('WorldRank1');new RankingCriteria('RankingCriteria1')}">
-        (Nguồn: QS ranking, xin vui lòng click vào điểm trên đường biễu diễn để xem số liệu chi tiết)
-        <br />
-        <div id="WorldRank1" class="WorldRanks" 
-        data-year='[["2016", 12, "Năm:2016; Hạng: 12" ],
-          ["2017", 435, "Năm:2017; Hạng: 431-440" ],
-          ["2018", 445, "Năm:2018; Hạng: 445"],
-          ["2019", 500, "Năm:2019; Hạng: 500"],  
-          ["2020", 477, "Năm:2020; Hạng: 477"]]' >
-        </div>
-        <div id="RankingCriteria1" data-rates="[24.9,14.5,25.8,15.7,24.3,100,67.8]" class="RankingCriterias"></div>
-      </div>      
-      <div class="Tab" tabname="HÌNH ẢNH">
-        <div class="Carousels" id="Carousel2"></div>      
-      </div>
-      <div class="Tab" tabname="VIDEO">
-        
-      </div>
-      <div class="Tab" tabname="LIÊN HỆ">
+      <div class="Tab" tabname="Học phí">
 
       </div>
+      <div class="Tab" tabname="Xếp hạng" callback="function(){new WorldRank('WorldRank1');new RankingCriteria('RankingCriteria1')}">
+        <div id="WorldRank1" class="WorldRanks" 
+             data-year='[["2016", 56, "Năm:2016; Hạng: 56" ],
+                  ["2017", 56, "Năm:2017; Hạng: 56" ],
+                  ["2018", 56, "Năm:2018; Hạng: 56"],
+                  ["2019", 58, "Năm:2019; Hạng: 58"],  
+                  ["2020", 58, "Năm:2020; Hạng: =58"]]' ></div>
+        <div id="RankingCriteria1" data-rates="[70.9,74.5,82.7,86.2,61.3,30.7,31.3]" class="RankingCriterias"></div>
+       
+      </div>
+      <div class="Tab" tabname="Hình ảnh">
+        <div class="Carousels" id="Carousel1">
+        </div>
+      </div>
+      <div class="Tab" tabname="Video">
+         <iframe class="Youtubes" width="642" height="361" src="https://www.youtube.com/embed/hKelaFI5-og" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+         <iframe class="Youtubes" width="642" height="361" src="https://www.youtube.com/embed/fk_ySPG42WM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe class="Youtubes" width="642" height="361" src="https://www.youtube.com/embed/nVTZrKUaxfI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe class="Youtubes" width="642" height="361" src="https://www.youtube.com/embed/ELB3SxzLsD4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe class="Youtubes" width="642" height="361" src="https://www.youtube.com/embed/i-yIKBjW3BQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      
+      <div class="Tab" tabname="Liên hệ">
+      <h4>NUS Business School</h4>
+      Địa chỉ: 15 Kent Ridge Drive Singapore 119245<br/>
+      Điện thoại: +65 6516-3106<br/>
+      Bản đồ: <a href="https://www.google.com/maps/place/Mochtar+Riady+Building+-+NUS+Business+School/@1.2924153,103.7718081,17z/data=!3m1!4b1!4m5!3m4!1s0x31da1aff72f6d14b:0xb645c1959cf1dc9d!8m2!3d1.2924099!4d103.7739968?shorturl=1">google map</a><br/>
+      Website: https://bschool.nus.edu.sg/
+      </div>    
     </div>
+  <div style="height:100px"></div>
     <script>   
       document.body.onload = function(){
         Array.from(document.getElementsByClassName("Carousels")).forEach(ech => {
