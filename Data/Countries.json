@@ -776,7 +776,10 @@
             "alpha3": "TWN",
             "numeric": "158",
             "flagPath": "",
-            "states": ["Taipei","Taiwan","Tainan","Taitung"]
+            "states": ["Changhua","Chiayi", "Hsinchu", "Hualien","Kaohsiung", 
+                "Keelung", "Kinmen","Lienchiang","Miaoli","Nantou","New Taipei", 
+                "Taipei","Penghu","Pingtung","Taichung","Tainan","Taitung","Taoyuan","Yilan","Yunlin"
+            ]
         }
     },
     {
