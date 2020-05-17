@@ -2,8 +2,8 @@
 <!DOCTYPE html>
 <html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
   <head>
+    
     <title>Test</title>   
-   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
    
     <script type="text/javascript">
       //var DomainPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface@V1.0.10/";
@@ -13,25 +13,20 @@
         var Links =[         
           "CSS/Com.css",
           "CSS/ContactForm.css",
+          "CSS/AppointmentForm.css",
           "CSS/HLinks.css",
           "CSS/SchoolSearch.css",
-          "CSS/TabView.css", 
-          "CSS/CollapseView.css",         
-          "CSS/Carousel.css",
-          "CSS/WorldRank.css",
-          "CSS/RankingCriteria.css"
+          "CSS/TabView.css",          
+          "CSS/Carousel.css"
         ],
         Scripts = [
           "Javascript/Com.js",
           "Javascript/ContactForm.js",
+          "Javascript/AppointmentForm.js",
           "Javascript/HLinks.js",
           "Javascript/SchoolSearch.js",
           "Javascript/TabView.js",
-          "Javascript/CollapseView.js",
-          "Javascript/Carousel.js",
-          "Javascript/Youtube.js",
-          "Javascript/WorldRank.js",
-          "Javascript/RankingCriteria.js"
+          "Javascript/Carousel.js"
         ]
         Links.forEach(hrf=>{
           var lnk = document.createElement("link");
@@ -42,38 +37,22 @@
           var scrpt = document.createElement("script");
           scrpt.type = "text/javascript";scrpt.src= DomainPath + src;
           head.appendChild(scrpt);
-        })       
+        })        
       }   
       loadScripts(); 
-    </script>   
-   
+       
+    </script>    
   </head>
 
   <body>
-    
-    <select id="sl1">    
-    </select>
-
-   <script type="text/javascript">    
-    
-    window.onload = function(){
-      var sl = document.getElementById("sl1");      
-      var dayName="mon";
-      var startDate = new Date();
-      var endDate = new Date().setMonth(startDate.getMonth() + 1); 
-      var dates = getDaysBetweenDates(new Date(), endDate, dayName);
-      dates.forEach(ech=>{
-        var opt = document.createElement("option"); 
-        var iDay = ech.getDate(), iMonth = ech.getMonth() + 1, iYear = ech.getFullYear();
-        var sDate = (iDay<10? ("0"+ iDay):iDay) 
-                  + "-" + (iMonth<10?("0" + iMonth):iMonth) 
-                  + "-" + ech.getFullYear();
-        opt.value = sDate
-        opt.innerText = sDate;
-        sl.add(opt);
-      })
-    }
-  </script>
+    <div id="AppointmentForm1" class="AppointmentForms"></div>
+     
+    <script>   
+     document.body.onload = function(){            
+            Array.from(document.getElementsByClassName("AppointmentForms")).forEach(ech => {                
+                new AppointmentForm(ech.id);});
+          }
+    </script>
   
   </body>
 </html>

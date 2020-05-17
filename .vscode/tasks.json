@@ -12,7 +12,7 @@
             "label": "echo",
             "type": "shell",
             "command": "echo Hello"
-        }
+        },
         {
             "label": "watch",
             "command": "${workspaceFolder}/node_modules/.bin/babel",

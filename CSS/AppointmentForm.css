@@ -1,0 +1,39 @@
+.AppointmentForms {
+    margin: auto; max-width: 380px;
+}
+.AppointmentForms form{
+    width: 100%;
+}
+.AppointmentForms form div{
+    width:100%;
+    display: flex;
+    margin:5px 0px 5px 0px;
+}
+.AppointmentForms form div label{
+    width:30px;
+    background-color: #003399;
+    text-align: center;
+    margin:0;
+}
+.AppointmentForms form div img{
+    height:16px;
+    width:20px;
+    margin-top:9.5px;
+}
+.AppointmentForms form div input{
+    width:320px;
+    height:35px;margin:0;
+}
+.AppointmentForms form div textarea{
+    width:320px;
+    height:200px;margin:0;
+}
+.AppointmentForms form button{
+    color: #ffffff;
+    background-color: #003399;
+    border-radius: 10px;
+    padding:5px;
+    line-height: 25px;
+    cursor: pointer;
+    width:50px;
+}

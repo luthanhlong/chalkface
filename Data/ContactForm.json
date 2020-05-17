@@ -73,6 +73,81 @@
                 "style":"display:none;"
             }
         }
-    }   
+    },
+    {
+        "AppointmentForm":{
+            "Attributes":{
+                "id":"mG61Hd",
+                "name":"AppointmentForm",
+                "action":"https://docs.google.com/forms/d/e/1FAIpQLSeaQHSHNT_puu8J91AWwGt3dLjxo_g3LvsGP_LBXY_EDXJpTA/formResponse",
+                "method":"post",
+                "target":"hidden_iframe"
+            },
+            "Children":[
+                {
+                    "Label":"Họ tên", 
+                    "ImageLabel":"images/icons/ContactForm/FullName.png",
+                    "InputName":"entry.2005620554",
+                    "InputType":"text",
+                    "InputPlaceholder":"Nhập họ tên",
+                    "InputPattern":"",
+                    "InputRequired":"*",
+                    "Type":"FullName"                    
+                },
+                {
+                    "Label":"Điện thoại", 
+                    "ImageLabel":"images/icons/ContactForm/Phone.png",
+                    "InputName":"entry.1166974658",
+                    "InputType":"text",
+                    "InputPlaceholder":"Nhập số điện thoại",
+                    "InputPattern":"[0-9]{10,11}",
+                    "InputRequired":"*",
+                    "Type":"Phone"                     
+                },
+                {
+                    "Label":"Email", 
+                    "ImageLabel":"images/icons/ContactForm/Email.png",
+                    "InputName":"entry.1045781291",
+                    "InputType":"text",
+                    "InputPlaceholder":"Nhập email",
+                    "InputPattern":"[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}",
+                    "InputRequired":"*",
+                    "Type":"Email"                    
+                },
+                {
+                    "Label":"Date", 
+                    "ImageLabel":"images/icons/ContactForm/Date.png",
+                    "InputName":"entry.839337160",
+                    "InputType":"text",
+                    "InputPlaceholder":"Chọn ngày",
+                    "InputPattern":"",
+                    "InputRequired":"*",
+                    "Type":"Date"                      
+                },
+                {
+                    "Label":"Nội dung", 
+                    "ImageLabel":"images/icons/ContactForm/Content.png",
+                    "InputName":"entry.704268403",
+                    "InputType":"text",
+                    "InputPlaceholder":"Nhập nội dung",
+                    "InputPattern":"",
+                    "InputRequired":"*",
+                    "Type":"Content"                      
+                }
+            ],
+            "MsgAttributes":{
+                "id":"mG61HdMSG",
+                "name":"mG61HdMSG",
+                "class":"Message",
+                "style":"display:none",
+                "innerHTML":"Cảm ơn bạn đã liên hệ với chúng tôi! Chúng tôi sẽ phản hồi yêu cầu của bạn sớm nhất"
+            },
+            "IframeAttributes":{
+                "name":"hidden_iframe",
+                "id":"hidden_iframe",
+                "style":"display:none;"
+            }
+        }
+    }    
 ]
 
