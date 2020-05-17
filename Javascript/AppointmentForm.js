@@ -41,7 +41,6 @@ class AppointmentForm {
               input = sl;         
               input['name']=child.InputName;              
               input['required']=child.InputRequired;
-              //input.style.visibility = "hidden";
               break;
             case "Content":
               input = document.createElement('textarea');

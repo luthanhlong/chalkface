@@ -64,7 +64,7 @@
                 "id":"mG61HdMSG",
                 "name":"mG61HdMSG",
                 "class":"Message",
-                "style":"display:none",
+                "style":"display:none;font-style:italic",
                 "innerHTML":"Cảm ơn bạn đã liên hệ với chúng tôi! Chúng tôi sẽ phản hồi yêu cầu của bạn sớm nhất"
             },
             "IframeAttributes":{
@@ -139,8 +139,8 @@
                 "id":"mG61HdMSG",
                 "name":"mG61HdMSG",
                 "class":"Message",
-                "style":"display:none",
-                "innerHTML":"Cảm ơn bạn đã liên hệ với chúng tôi! Chúng tôi sẽ phản hồi yêu cầu của bạn sớm nhất"
+                "style":"display:none;font-style: italic",
+                "innerHTML":"Cảm ơn bạn đã đăng ký tham gia buổi vấn đáp! Xin vui lòng tham dự đúng giờ."
             },
             "IframeAttributes":{
                 "name":"hidden_iframe",
