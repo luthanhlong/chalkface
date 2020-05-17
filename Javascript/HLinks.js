@@ -13,7 +13,7 @@ class HLinks {
       ["Viber.png","viber://chat/?number=%2B84908965657"],
       ["Zalo.png","https://zalo.me/0908965657"],
       ["Email.png","mailto:info@chalkface.vn"],
-      ["QA.png","https://www.facebook.com/groups/chalkfacevisa"],
+      ["QA.png","/p/dang-ky-hoi-dap.html"],
       ["GoogleMap.png","https://www.google.com/maps/place/Chalkface/@10.8548994,106.648419,17z/data=!3m1!4b1!4m5!3m4!1s0x317529c59d32372d:0x373d5f3f042d20f2!8m2!3d10.8548941!4d106.6506077?hl=vi-VN"],
       ["ContactForm.png","/p/contact-us.html"],
       ["Share.png","javascript:openBox('" + dvHShares.id + "',true)"]
