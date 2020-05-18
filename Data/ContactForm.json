@@ -125,11 +125,11 @@
                     "Type":"Date"                      
                 },
                 {
-                    "Label":"Nội dung", 
+                    "Label":"Nội dung quan tâm", 
                     "ImageLabel":"images/icons/ContactForm/Content.png",
                     "InputName":"entry.704268403",
                     "InputType":"text",
-                    "InputPlaceholder":"Nhập nội dung",
+                    "InputPlaceholder":"Bạn quan tâm đến điều gì?",
                     "InputPattern":"",
                     "InputRequired":"*",
                     "Type":"Content"                      
