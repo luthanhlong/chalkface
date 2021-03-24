@@ -8,15 +8,15 @@ class HLinks {
     dvHShares.id = Id + "dvHShares";dvHShares.className="HShares";
     dvHShares.style.display = 'none'; 
     this.DataHLinks =[
-      ["Phone.png","tel:0908965657"],
-      ["Messenger.png","http://m.me/chalkface.vn"],
-      ["Viber.png","viber://chat/?number=%2B84908965657"],
-      ["Zalo.png","https://zalo.me/0908965657"],
-      ["Email.png","mailto:info@chalkface.vn"],
-      ["QA.png","/p/dang-ky-hoi-dap.html"],
-      ["GoogleMap.png","https://goo.gl/maps/rg5czKUbKQNHn13Q6"],
-      ["ContactForm.png","/p/contact-us.html"],
-      ["Share.png","javascript:openBox('" + dvHShares.id + "',true)"]
+      ["Phone.png","tel:0908965657", "Gọi điện thoại"],
+      ["Messenger.png","http://m.me/chalkface.vn", "Gửi tin nhắn qua facebook"],
+      ["Viber.png","viber://chat/?number=%2B84908965657", "Gọi điện bằng Viber"],
+      ["Zalo.png","https://zalo.me/0908965657","Gọi điện bằng Zalo"],
+      ["Email.png","mailto:info@chalkface.vn","Gửi email"],
+      ["QA.png","/p/dang-ky-hoi-dap.html", "Đăng ký tham giam buổi vấn đáp"],
+      ["GoogleMap.png","https://goo.gl/maps/rg5czKUbKQNHn13Q6", "Địa chỉ trung tâm"],
+      ["ContactForm.png","/p/contact-us.html", "Liên hệ"],
+      ["Share.png","javascript:openBox('" + dvHShares.id + "',true)", "Chia sẽ"]
     ];
     this.DataHShares = [
       ["CopyLink.png", "javascript:copyUrltoClipboard()"],
@@ -29,7 +29,7 @@ class HLinks {
     var me = this;
     this.DataHLinks.forEach(ech=>{
       var a = document.createElement("a"),img = document.createElement("img");
-      img.src = HLsrc + ech[0]; a.href = ech[1];a.appendChild(img);
+      img.src = HLsrc + ech[0]; a.href = ech[1]; img.alt=ech[2]; img.title=ech[2]; a.appendChild(img);
       dv.appendChild(a);
     });
     this.DataHShares.forEach(ech=>{

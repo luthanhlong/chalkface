@@ -118,3 +118,76 @@ class Swipe {
         }.bind(this), false);
     }
 }
+class CheckboxList {
+    constructor (Id, Label, Items, OtherItem){
+      var dv = document.createElement("div"), dvlbl = document.createElement("span");
+      dv.id = "dv" + Id;     
+      dvlbl.innerText = Label; dv.appendChild(dvlbl); dv.appendChild(document.createElement("br"));
+      Items.forEach(elem => {
+        var cb = document.createElement("input"), lbl=document.createElement("span");
+        cb["type"] = "checkbox";cb["value"]=elem; cb.className = "checkbox"; lbl.innerText = elem;
+        cb.onchange = function(event){dv.setValue();}   
+        var dvItem = document.createElement("div"); dvItem.className = "item";          
+        dvItem.appendChild(cb);   
+        dvItem.appendChild(lbl); 
+        dv.appendChild(dvItem);          
+        dv.appendChild(document.createElement("br"));
+      });
+      if(OtherItem){
+        var cb = document.createElement("input"), ipTxt = document.createElement("input");
+        cb["type"] = "checkbox";cb["value"]=""; cb.className = "checkbox";
+        ipTxt["type"]="text"; ipTxt.className = "text";
+        ipTxt.disabled = true; ipTxt["placeholder"]= OtherItem;
+        ipTxt.onchange = function(event){
+            var me = event.target;
+            if(me.value!=""){
+                cb.value= OtherItem + ": " + me.value;
+            }
+            else{
+                cb.value = "";
+                cb.checked = false;
+                me.disabled = true;
+            }          
+            dv.setValue();
+        }        
+        cb.onchange = function(event){
+            var me = event.target;  
+            if(me.checked){
+                ipTxt.disabled = false;
+                ipTxt.focus();
+            }
+            else{
+                ipTxt.disabled = true;
+                ipTxt.value = "";
+                cb.value="";
+            }            
+            dv.setValue();
+        }       
+        var dvItem = document.createElement("div"); dvItem.className = "item";          
+        dvItem.appendChild(cb);   
+        dvItem.appendChild(ipTxt); 
+        dv.appendChild(dvItem);       
+        dv.appendChild(document.createElement("br"));
+      }
+      var inptValue = document.createElement("input");
+      inptValue["type"]="hidden";
+      inptValue["name"] = Id;
+      dv.inputValue = inptValue;      
+      dv.appendChild(inptValue); 
+      dv.setValue = function(){
+        var dValue = new Array();
+        var elems = this.getElementsByTagName("input");
+        for (var i=0;i<elems.length;i++){
+          var ech = elems[i]; 
+          if(ech.type=="checkbox" && ech.checked==true && ech.value!=""){
+            dValue.push(ech.value);
+          }
+        }
+        this.inputValue.value = dValue;
+      } 
+      dv.getValue = function(){return this.inputValue.value;} ;  
+      dv.className = "CheckBoxList";      
+      return dv;
+    }
+}
+

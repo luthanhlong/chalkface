@@ -45,30 +45,13 @@
   </head>
 
   <body>
-    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd64xxGWcs5MfVRClHYFfImtVWukRSMUVy6IGb1IgQLKq0Xmw/formResponse" 
-    target="ifrm" method="POST" id="mG61Hd" 
-    >
-  
-      <div>
-        <label>Câu 1</label>
-        <input type="text" name="entry.369082691" placeholder="Field 1" required/>
-      </div>    
-      
-      
-      <div>
-        <label>Câu 2</label>
-        <select name="entry.318822533" placeholder="Field 2" required>
-          <option>chọn</option>
-          <option> option 1</option>
-          <option> option 2</option>
-        </select>     
-      </div>
-    
-      <div>
-        <button type="submit" id="submit-form">Submit</button>
-      </div>    
-    </form>
-    <iframe id="ifrm" name="ifrm"></iframe>
+    <div id="EngSignUpForm1" class="EngSignUpForms"></div>
+     
+    <script>   
+      document.body.onload = function(){
+        new EngSignUpForm("EngSignUpForm1")
+      };
+    </script>
   
   </body>
 </html>

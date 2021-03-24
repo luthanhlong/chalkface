@@ -74,7 +74,7 @@
             }
         }
     },
-    {
+    { 
         "AppointmentForm":{
             "Attributes":{
                 "id":"mG61Hd",
@@ -141,6 +141,115 @@
                 "class":"Message",
                 "style":"display:none;font-style: italic",
                 "innerHTML":"Cảm ơn bạn đã đăng ký tham gia buổi vấn đáp! Xin vui lòng tham dự đúng giờ."
+            },
+            "IframeAttributes":{
+                "name":"hidden_iframe",
+                "id":"hidden_iframe",
+                "style":"display:none;"
+            }
+        }
+    },
+    {
+        "EngSignUpForm":{
+            "Attributes":{
+                "id":"mG61Hd",
+                "name":"EngSignUpForm",
+                "action":"https://docs.google.com/forms/u/0/d/e/1FAIpQLSdzC8EBIL3zxevV2WDfC960ei7Yuni9MppNWEf-cJBJPNv_uw/formResponse",
+                "method":"post",
+                "target":"hidden_iframe"
+            },
+            "Children":[
+                {
+                    "Label":"Họ tên", 
+                    "ImageLabel":"images/icons/ContactForm/FullName.png",
+                    "InputName":"entry.2005620554",
+                    "InputType":"text",
+                    "InputPlaceholder":"Nhập họ tên",
+                    "InputPattern":"",
+                    "InputRequired":"*",
+                    "Type":"FullName"                    
+                },
+                {
+                    "Label":"Điện thoại", 
+                    "ImageLabel":"images/icons/ContactForm/Phone.png",
+                    "InputName":"entry.1166974658",
+                    "InputType":"text",
+                    "InputPlaceholder":"Nhập số điện thoại",
+                    "InputPattern":"[0-9]{10}",
+                    "InputRequired":"*",
+                    "Type":"Phone"                     
+                },
+                {
+                    "Label":"Email", 
+                    "ImageLabel":"images/icons/ContactForm/Email.png",
+                    "InputName":"entry.1045781291",
+                    "InputType":"text",
+                    "InputPlaceholder":"Nhập email",
+                    "InputPattern":"[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}",
+                    "InputRequired":"",
+                    "Type":"Email"                    
+                },
+                {
+                    "Label":"Bạn có thể học hình thức nào?", 
+                    "ImageLabel":"images/icons/ContactForm/Address.png",
+                    "InputName":"entry.821758969",
+                    "InputType":"CheckboxList",
+                    "InputPlaceholder":"Học tập trung: ở quận hoặc huyện nào? Tỉnh thành nào?",
+                    "InputData":["Online"],
+                    "InputPattern":"",
+                    "InputRequired":"*",
+                    "Type":"Place"                      
+                },
+                {
+                    "Label":"Bạn đăng ký khóa học nào?", 
+                    "ImageLabel":"images/icons/ContactForm/Courses.png",
+                    "InputName":"entry.1797887018",
+                    "InputType":"DropDown",
+                    "InputPlaceholder":"Chọn khóa học",
+                    "InputData":["Đàm thoại","IELTS", "TOEFL", "TOEIC"],
+                    "InputPattern":"",
+                    "InputRequired":"*",
+                    "Type":"Course"                      
+                },               
+                {
+                    "Label":"Thứ mấy trong tuần mà bạn muốn học?", 
+                    "ImageLabel":"images/icons/ContactForm/Date.png",
+                    "InputName":"entry.839337160",
+                    "InputType":"CheckboxList",
+                    "InputPlaceholder":"Chọn ngày",
+                    "InputData": ["Thứ Hai", "Thứ Ba", "Thứ Tư", "Thứ Năm", "Thứ Sáu", "Thứ Bảy", "Chủ Nhật"],
+                    "InputPattern":"",
+                    "InputRequired":"*",
+                    "Type":"Weekday"                      
+                },
+                {
+                    "Label":"Thời gian nào trong ngày mà bạn muốn học?", 
+                    "ImageLabel":"images/icons/ContactForm/Clock.png",
+                    "InputName":"entry.1503338105",
+                    "InputType":"CheckboxList",
+                    "InputPlaceholder":"Nhập thời gian mà bạn muốn",
+                    "InputData": ["9:00 - 10:30 (sáng)", "3:00 - 4:30 (chiều)", "6:30 - 8:00 (tối)"],
+                    "InputPattern":"",
+                    "InputRequired":"*",
+                    "Type":"Time"                      
+                },
+                {
+                    "Label":"Nguyện vọng về khả năng tiếng Anh của bạn?", 
+                    "ImageLabel":"images/icons/ContactForm/Expectation.png",
+                    "InputName":"entry.704268403",
+                    "InputType":"textarea",
+                    "InputPlaceholder":"Nguyện vọng về khả năng tiếng Anh của bạn",
+                    "InputPattern":"",
+                    "InputRequired":"*",
+                    "Type":"Content"                      
+                }
+            ],
+            "MsgAttributes":{
+                "id":"mG61HdMSG",
+                "name":"mG61HdMSG",
+                "class":"Message",
+                "style":"display:none;font-style:italic",
+                "innerHTML":"Cảm ơn bạn đã đăng ký! Chúng tôi sẽ phản hồi yêu cầu của bạn sớm nhất"
             },
             "IframeAttributes":{
                 "name":"hidden_iframe",

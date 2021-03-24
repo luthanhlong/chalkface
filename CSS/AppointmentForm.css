@@ -24,6 +24,10 @@
     width:320px;
     height:35px;margin:0;
 }
+.AppointmentForms form div select{
+    width:320px;
+    height:35px;margin:0;
+}
 .AppointmentForms form div textarea{
     width:320px;
     height:200px;margin:0;

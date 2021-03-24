@@ -13,7 +13,7 @@
         var Links =[         
           "CSS/Com.css",
           "CSS/ContactForm.css",
-          "CSS/EngSignUpForm.css",
+          "CSS/AppointmentForm.css",
           "CSS/HLinks.css",
           "CSS/SchoolSearch.css",
           "CSS/TabView.css",          
@@ -22,7 +22,7 @@
         Scripts = [
           "Javascript/Com.js",
           "Javascript/ContactForm.js",
-          "Javascript/EngSignUpForm.js",
+          "Javascript/AppointmentForm.js",
           "Javascript/HLinks.js",
           "Javascript/SchoolSearch.js",
           "Javascript/TabView.js",
@@ -45,30 +45,15 @@
   </head>
 
   <body>
-    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd64xxGWcs5MfVRClHYFfImtVWukRSMUVy6IGb1IgQLKq0Xmw/formResponse" 
-    target="ifrm" method="POST" id="mG61Hd" 
-    >
-  
-      <div>
-        <label>Câu 1</label>
-        <input type="text" name="entry.369082691" placeholder="Field 1" required/>
-      </div>    
+   
+     <div id="dv" style="color:red">Long</div>
+    <script>   
+       document.body.onload = function(){     
+        document.body.appendChild(new CheckboxList("List123", "Bạn chọn khóa học nào?",
+                                                  ["Đàm thoại", "IELTS", "TOEFL", "TOEIC"],"Khác"));
+      };
       
-      
-      <div>
-        <label>Câu 2</label>
-        <select name="entry.318822533" placeholder="Field 2" required>
-          <option>chọn</option>
-          <option> option 1</option>
-          <option> option 2</option>
-        </select>     
-      </div>
-    
-      <div>
-        <button type="submit" id="submit-form">Submit</button>
-      </div>    
-    </form>
-    <iframe id="ifrm" name="ifrm"></iframe>
+    </script>
   
   </body>
 </html>
