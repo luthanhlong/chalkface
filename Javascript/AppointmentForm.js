@@ -71,7 +71,8 @@ class AppointmentForm {
       frm.onsubmit = function(){submitted=true}      
       ifrm.onload = function(){
         frm.style.display = (submitted)?'none':'block';
-        dvMsg.style.display = (submitted)?'block':'none';              
+        dvMsg.style.display = (submitted)?'block':'none';
+        if(submitted){window.scrollTo({ top: 0, behavior: 'smooth' });}              
       }
       dv.appendChild(frm);dv.appendChild(dvMsg);dv.appendChild(ifrm);      
     })
