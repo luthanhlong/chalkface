@@ -61,6 +61,7 @@ function getDaysBetweenDates(start, end, dayName) {
     }
     return result;  
 }
+
 class Swipe {
     constructor(element) {
         this.xDown = null;

@@ -67,7 +67,7 @@ class SchoolSearch {
                           var opt = document.createElement("option");
                           opt.value = state;
                           opt.innerText = state; 
-                          slStates.add(opt,i+1) ;
+                          slStates.add(opt) ;
                         });
                       }                                            
                     }

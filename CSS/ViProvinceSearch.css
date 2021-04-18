@@ -1,0 +1,24 @@
+.ViProvinceSearches { 
+    width:100%;text-align: center;
+}
+.ViProvinceSearches input { 
+    width:250px;
+}
+.ViProvinceSearches button{
+    cursor: pointer;
+    color:#ffffff;
+    background-color:#ff0033; 
+    border-radius: 5px; 
+    padding:5px
+}  
+.ViProvinceSearches .Tools{    
+    border-radius: 5px; 
+    padding:5px;
+    margin:0px 2px 0 0;
+} 
+@media screen and (max-width: 600px){
+    .ViProvinceSearches .Tools{
+        display:block;       
+        margin:5px auto 5px auto;
+    }      
+}
