@@ -35,7 +35,7 @@ class ViProvinceSearch {
                     var opt = document.createElement("option");
                     opt.value = Province[key].numeric;
                     opt.innerText = Province[key].name; 
-                    slProvinces.add(opt,i+1) ;                        
+                    slProvinces.add(opt) ;                        
                   }
               }
           }

@@ -191,4 +191,17 @@ class CheckboxList {
       return dv;
     }
 }
-
+class DropdownSelect {
+    constructor (Label, Items){
+        var sl = document.createElement('select');  
+        var opt0 = document.createElement("option"); opt0.value =""; opt0.innerText = Label;    
+        sl.add(opt0);              
+        var opts = Items;
+        opts.forEach(ech=>{               
+          var opt = document.createElement("option");
+          opt.value = opt.innerText = ech;
+          sl.add(opt);
+        });       
+      return sl;
+    }
+}

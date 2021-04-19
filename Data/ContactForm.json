@@ -25,7 +25,7 @@
                     "InputName":"entry.1166974658",
                     "InputType":"text",
                     "InputPlaceholder":"Nhập số điện thoại",
-                    "InputPattern":"[0-9]{10}",
+                    "InputPattern":"[0-9]{10,11}",
                     "InputRequired":"*",
                     "Type":"Phone"                     
                 },
@@ -175,7 +175,7 @@
                     "InputName":"entry.1166974658",
                     "InputType":"text",
                     "InputPlaceholder":"Nhập số điện thoại",
-                    "InputPattern":"[0-9]{10}",
+                    "InputPattern":"[0-9]{10,11}",
                     "InputRequired":"*",
                     "Type":"Phone"                     
                 },
@@ -257,6 +257,138 @@
                 "style":"display:none;"
             }
         }
-    }    
+    },    
+    {
+        "TeachingSignUpForm":{
+            "Attributes":{
+                "id":"mG61Hd",
+                "name":"TeachingSignUpForm",
+                "action":"https://docs.google.com/forms/u/0/d/e/1FAIpQLSdoV2wRleFFrECetR5pHxQwW63cfdz3hj3zU049obPBrDMnzQ/formResponse",
+                "method":"post",
+                "target":"hidden_iframe"
+            },
+            "Children":[
+               
+                {
+                    "Label":"Họ tên", 
+                    "ImageLabel":"images/icons/ContactForm/FullName.png",
+                    "InputName":"entry.696157286",
+                    "InputType":"text",
+                    "InputPlaceholder":"Nhập họ tên",
+                    "InputPattern":"",
+                    "InputRequired":"*",
+                    "Type":"FullName"                    
+                },
+                {
+                    "Label":"Điện thoại", 
+                    "ImageLabel":"images/icons/ContactForm/Phone.png",
+                    "InputName":"entry.1350542725",
+                    "InputType":"text",
+                    "InputPlaceholder":"Nhập số điện thoại",
+                    "InputPattern":"[0-9]{10,11}",
+                    "InputRequired":"*",
+                    "Type":"Phone"                     
+                },  
+                {
+                    "Label":"Email", 
+                    "ImageLabel":"images/icons/ContactForm/Email.png",
+                    "InputName":"entry.1678819247",
+                    "InputType":"text",
+                    "InputPlaceholder":"Nhập email",
+                    "InputPattern":"[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}",
+                    "InputRequired":"",
+                    "Type":"Email"                    
+                },              
+                {
+                    "Label":"Địa chỉ hiện tại", 
+                    "ImageLabel":"images/icons/ContactForm/Address.png",
+                    "InputName":"entry.2112105067",
+                    "InputType":"text",
+                    "InputPlaceholder":"Nhập địa chỉ hiện tại",
+                    "InputPattern":"",
+                    "InputRequired":"*",
+                    "Type":"Address"                      
+                },
+                {
+                    "Label":"Tỉnh thành", 
+                    "ImageLabel":"images/icons/ContactForm/Province.png",
+                    "InputName":["entry.786724630","entry.1594115669"],
+                    "InputType":"",
+                    "InputPlaceholder":"Chọn tỉnh thành",
+                    "InputPattern":"",
+                    "InputRequired":"*",
+                    "Type":"Provinces"                      
+                },    
+                {
+                    "Label":"Chọn Môn dạy", 
+                    "ImageLabel":"images/icons/ContactForm/Courses.png",
+                    "InputName":"entry.1875197761",
+                    "InputType":"CheckboxList",
+                    "InputPlaceholder":"Chọn môn dạy",
+                    "InputData": ["Tiếng Anh", "Toán", "Ngữ văn", "Vật lý", 
+                        "Hóa học", "Tiểu học", "Nhân viên", "Quản lý"],
+                    "InputPattern":"",
+                    "InputRequired":"*",
+                    "Type":"Subjects"                      
+                },
+                {
+                    "Label":"Mô tả chi tiết môn dạy", 
+                    "ImageLabel":"images/icons/ContactForm/Courses.png",
+                    "InputName":"entry.497191156",
+                    "InputType":"CheckboxList",
+                    "InputPlaceholder":"Mô tả chi tiết về môn dạy như dạy được phần nào môn đó? lớp hoặc cấp mấy?...",                  
+                    "InputPattern":"",
+                    "InputRequired":"*",
+                    "Type":"SubjectDescription"                      
+                },
+                {
+                    "Label":"Chọn Trình độ học vấn", 
+                    "ImageLabel":"images/icons/ContactForm/GraduationHat.png",
+                    "InputName":"entry.1913155020",
+                    "InputType":"Dropdown",
+                    "InputPlaceholder":"Chọn Trình độ học vấn",
+                    "InputData": ["Phổ thông trung học", "Tự trải nghiệm", "Sinh viên", "Trung cấp", 
+                        "Cao đẳng", "Đại học", "Thạc sỹ", "Tiến sĩ"],
+                    "InputPattern":"",
+                    "InputRequired":"*",
+                    "Type":"Levels"                      
+                },
+                {
+                    "Label":"Số năm kinh nghiệm", 
+                    "ImageLabel":"images/icons/ContactForm/Experience.png",
+                    "InputName":"entry.510368639",
+                    "InputType":"Dropdown",
+                    "InputPlaceholder":"Chọn số năm kinh nghiệm",
+                    "InputData": ["Dưới 2 năm", "2 năm", "3 năm", "4 năm", 
+                        "5 năm", "Hơn 5 năm"],
+                    "InputPattern":"",
+                    "InputRequired":"*",
+                    "Type":"Experience"                      
+                },
+                {
+                    "Label":"Nguyện vọng về công việc của bạn?", 
+                    "ImageLabel":"images/icons/ContactForm/Expectation.png",
+                    "InputName":"entry.263780322",
+                    "InputType":"textarea",
+                    "InputPlaceholder":"Nguyện vọng về công việc của bạn?",
+                    "InputPattern":"",
+                    "InputRequired":"*",
+                    "Type":"Expectation"                      
+                }
+            ],
+            "MsgAttributes":{
+                "id":"mG61HdMSG",
+                "name":"mG61HdMSG",
+                "class":"Message",
+                "style":"display:none;font-style:italic",
+                "innerHTML":"Cảm ơn bạn đã đăng ký! Chúng tôi sẽ phản hồi yêu cầu của bạn sớm nhất"
+            },
+            "IframeAttributes":{
+                "name":"hidden_iframe",
+                "id":"hidden_iframe",
+                "style":"display:none;"
+            }
+        }
+    } 
 ]
 

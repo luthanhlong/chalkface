@@ -1,0 +1,72 @@
+.TeachingSignUpForms {
+    margin: auto; max-width: 380px;
+}
+.TeachingSignUpForms form{
+    width: 100%;
+}
+.TeachingSignUpForms form div{
+    width:100%;
+    display: flex;
+    margin:5px 0px 5px 0px;
+    text-align: left;
+}
+.TeachingSignUpForms form div div.ViProvinceDistrictControl{
+    display:inline-block;width:320px;    
+    text-align: left;  
+    margin:0;padding:0;
+}
+.TeachingSignUpForms form div div.CheckBoxList{
+    display:inline-block;width:320px;
+    border: grey solid 1px;  
+    text-align: left;  
+    padding-top: 10px;margin:0;
+    padding-left: 5px;
+}
+.TeachingSignUpForms form div div.CheckBoxList div.item {   
+    text-align: left; 
+    display: inline-block;
+    line-height: 35px; vertical-align: text-bottom;   margin:0; 
+}
+.TeachingSignUpForms form div div.CheckBoxList div.item span{
+    display: inline-block; 
+    text-align: left; 
+    margin-left: 5px; 
+    vertical-align: middle;
+}
+.TeachingSignUpForms form div div.CheckBoxList div.item input.checkbox{       
+    display:inline;float: left; width: 25px;
+}
+.TeachingSignUpForms form div div.CheckBoxList div.item input.text{       
+    display:inline-block; width: 80%; height: 20px; margin-left: 5px;
+}
+.TeachingSignUpForms form div label{
+    width:30px; 
+    background-color: #ff0033;
+    text-align: center;
+    margin:0;
+}
+.TeachingSignUpForms form div img{
+    height:20px;
+    width:20px;
+    margin-top:9.5px;
+}
+.TeachingSignUpForms form div input{
+    width:320px;
+    height:35px;margin:0;
+}
+.TeachingSignUpForms form div select{  
+    height:35px;margin:0;
+}
+.TeachingSignUpForms form div textarea{
+    width:320px;
+    height:200px;margin:0;
+}
+.TeachingSignUpForms form button{
+    color: #ffffff;
+    background-color: #ff0033;
+    border-radius: 10px;
+    padding:5px;
+    line-height: 25px;
+    cursor: pointer; 
+    max-width: 100px;   
+}
