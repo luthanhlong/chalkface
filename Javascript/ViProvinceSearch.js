@@ -14,7 +14,7 @@ class ViProvinceSearch {
     var opt0 = document.createElement("option"); opt0.value=""; opt0.innerText = "Chọn môn";
     slSubjects.add(opt0,0); 
     var Subjects =["Tiếng Anh","Toán", "Ngữ văn","Vật lý", 
-      "Hóa học","Tiểu học", "Nhân viên", "Quản lý", "Môn khác"];
+      "Hóa học","Tiểu học","Mầm non", "Nhân viên", "Quản lý", "Môn khác"];
     Subjects.forEach(ech => {
       var opt = document.createElement("option");
       opt.value = opt.innerText = ech;
