@@ -2,30 +2,31 @@
 <!DOCTYPE html>
 <html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
   <head>
-    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website" />
     <title>Test</title>   
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" ></script>
+   
     <script type="text/javascript">
       //var DomainPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface@V1.0.10/";
       var DomainPath = "/";
       function loadScripts(){  
         var head = document.getElementsByTagName('head')[0];
-        var Links =[         
+        var Links =[
+          "CSS/Carousel.css",
           "CSS/Com.css",
-          "CSS/ContactForm.css",
-          "CSS/EngSignUpForm.css",
-          "CSS/HLinks.css",
           "CSS/SchoolSearch.css",
-          "CSS/TabView.css",          
-          "CSS/Carousel.css"
+          "CSS/ViProvinceSearch.css",
+          "CSS/TabTools.css"
         ],
         Scripts = [
           "Javascript/Com.js",
-          "Javascript/ContactForm.js",
-          "Javascript/EngSignUpForm.js",
-          "Javascript/HLinks.js",
+          "Javascript/ContactForm.js",          
+          "Javascript/Links.js",
           "Javascript/SchoolSearch.js",
-          "Javascript/TabView.js",
+          "Javascript/ViProvinceSearch.js",
+          "Javascript/ViProvinceDistrictControl.js",
+          "Javascript/ViewTools.js",
           "Javascript/Carousel.js"
         ]
         Links.forEach(hrf=>{
@@ -39,21 +40,21 @@
           head.appendChild(scrpt);
         })        
       }   
-      loadScripts();
+      loadScripts(); 
+       
     </script>    
   </head>
 
   <body>
-    <div class="Advertisements" id="Ad1" style="font-size: 12pt;" target="Ad1"></div>
-    <div class="Advertisements" id="Ad2" target="Ad1"></div>
-    <div class="Advertisements1" id="Ad3"></div>
-    <div>Other Stuff Here</div>
-    <img src="images/icons/com/EngLearning.png" />
-    <script>
+  
+      <div id="ProvinceSearch1" class="ViProvinceSearches"></div>     
+      <div id="ProvinceSearch2" class="ViProvinceSearches"></div> 
+    <script>   
       document.body.onload = function(){
-        Array.from(document.getElementsByClassName("Advertisements")).forEach(ech =>{  				 
-        		 jQuery(function($){ $("#" + ech.id).load("Advertisements.html #" + ech.getAttribute("target"));});}); 
-    }
+        Array.from(document.getElementsByClassName("ViProvinceSearches")).forEach(ech => {         
+          new ViProvinceSearch(ech.id);});
+      };
     </script>
+  
   </body>
 </html>

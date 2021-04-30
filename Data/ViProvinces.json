@@ -1,5 +1,12 @@
 [    
     {
+        "ToanQuoc":{
+            "name": "Toàn quốc",
+            "numeric": "0",
+            "districts": ["Toàn quốc"]
+        }   
+    },
+    {
         "HaNoi":{
             "name": "Hà Nội",
             "numeric": "24",

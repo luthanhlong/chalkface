@@ -4,7 +4,7 @@
   <head>
     
     <title>Test</title>   
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js" ></script>
+   
     <script type="text/javascript">
       //var DomainPath = "https://cdn.jsdelivr.net/gh/luthanhlong/chalkface@V1.0.10/";
       var DomainPath = "/";
@@ -13,7 +13,7 @@
         var Links =[         
           "CSS/Com.css",
           "CSS/ContactForm.css",
-          "CSS/EngSignUpForm.css",
+          "CSS/AppointmentForm.css",
           "CSS/HLinks.css",
           "CSS/SchoolSearch.css",
           "CSS/TabView.css",          
@@ -22,7 +22,7 @@
         Scripts = [
           "Javascript/Com.js",
           "Javascript/ContactForm.js",
-          "Javascript/EngSignUpForm.js",
+          "Javascript/AppointmentForm.js",
           "Javascript/HLinks.js",
           "Javascript/SchoolSearch.js",
           "Javascript/TabView.js",
@@ -39,21 +39,22 @@
           head.appendChild(scrpt);
         })        
       }   
-      loadScripts();
+      loadScripts(); 
+       
     </script>    
   </head>
 
   <body>
-    <div class="Advertisements" id="Ad1" style="font-size: 12pt;" target="Ad1"></div>
-    <div class="Advertisements" id="Ad2" target="Ad1"></div>
-    <div class="Advertisements1" id="Ad3"></div>
-    <div>Other Stuff Here</div>
-    <img src="images/icons/com/EngLearning.png" />
-    <script>
-      document.body.onload = function(){
-        Array.from(document.getElementsByClassName("Advertisements")).forEach(ech =>{  				 
-        		 jQuery(function($){ $("#" + ech.id).load("Advertisements.html #" + ech.getAttribute("target"));});}); 
-    }
-    </script>
+    <div>
+    <div id="Ad1" style="border-collapse: collapse; border: 1px solid red; font-style: italic; padding: 5px;">
+      Quảng cáo 1: Quý học viên vui lòng đăng ký GHI DANH học tiếng qua số điện thoại <span style="color: red;"><b>0824 09 08 09</b></span> hoặc <span style="color: red;"><b>0908 96 56 57</b></span> hoặc <a href="https://www.chalkface.vn/p/dang-ky-hoc-tieng-anh.html" target="_blank">đăng ký tại đây</a>
+    </div>
+    <div id="Ad2" style="border-collapse: collapse; border: 1px solid red; font-style: italic; padding: 5px;">
+      Quảng cáo 2: Quý học viên vui lòng đăng ký GHI DANH học tiếng qua số điện thoại <span style="color: red;"><b>0824 09 08 09</b></span> hoặc <span style="color: red;"><b>0908 96 56 57</b></span> hoặc <a href="https://www.chalkface.vn/p/dang-ky-hoc-tieng-anh.html" target="_blank">đăng ký tại đây</a>
+     </div>
+    <div id="Ad3" style="border-collapse: collapse; border: 1px solid red; font-style: italic; padding: 5px;">
+      Quảng cáo 3: Quý học viên vui lòng đăng ký GHI DANH học tiếng qua số điện thoại <span style="color: red;"><b>0824 09 08 09</b></span> hoặc <span style="color: red;"><b>0908 96 56 57</b></span> hoặc <a href="https://www.chalkface.vn/p/dang-ky-hoc-tieng-anh.html" target="_blank">đăng ký tại đây</a>
+     </div>
+    </div>
   </body>
 </html>
