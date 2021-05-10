@@ -52,6 +52,7 @@ class ViProvinceSearch {
     dvSearch.appendChild(slProvinces);
     dvSearch.appendChild(slDistricts);
     dvSearch.appendChild(btnSearch);
+    dvSearch.target = dvSearch.getAttribute("target");
     this.Search = dvSearch;
   }
   updateDistricts(dProvinces,ProvinceValue,slDistricts){
@@ -81,7 +82,8 @@ class ViProvinceSearch {
     search +=(TextSearch!="")?"\"" + TextSearch + "\"":"";
     search +=(SubjectValue!="")?"+label:\"" + SubjectValue + "\"":"";
     search +=(ProvinceValue!="")?"+label:\"" + ProvinceValue + "\"":"";
-    search +=(DistrictValue!="")?"+label:\"" + DistrictValue + "\"":"";     
+    search +=(DistrictValue!="")?"+label:\"" + DistrictValue + "\"":"";   
+    search +=(this.Search.target!="" && this.Search.target!=null)?"+label:\"" + this.Search.target + "\"":""; 
     window.location =  window.location.protocol + "//" + window.location.hostname + search;
   }
 }
