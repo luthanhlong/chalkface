@@ -21,10 +21,113 @@
 .CollapseViews .active:after {
     content: "\2212";
 }
-.CollapseViews  .content {
+.CollapseViews .content {
     padding: 0 10px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
 }
+
+.RedSkin .CollapseViews .header {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+.RedSkin .CollapseViews  .header:hover {
+    background-color: darkred;
+} 
+.RedSkin .CollapseViews .active {
+    background-color: darkred;
+}  
+.RedSkin .CollapseViews .header:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.RedSkin .CollapseViews .active:after {
+    content: "\2212";
+}
+.RedSkin .CollapseViews .content {
+    padding: 0 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+}
+
+.BlueSkin .CollapseViews .header {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+.BlueSkin .CollapseViews  .header:hover {
+    background-color: darkblue;
+} 
+.BlueSkin .CollapseViews .active {
+    background-color: darkblue;
+}  
+.BlueSkin .CollapseViews .header:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.BlueSkin .CollapseViews .active:after {
+    content: "\2212";
+}
+.BlueSkin .CollapseViews .content {
+    padding: 0 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+}
+
+.GreenSkin .CollapseViews .header {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+.GreenSkin .CollapseViews  .header:hover {
+    background-color: darkgreen;
+} 
+.GreenSkin .CollapseViews .active {
+    background-color: darkgreen;
+}  
+.GreenSkin .CollapseViews .header:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.GreenSkin .CollapseViews .active:after {
+    content: "\2212";
+}
+.GreenSkin .CollapseViews .content {
+    padding: 0 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+}
+
