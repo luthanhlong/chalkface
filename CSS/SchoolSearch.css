@@ -14,7 +14,9 @@
 .SchoolSearches .Tools{    
     border-radius: 5px; 
     padding:5px;
-    margin:0px 2px 0 0;
+    margin:5px auto 5px auto;
+    display: block;
+
 } 
 @media screen and (max-width: 600px){
     .SchoolSearches .Tools{
