@@ -22,11 +22,12 @@
     content: "\2212";
 }
 .CollapseViews .content {
-    padding: 0 10px;
+    padding:0 10px;
     max-height: 0;
-    overflow: hidden;
+    overflow: hidden;    
     transition: max-height 0.2s ease-out;
-    background-color: #f1f1f1;
+    background-color: #f1f1f1;    
+    
 }
 
 .RedSkin .CollapseViews .header {

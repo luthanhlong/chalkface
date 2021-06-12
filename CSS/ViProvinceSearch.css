@@ -20,6 +20,6 @@
 @media screen and (max-width: 600px){
     .ViProvinceSearches .Tools{
         display:block;       
-        margin:5px auto 5px auto;
+        margin:5px auto 5px auto; 
     }      
 }
