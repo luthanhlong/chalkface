@@ -1,7 +1,7 @@
 class FbLikeShareTool {
-    constructor(IsShare,HorizontalPosition,VerticalPosition) {
+    constructor(IsShare,HorizontalPosition,VerticalPosition,dataUrl) {
         var dvFb = document.createElement("div"); 
-        var sUrl = window.location.origin + window.location.pathname;
+        var sUrl = (dataUrl)?dataUrl:window.location.origin + window.location.pathname;       
         const Atts =[
           ['class','fb-like'],
           ['data-href',sUrl],
@@ -35,7 +35,7 @@ class FbLikeShareTool {
                 sVer ="bottom:-10px;";
                 break;
         }
-        dvFb.setAttribute('style',"transform: translate(-50%, -50%);display:block;"+ sHor + sVer + ";position:absolute;margin: 0 auto");
+        dvFb.setAttribute('style',"transform: translate(-50%, -50%);display:block;"+ sHor + sVer + ";position:absolute;margin: 0 auto");     
         return dvFb;
     }
 }

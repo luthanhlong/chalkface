@@ -1,0 +1,24 @@
+.ViSchoolSearches { 
+    width:100%;text-align: center;
+}
+.ViSchoolSearches input { 
+    width:250px;
+}
+.ViSchoolSearches button{
+    cursor: pointer;
+    color:#ffffff;
+    border-radius: 5px; 
+    padding:5px
+}  
+.ViSchoolSearches .Tools{    
+    border-radius: 5px; 
+    padding:5px;
+    margin:5px auto 5px auto;
+    display: block;
+} 
+@media screen and (max-width: 600px){
+    .ViSchoolSearches .Tools{
+        display:block;       
+        margin:5px auto 5px auto; 
+    }      
+}
