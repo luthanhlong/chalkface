@@ -1,5 +1,5 @@
 .CollapseViews .header {
-    background-color: #777;
+    background-color: gray;
     color: white;
     cursor: pointer;
     padding: 8px;
@@ -9,7 +9,7 @@
     outline: none;
 }
 .CollapseViews .active, .header:hover {
-    background-color: #555;
+    background-color: darkgray;
 }  
 .CollapseViews .header:after {
     content: '\002B';
@@ -26,8 +26,8 @@
     max-height: 0;
     overflow: hidden;    
     transition: max-height 0.2s ease-out;
-    background-color: #f1f1f1;    
-    
+    background-color: whites;
+    border: 1px solid darkgray;
 }
 
 .RedSkin .CollapseViews .header {
@@ -63,6 +63,8 @@
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
 }
+.RedSkin button{background-color:darkred;color:#ffff } 
+
 
 .BlueSkin .CollapseViews .header {
     background-color: blue;
@@ -97,6 +99,8 @@
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
 }
+.GreenSkin button{background-color:darkblue;color:#ffff } 
+
 
 .GreenSkin .CollapseViews .header {
     background-color: green;
@@ -131,6 +135,8 @@
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
 }
+.GreenSkin button{background-color:darkgreen;color:#ffff } 
+
 
 .OrangeSkin .CollapseViews .header {
     background-color: darkorange;

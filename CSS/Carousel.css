@@ -32,11 +32,12 @@
 /* On hover, add a black background color with a little bit see-through */
 .Carousels .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
+  color:white
 }
 
 /* Caption text */
 .Carousels .caption {
-  color: #f2f2f2;
+  color: white;
   position: absolute;
   line-height:25px;
   bottom:8px;
