@@ -1,3 +1,14 @@
+const config = {
+    apiKey: "AIzaSyDtq_fJTCBpugeqttv96375BqUVX-2amms",
+    authDomain: "public-b9222.firebaseapp.com",
+    databaseURL: "https://public-b9222-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "public-b9222",
+    storageBucket: "public-b9222.appspot.com",
+    messagingSenderId: "1096163310602",
+    appId: "1:1096163310602:web:b4532f97dd021f355db3f3",
+    measurementId: "G-KY5J3ZL9EE"
+ };
+firebase.initializeApp(config);
 function getDataFromJsonFile(FilePath,Callback){
     var rawFile = new XMLHttpRequest();
     rawFile.overrideMimeType("application/json"); 
@@ -203,5 +214,32 @@ class DropdownSelect {
           sl.add(opt);
         });       
       return sl;
+    }
+}
+class PostViews {
+    constructor (DataName,Id){
+        $.each($('a[name]'),function (i, e) {   
+            var elem = $('#' + Id);             
+            var blogStats = firebase.database().ref(DataName + "/id/" + $(e).attr("name"));
+            blogStats.once("value", function(snapshot) { 
+                var data = snapshot.val(); 
+                var isnew = false; 
+                if(data == null) { 
+                    data= {}; 
+                    data.value = 0; 
+                    data.url =  window.location.origin + window.location.pathname;  
+                    data.id = $(e).attr("name"); 
+                    isnew = true; 
+                } 
+                elem.text(150 + data.value); 
+                data.value++; 
+                if(window.location.pathname!='/'){ 
+                    if(isnew) 
+                    blogStats.set(data); 
+                    else 
+                    blogStats.child('value').set(data.value); 
+                } 
+            }); 
+        });
     }
 }
