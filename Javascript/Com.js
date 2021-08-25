@@ -8,7 +8,7 @@ const config = {
     appId: "1:1096163310602:web:b4532f97dd021f355db3f3",
     measurementId: "G-KY5J3ZL9EE"
  };
-firebase.initializeApp(config);
+firebase.initializeApp(config);var database = firebase.database();
 function getDataFromJsonFile(FilePath,Callback){
     var rawFile = new XMLHttpRequest();
     rawFile.overrideMimeType("application/json"); 
@@ -220,26 +220,29 @@ class PostViews {
     constructor (DataName,Id){
         $.each($('a[name]'),function (i, e) {   
             var elem = $('#' + Id);             
-            var blogStats = firebase.database().ref(DataName + "/id/" + $(e).attr("name"));
-            blogStats.once("value", function(snapshot) { 
-                var data = snapshot.val(); 
-                var isnew = false; 
-                if(data == null) { 
-                    data= {}; 
-                    data.value = 0; 
-                    data.url =  window.location.origin + window.location.pathname;  
-                    data.id = $(e).attr("name"); 
-                    isnew = true; 
+            const PostId= $(e).attr("name"); 
+            var posts = database.ref(DataName + "/views/" + PostId);
+            posts.once('value').then((snapshot) => {
+                var post = snapshot.val(), isNew = false;
+                if(post == null) { 
+                    post= {}; 
+                    post.value = 0; 
+                    post.url =  window.location.origin + window.location.pathname;   
+                    post.id = PostId; 
+                    isNew = true; 
                 } 
-                elem.text(150 + data.value); 
-                data.value++; 
-                if(window.location.pathname!='/'){ 
-                    if(isnew) 
-                    blogStats.set(data); 
+                elem.text(200 + post.value); 
+                post.value++; 
+                if(window.location.pathname!='/') { 
+                    if(isNew) 
+                    posts.set(post); 
                     else 
-                    blogStats.child('value').set(data.value); 
-                } 
-            }); 
+                    posts.child('value').set(post.value); 
+                }
+                
+            }).catch((error) => {
+                console.error(error.code + ": " + error.message);
+            });  
         });
     }
 }
