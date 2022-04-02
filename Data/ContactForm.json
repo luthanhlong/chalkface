@@ -190,6 +190,16 @@
                     "Type":"Email"                    
                 },
                 {
+                    "Label":"Introducer", 
+                    "ImageLabel":"images/icons/ContactForm/Introducer.png",
+                    "InputName":"entry.514014205",
+                    "InputType":"text",
+                    "InputPlaceholder":"Nhập họ tên người giới thiệu",
+                    "InputPattern":"",
+                    "InputRequired":"",
+                    "Type":"Email"                    
+                },
+                {
                     "Label":"Bạn có thể học hình thức nào?", 
                     "ImageLabel":"images/icons/ContactForm/Address.png",
                     "InputName":"entry.821758969",
