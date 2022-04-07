@@ -269,6 +269,79 @@
         }
     },    
     {
+        "ClubSignUpForm":{
+            "Attributes":{
+                "id":"mG61Hd",
+                "name":"ClubSignUpForm",
+                "action":"https://docs.google.com/forms/u/0/d/e/1FAIpQLSccoMLK_oSv5yTtbhPru7aPdwVB4JCy4n0y0uykZa-mr1uk_w/formResponse",
+                "method":"post",
+                "target":"hidden_iframe"
+            },
+            "Children":[
+                {
+                    "Label":"Họ tên", 
+                    "ImageLabel":"images/icons/ContactForm/FullName.png",
+                    "InputName":"entry.2005620554",
+                    "InputType":"text",
+                    "InputPlaceholder":"Nhập họ tên",
+                    "InputPattern":"",
+                    "InputRequired":"*",
+                    "Type":"FullName"                    
+                },
+                {
+                    "Label":"Điện thoại", 
+                    "ImageLabel":"images/icons/ContactForm/Phone.png",
+                    "InputName":"entry.1166974658",
+                    "InputType":"text",
+                    "InputPlaceholder":"Nhập số điện thoại",
+                    "InputPattern":"[0-9]{10,11}",
+                    "InputRequired":"*",
+                    "Type":"Phone"                     
+                },
+                {
+                    "Label":"Email", 
+                    "ImageLabel":"images/icons/ContactForm/Email.png",
+                    "InputName":"entry.1045781291",
+                    "InputType":"text",
+                    "InputPlaceholder":"Nhập email",
+                    "InputPattern":"[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}",
+                    "InputRequired":"",
+                    "Type":"Email"                    
+                },
+                {
+                    "Label":"Đăng ký buổi tham gia", 
+                    "ImageLabel":"images/icons/ContactForm/Date.png",
+                    "InputName":"entry.1797887018",
+                    "InputType":"DropDown",
+                    "InputPlaceholder":"Chọn buổi tham gia",
+                    "InputData": [
+                        "8:00 - 10:00 (sáng thứ Bảy)", 
+                        "3:00 - 5:00 (chiều thứ Bảy)", 
+                        "7:00 - 9:00 (tối thứ Bảy)",
+                        "8:00 - 10:00 (sáng thứ Chủ Nhật)", 
+                        "3:00 - 5:00 (chiều thứ Chủ Nhật)", 
+                        "7:00 - 9:00 (tối thứ Chủ Nhật)"
+                    ],
+                    "InputPattern":"",
+                    "InputRequired":"*",
+                    "Type":"Session"                      
+                }
+            ],
+            "MsgAttributes":{
+                "id":"mG61HdMSG",
+                "name":"mG61HdMSG",
+                "class":"Message",
+                "style":"display:none;font-style:italic",
+                "innerHTML":"Cảm ơn bạn đã đăng ký! Chúng tôi sẽ phản hồi yêu cầu của bạn sớm nhất"
+            },
+            "IframeAttributes":{
+                "name":"hidden_iframe",
+                "id":"hidden_iframe",
+                "style":"display:none;"
+            }
+        }
+    }, 
+    {
         "TeachingSignUpForm":{
             "Attributes":{
                 "id":"mG61Hd",
